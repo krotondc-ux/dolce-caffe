@@ -106,7 +106,11 @@ def da_web_nome(cod, nome, evita=''):
                 continue
             tl = ((r.get('title') or '') + ' ' + (r.get('url') or '')).lower()
             sc = sum(1 for w in pn if w in tl) / len(pn)
-            if sc >= 0.6 and (r.get('height') or 600) >= 250:
+            try:
+                alto = int(r.get('height') or 600)
+            except Exception:
+                alto = 600
+            if sc >= 0.6 and alto >= 250:
                 cand.append((sc, r))
         cand.sort(key=lambda x: -x[0])
         for sc, r in cand[:5]:
