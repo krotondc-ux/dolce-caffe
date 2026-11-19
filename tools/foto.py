@@ -16,6 +16,11 @@ H = requests.Session(); H.headers.update(UA)
 
 catalogo = json.load(open('catalogo.json'))
 SECONDO = len(sys.argv) > 4 and sys.argv[4] == 'nome'
+SOLO_OFF = len(sys.argv) > 4 and sys.argv[4] == 'off'
+if SOLO_OFF:
+    # rifa solo le foto prese da Open Food Facts, con lo scontorno piu prudente
+    vecchi = json.load(open('tools/report.json'))
+    catalogo = [r for r in catalogo if (vecchi.get(r[1], {}).get('fonte') or '').startswith('open')]
 if SECONDO:
     # secondo giro: solo articoli ancora senza foto, ricerca per nome con controllo piu severo
     manc = {c for c, _ in json.load(open('tools/mancanti.json'))}
@@ -169,7 +174,12 @@ def impagina(im):
         a = cut.getchannel('A')
         bbox = a.point(lambda v: 255 if v > 24 else 0).getbbox()
         area = 0 if not bbox else (bbox[2]-bbox[0])*(bbox[3]-bbox[1]) / (im.size[0]*im.size[1])
-        if bbox and area > 0.06:
+        pieno = 0
+        if bbox:
+            ac = a.crop(bbox)
+            pieno = sum(1 for v in ac.getdata() if v > 128) / (ac.size[0]*ac.size[1])
+        # si scontorna solo se il prodotto resta intero e compatto
+        if bbox and area > 0.15 and pieno > 0.62:
             im = cut.crop(bbox); scontornata = True
         else:
             scontornata = False
@@ -177,6 +187,11 @@ def impagina(im):
         scontornata = False
     if not scontornata:
         bg = Image.new('RGBA', im.size, (255, 255, 255, 255)); bg.alpha_composite(im); im = bg
+        # toglie i bordi bianchi o quasi bianchi intorno alla foto
+        g = im.convert('L').point(lambda v: 0 if v > 236 else 255)
+        b2 = g.getbbox()
+        if b2 and (b2[2]-b2[0])*(b2[3]-b2[1]) > 0.2*im.size[0]*im.size[1]:
+            im = im.crop(b2)
     S, M = 600, 0.80
     k = min(S*M/im.width, S*M/im.height)
     im = im.resize((max(1, round(im.width*k)), max(1, round(im.height*k))), Image.LANCZOS)
@@ -202,6 +217,8 @@ for n, r in enumerate(mio):
     if SECONDO:
         ev = (vecchi.get(cod, {}).get('fonte') or '').split(':', 3)[-1] if (vecchi.get(cod, {}).get('fonte') or '').startswith('web') else ''
         im, fonte = da_web_nome(cod, nome, ev)
+    elif SOLO_OFF:
+        im, fonte = da_off(cod)
     elif re.fullmatch(r'\d{8,14}', cod) and not cod.startswith('8000000'):
         im, fonte = da_off(cod)
         if im is None:

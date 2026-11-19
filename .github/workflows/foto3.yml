@@ -1,0 +1,41 @@
+name: Foto rifinitura
+on:
+  workflow_dispatch:
+  push:
+    paths: ['tools/AVVIA3']
+permissions:
+  contents: write
+concurrency: { group: foto3, cancel-in-progress: false }
+jobs:
+  foto:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix: { shard: [0,1,2,3,4,5,6,7,8,9,10,11] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install "rembg[cpu]" ddgs pillow requests
+      - name: Modello scontorno
+        run: python -c "from rembg import new_session; new_session('isnet-general-use')"
+      - run: python tools/foto.py ${{ matrix.shard }} 12 out off
+      - uses: actions/upload-artifact@v4
+        with: { name: 'foto-${{ matrix.shard }}', path: out, retention-days: 3 }
+  unisci:
+    needs: foto
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: out }
+      - run: python tools/unisci.py ${{ github.run_number }}
+      - run: |
+          git config user.name "foto-bot"
+          git config user.email "foto-bot@users.noreply.github.com"
+          git add img catalogo.json tools/report.json tools/mancanti.json
+          git commit -m "Foto prodotti aggiornate (run ${{ github.run_number }})" || exit 0
+          git pull --rebase
+          git push
