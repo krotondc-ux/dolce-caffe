@@ -15,6 +15,12 @@ UA = {'User-Agent': 'DolceCaffeCatalogo/1.0'}
 H = requests.Session(); H.headers.update(UA)
 
 catalogo = json.load(open('catalogo.json'))
+SECONDO = len(sys.argv) > 4 and sys.argv[4] == 'nome'
+if SECONDO:
+    # secondo giro: solo articoli ancora senza foto, ricerca per nome con controllo piu severo
+    manc = {c for c, _ in json.load(open('tools/mancanti.json'))}
+    vecchi = json.load(open('tools/report.json')) if os.path.exists('tools/report.json') else {}
+    catalogo = [r for r in catalogo if r[1] in manc]
 mio = [r for i, r in enumerate(catalogo) if i % TOT == SHARD]
 print(f'shard {SHARD}: {len(mio)} articoli', flush=True)
 
@@ -64,6 +70,51 @@ def da_off(cod):
 
 def parole(t):
     return [w for w in re.sub(r'[^a-z0-9 ]', ' ', t.lower()).split() if len(w) > 2 and not w.isdigit()]
+
+
+ESPANDI = {'DET.': 'detersivo ', 'AMM.': 'ammorbidente ', 'SAP.': 'sapone ', 'PAV.': 'pavimenti ', 'CONF.': 'confezione ',
+           'SPAZZ.': 'spazzolino ', 'DENT.': 'dentifricio ', 'BISC.': 'biscotti ', 'CIOCC.': 'cioccolato ', 'D.G.': 'dolce gusto '}
+
+
+def nome_lungo(nome):
+    n = nome.upper()
+    for k, v in ESPANDI.items():
+        n = n.replace(k, v.upper())
+    return re.sub(r'\s+', ' ', n).strip()
+
+
+def da_web_nome(cod, nome, evita=''):
+    try:
+        from ddgs import DDGS
+    except Exception:
+        return None, None
+    nl = nome_lungo(nome)
+    pn = parole(nl)
+    if len(pn) < 2:
+        return None, None
+    for q in (nl, nl + ' prodotto supermercato'):
+        res = []
+        for tent in range(3):
+            try:
+                res = DDGS().images(q, region='it-it', safesearch='moderate', max_results=15); break
+            except Exception:
+                time.sleep(4 + tent * 6)
+        time.sleep(1.5 + random.random())
+        cand = []
+        for r in res:
+            if evita and evita in (r.get('url') or ''):
+                continue
+            tl = ((r.get('title') or '') + ' ' + (r.get('url') or '')).lower()
+            sc = sum(1 for w in pn if w in tl) / len(pn)
+            if sc >= 0.6 and (r.get('height') or 600) >= 250:
+                cand.append((sc, r))
+        cand.sort(key=lambda x: -x[0])
+        for sc, r in cand[:5]:
+            try:
+                return scarica(r.get('image'), 15), f'web:nome2:{sc:.2f}:{r.get("url","")[:120]}'
+            except Exception:
+                pass
+    return None, None
 
 
 def da_web(cod, nome):
@@ -144,7 +195,10 @@ t0 = time.time()
 for n, r in enumerate(mio):
     cod, nome = r[1], r[2]
     fonte = None; im = None
-    if re.fullmatch(r'\d{8,14}', cod) and not cod.startswith('8000000'):
+    if SECONDO:
+        ev = (vecchi.get(cod, {}).get('fonte') or '').split(':', 3)[-1] if (vecchi.get(cod, {}).get('fonte') or '').startswith('web') else ''
+        im, fonte = da_web_nome(cod, nome, ev)
+    elif re.fullmatch(r'\d{8,14}', cod) and not cod.startswith('8000000'):
         im, fonte = da_off(cod)
         if im is None:
             im, fonte = da_web(cod, nome)

@@ -1,15 +1,17 @@
 """Unisce le foto dei vari gruppi e aggiorna il catalogo."""
 import json, glob, os, shutil, sys
 ver = int(sys.argv[1]) if len(sys.argv) > 1 else 2
-rep = {}
+rep = json.load(open('tools/report.json')) if os.path.exists('tools/report.json') else {}
+nuovi = {}
 for f in glob.glob('out/**/report_*.json', recursive=True):
-    rep.update(json.load(open(f)))
+    nuovi.update(json.load(open(f)))
+rep.update(nuovi)
 n = 0
 for f in glob.glob('out/**/img/*.webp', recursive=True):
     shutil.copy(f, 'img/' + os.path.basename(f)); n += 1
 cat = json.load(open('catalogo.json'))
 for r in cat:
-    if r[1] in rep and rep[r[1]].get('scontornata') is not None:
+    if r[1] in nuovi and nuovi[r[1]].get('scontornata') is not None:
         r[6] = ver
     elif not os.path.exists('img/' + r[1] + '.webp'):
         r[6] = 0
