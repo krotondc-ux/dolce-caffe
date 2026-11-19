@@ -28,8 +28,7 @@
 "scontornata": true
 },
 "80084909": {
-"fonte": "web:ean:1.00:https://www.aeropostale.com/tie-dye-logo-graphic-tee/80084909.html",
-"scontornata": true
+"fonte": null
 },
 "8001200050262": {
 "fonte": "openfoodfacts:8001200050262",
@@ -64,7 +63,7 @@
 "scontornata": true
 },
 "8000000003072": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "5054563007735": {
 "fonte": "web:ean:2.00:https://shop.risparmiocasa.com/aquafresh-dentifricio-intense-clean-white",
@@ -159,8 +158,7 @@
 "scontornata": true
 },
 "8034028330667": {
-"fonte": "web:ean:2.00:https://marketcaffe.com/caffe-borbone/29-100-capsule-a-modo-mio-borbone-miscela-dek-8034028330667.html",
-"scontornata": true
+"fonte": null
 },
 "8034028330599": {
 "fonte": "web:ean:2.00:https://marketcaffe.com/caffe-borbone/15-100-capsule-point-caffe-borbone-miscela-nera-8034028330599.html",
@@ -179,8 +177,7 @@
 "scontornata": true
 },
 "8004333014415": {
-"fonte": "web:nome:0.50:https://www.amazon.co.jp/Rovelli-イタリアンプラネ-ストラッチャテッラ-STRACCIATELLA-Stracciatella/dp/B0DV4GF3Y8",
-"scontornata": true
+"fonte": null
 },
 "8055687860074": {
 "fonte": "web:nome:1.00:https://shop.villamarket.com/product/226318",
@@ -207,7 +204,7 @@
 "scontornata": true
 },
 "423": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "5741000117903": {
 "fonte": "web:ean:1.50:https://iperdrive.iper.it/product/strong-ale-77-3-x-33-cl-3x33cl-ceres",
@@ -234,7 +231,8 @@
 "scontornata": true
 },
 "8000000002525": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:0.80:https://www.saporidallitalia.it/it/vini-rose/836-rafa-el-vino-ciro-rosato-doc-btg-borgognotta-alta_specialita-alimenti-v",
+"scontornata": true
 },
 "5449000000439": {
 "fonte": "openfoodfacts:5449000000439",
@@ -285,8 +283,7 @@
 "scontornata": true
 },
 "8006540685662": {
-"fonte": "web:nome:2.00:https://nonpesa.it/prodotto/dash-power-detersivo-liquido-lavatrice-azione-extra-smacchiante-18-lavaggi-900-ml",
-"scontornata": true
+"fonte": null
 },
 "8000036021699": {
 "fonte": "web:ean:1.80:https://www.carrefour.it/p/infasil-uomo-derma48h-deospray-salva-camicie-150-ml/8000036021699.html",
@@ -353,8 +350,7 @@
 "scontornata": true
 },
 "8011690441983": {
-"fonte": "web:nome:0.00:https://www.impo.ch/de/Pflege/K-Beauty/LANEIGE-Water-Bank-Blue-Hyaluronic-Eye-Cream-25ml/p/7561006",
-"scontornata": true
+"fonte": null
 },
 "8001280026102": {
 "fonte": "openbeautyfacts:8001280026102",
@@ -448,12 +444,11 @@
 "scontornata": true
 },
 "80385875": {
-"fonte": "web:ean:1.00:https://www.mscdirect.com/product/details/80385875",
+"fonte": "web:nome2:0.80:https://shop.italcaffe.it/it/home/807-caffe-in-grani-elite-100-arabica-italcaffe-espresso-1kg.html",
 "scontornata": true
 },
 "8003350552009": {
-"fonte": "web:nome:1.00:https://www.naturalcart.it/products/200pz-guanto-chef-sushi-monouso-nero-con-microgrip-m-l-walking",
-"scontornata": true
+"fonte": null
 },
 "9002975301558": {
 "fonte": "openfoodfacts:9002975301558",
@@ -528,8 +523,7 @@
 "scontornata": true
 },
 "80220718": {
-"fonte": "web:ean:1.00:https://www.amazon.co.jp/アートスクリーン-幅116cm-150cm-高さ181cm-210cm-80220718-シースルー/dp/B00A2I9DD0",
-"scontornata": true
+"fonte": null
 },
 "80001461": {
 "fonte": "openfoodfacts:80001461",
@@ -540,10 +534,11 @@
 "scontornata": true
 },
 "8000000002723": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8000000003331": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:0.75:https://www.la-rondine.it/it/gaia-maionese-secchio-5kg",
+"scontornata": true
 },
 "8033247632422": {
 "fonte": "web:nome:0.67:https://dambros.it/online/prodotto/0000107152/mandorle-pelate-200g-life",
@@ -582,7 +577,7 @@
 "scontornata": true
 },
 "8001280070938": {
-"fonte": "web:nome:0.14:https://www.pinterest.com/pin/thailand--655907133252451332/",
+"fonte": "web:nome2:1.00:https://www.amazon.it/Mon-Amour-Detersivo-Lavatrice-Liquido/dp/B073RPYNJT",
 "scontornata": true
 },
 "5060639121854": {
@@ -630,7 +625,7 @@
 "scontornata": true
 },
 "8000000001160": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8003650019790": {
 "fonte": "web:ean:2.00:https://casabalo.com/prodotto/omino-bianco-freschezza-alpina-2lt-candeggina-delicata/",
@@ -641,7 +636,7 @@
 "scontornata": true
 },
 "8000000001467": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8055687860579": {
 "fonte": "web:nome:1.00:https://www.pastificiogioia.it/linea-classica/17-i-paccheri-rigati-500gr.html",
@@ -684,8 +679,7 @@
 "scontornata": true
 },
 "4006034102495": {
-"fonte": "web:nome:1.00:https://www.nicesurgelati.it/products/patate-stick-750g-25kg",
-"scontornata": true
+"fonte": null
 },
 "8041790504950": {
 "fonte": "openfoodfacts:8041790504950",
@@ -696,7 +690,8 @@
 "scontornata": true
 },
 "8000000001276": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:1.00:https://www.spesaonline24.it/prodotto/pepsi-cola-in-lattina-cl-33x24/",
+"scontornata": true
 },
 "80843160": {
 "fonte": "openfoodfacts:80843160",
@@ -787,8 +782,7 @@
 "scontornata": true
 },
 "8004333005482": {
-"fonte": "web:nome:0.00:https://wallpaperaccess.com/rainbow-nebula",
-"scontornata": true
+"fonte": null
 },
 "8033324203897": {
 "fonte": "openfoodfacts:8033324203897",
@@ -831,8 +825,7 @@
 "scontornata": true
 },
 "8002910028787": {
-"fonte": "web:ean:1.75:https://nonpesa.it/prodotto/sole-detersivo-lavatrice-bianco-splendente-41-lavaggi-1-845-l",
-"scontornata": true
+"fonte": null
 },
 "4011200257909": {
 "fonte": "web:ean:1.75:https://www.melonistore.com/colgate-spazzolino-twister-white-medio-4011200257909.html",
@@ -923,7 +916,7 @@
 "scontornata": true
 },
 "8000000001528": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "070177177539": {
 "fonte": "openfoodfacts:070177177539",
@@ -942,7 +935,7 @@
 "scontornata": true
 },
 "8000000002792": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8021719140902": {
 "fonte": "web:nome:0.75:https://www.condellogroup.it/156-sacchetti-vaschette-alimentari/68146-decla-vaschetta-allumtorta-grande-2pz-801386000016",
@@ -973,8 +966,7 @@
 "scontornata": true
 },
 "8005479033155": {
-"fonte": "web:nome:0.00:https://www.vulture.com/2023/01/jeremy-renner-update-mayor-of-kingstown-poster.html",
-"scontornata": true
+"fonte": null
 },
 "8021507739608": {
 "fonte": "openfoodfacts:8021507739608",
@@ -1041,7 +1033,7 @@
 "scontornata": true
 },
 "8000000003324": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8032774731233": {
 "fonte": "web:nome:1.00:https://www.grandettaglio.it/acqua-sorbello-lt15-x-6-naturale-pet",
@@ -1072,7 +1064,7 @@
 "scontornata": true
 },
 "8000000003423": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8388776979914": {
 "fonte": "web:ean:0.86:https://www.reginatofratelli.it/it/deo-due-ammorbidente-50-lavaggi-premium-collection-bianco-latte-1-l",
@@ -1139,7 +1131,7 @@
 "scontornata": true
 },
 "8000000001443": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8006890111330": {
 "fonte": "openfoodfacts:8006890111330",
@@ -1198,8 +1190,7 @@
 "scontornata": true
 },
 "8023701999109": {
-"fonte": "web:nome:0.00:https://cheezburger.com/47339525/24-funniest-feline-memes-to-warm-your-paws-on-a-chilly-fall-day",
-"scontornata": true
+"fonte": null
 },
 "8051732110392": {
 "fonte": "openfoodfacts:8051732110392",
@@ -1210,7 +1201,7 @@
 "scontornata": true
 },
 "8000000000941": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8001070000015": {
 "fonte": "openfoodfacts:8001070000015",
@@ -1221,7 +1212,8 @@
 "scontornata": true
 },
 "5221": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:1.00:https://www.maisoncalabria.it/prodotto/ciro-rosso-superiore-riserva-doc-di-cataldo-calabretta/",
+"scontornata": true
 },
 "3387390331974": {
 "fonte": "openfoodfacts:3387390331974",
@@ -1260,8 +1252,7 @@
 "scontornata": true
 },
 "8000630754498": {
-"fonte": "web:ean:0.67:https://ferdicoshop.it/coccolino-wonder-max-sport-expert-54-lavaggi-2160-ml.html",
-"scontornata": true
+"fonte": null
 },
 "6920354836138": {
 "fonte": "web:ean:2.00:https://www.dm-drogeriemarkt.it/colgate-dentifricio-family-action-p6920354836138.html",
@@ -1276,7 +1267,7 @@
 "scontornata": true
 },
 "8000000002419": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8076809570411": {
 "fonte": "openfoodfacts:8076809570411",
@@ -1291,14 +1282,15 @@
 "scontornata": true
 },
 "8000000002266": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:0.67:https://pixabay.com/images/search/croissant/",
+"scontornata": true
 },
 "8029044114025": {
 "fonte": "web:ean:1.50:https://www.magazineluiza.com.br/biscoito-dolciaria-monardo-cuor-di-pistacchio-pistache/p/hg9884ca52/me/trra/",
 "scontornata": true
 },
 "8006540677810": {
-"fonte": "web:ean:1.83:https://nonpesa.it/prodotto/dash-power-detersivo-liquido-lavatrice-azione-extra-igienizzante-capi-colorati-18-lavaggi-90",
+"fonte": "web:nome2:1.00:https://www.hellozibly.com/detersivo-liquido-power-igienizzante-color-dash-2x18-lavaggi",
 "scontornata": true
 },
 "8000036021637": {
@@ -1434,7 +1426,7 @@
 "scontornata": true
 },
 "8000000000378": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "5010677704298": {
 "fonte": "web:ean:2.00:https://enotecacostantinipiero.it/gin/4374-Gin-Bombay-Original-1-0-5010677704298.html",
@@ -1489,8 +1481,7 @@
 "scontornata": true
 },
 "8002200145811": {
-"fonte": "web:ean:1.75:https://marketcaffe.com/kimbo/867-100-capsule-lavazza-point-kimbo-espresso-miscela-8002200145811.html",
-"scontornata": false
+"fonte": null
 },
 "8000500071083": {
 "fonte": "openfoodfacts:8000500071083",
@@ -1568,7 +1559,7 @@
 "scontornata": true
 },
 "8000000000583": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "80558606": {
 "fonte": "web:nome:0.75:https://ourcoffeemap.com/product/caffe-kenon-max-bar/",
@@ -1587,8 +1578,7 @@
 "scontornata": true
 },
 "8032745831788": {
-"fonte": "web:nome:0.60:https://www.ittitalia.it/prodotti/preparato-per-risotto-top-quality/",
-"scontornata": true
+"fonte": null
 },
 "8002590076443": {
 "fonte": "openfoodfacts:8002590076443",
@@ -1603,8 +1593,7 @@
 "scontornata": true
 },
 "8010346007030": {
-"fonte": "web:nome:0.50:https://www.nuggetshop24.de/marke/fiamma/",
-"scontornata": true
+"fonte": null
 },
 "8056734230611": {
 "fonte": "web:ean:0.60:https://amiciitaly.com.ua/anchousy-monte-mare-160g/",
@@ -1698,8 +1687,7 @@
 "scontornata": true
 },
 "5410376611857": {
-"fonte": "web:nome:1.00:https://www.capone-food.com/PATATE-A-SPICCHI-COUNTRY-CON-BUCCIA-5-x-2-5kg/PM2605",
-"scontornata": true
+"fonte": null
 },
 "8041790505179": {
 "fonte": "openfoodfacts:8041790505179",
@@ -1730,8 +1718,7 @@
 "scontornata": true
 },
 "5050456005314": {
-"fonte": "web:ean:1.75:https://www.drmax.sk/playboy-vip-for-him-toaletna-voda-60ml-sprchovy-gel-250ml",
-"scontornata": true
+"fonte": null
 },
 "8005121210309": {
 "fonte": "openfoodfacts:8005121210309",
@@ -1826,8 +1813,7 @@
 "scontornata": true
 },
 "8017412005044": {
-"fonte": "web:nome:0.75:https://www.saponedicalabria.it/scilla/",
-"scontornata": true
+"fonte": null
 },
 "8003495118375": {
 "fonte": "openfoodfacts:8003495118375",
@@ -1890,8 +1876,7 @@
 "scontornata": true
 },
 "8055687860340": {
-"fonte": "web:nome:0.75:https://blog.giallozafferano.it/amicincucina/tagliatelle-alla-liquirizia-con-crema-di-finocchi-e-zeste-di-arancia/",
-"scontornata": true
+"fonte": null
 },
 "8000300231229": {
 "fonte": "openfoodfacts:8000300231229",
@@ -1922,8 +1907,7 @@
 "scontornata": true
 },
 "8024608007959": {
-"fonte": "web:nome:0.67:https://www.caffedossantos.it/prodotto/capsula-nespresso-toda-gattopardo-nocciolino-10pz/",
-"scontornata": true
+"fonte": null
 },
 "8024608050931": {
 "fonte": "web:ean:2.00:https://marketcaffe.com/toraldo/2881-100-capsule-dolce-gusto-toraldo-miscela-gourmet-8024608050931.html",
@@ -1934,8 +1918,7 @@
 "scontornata": true
 },
 "8033011700005": {
-"fonte": "web:ean:1.67:https://irpot.com/panni-carta/11152-tovaglioli-carta-corona-mono-velo-10-conf-8033011700005.html",
-"scontornata": true
+"fonte": null
 },
 "8015854140453": {
 "fonte": "openfoodfacts:8015854140453",
@@ -1958,15 +1941,14 @@
 "scontornata": true
 },
 "8000000003157": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8021719140940": {
 "fonte": "web:nome:0.50:https://www.megaprezzo.com/regina-rotoloni-carta-igienica-4pz",
 "scontornata": true
 },
 "8001349120123": {
-"fonte": "web:nome:0.00:https://miglioriofferteonline.it/fermacampioni",
-"scontornata": true
+"fonte": null
 },
 "8004400007203": {
 "fonte": "openfoodfacts:8004400007203",
@@ -1997,7 +1979,7 @@
 "scontornata": true
 },
 "8000000003263": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8051406160418": {
 "fonte": "web:nome:0.67:https://www.jinglemen.com/product/rosastro-vino-rosato-igt-2024/",
@@ -2020,8 +2002,8 @@
 "scontornata": true
 },
 "8003535064532": {
-"fonte": "web:ean:0.75:https://spesagela.it/CARAMELLE-E-PRALINE/6512-WITOR-S-GRAN-GALA-SPECIAL-GR260-SANTERO.html",
-"scontornata": false
+"fonte": "web:nome2:0.75:https://bestvalue.eu/p/specialitati-witors-gran-gala-collection-260-gr",
+"scontornata": true
 },
 "8051732110408": {
 "fonte": "openfoodfacts:8051732110408",
@@ -2052,7 +2034,8 @@
 "scontornata": true
 },
 "8000000003188": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:1.00:https://www.terranovaalimenti.it/prodotto/acque/acque-pet/acque-pet-1-lt/acqua-mangiatorella-naturale-lt-1-pet/",
+"scontornata": true
 },
 "8020141760009": {
 "fonte": "web:ean:1.75:https://www.latuaspesa.com/product/santanna-acqua-natml500x12",
@@ -2075,7 +2058,8 @@
 "scontornata": true
 },
 "8000000001818": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:0.67:https://www.vino.com/dettaglio/trento-doc-spumate-metodo-classico-brut-riserva-graal-altemasi-2018.html",
+"scontornata": true
 },
 "8006473901914": {
 "fonte": "openfoodfacts:8006473901914",
@@ -2098,15 +2082,14 @@
 "scontornata": true
 },
 "1127676": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8051732110958": {
 "fonte": "openfoodfacts:8051732110958",
 "scontornata": true
 },
 "8054145674154": {
-"fonte": "web:nome:1.00:https://www.jomashop.com/signature-unisex-aura-edp-spray-3-38-oz-tester-fragrances-3760415040165.html",
-"scontornata": true
+"fonte": null
 },
 "8076809583350": {
 "fonte": "web:nome:1.00:https://milov.net/producto/baiocchi-tubo-mulino-bianco-168g/",
@@ -2197,7 +2180,7 @@
 "scontornata": true
 },
 "8000000000828": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8052015110696": {
 "fonte": "web:nome:0.80:https://artigianoinfiera.it/artigiani/52882-Valle-del-Crati-Eccellenze-Gastronomiche-dal-1998/prodotti/216241-Olio-extra",
@@ -2240,7 +2223,7 @@
 "scontornata": true
 },
 "0000002222": {
-"fonte": "web:ean:1.00:https://mercteil.com/mercedes-benz-hli-0000002222-dvd-rom-spare-part-Lay4O",
+"fonte": "web:nome2:1.00:https://www.cellartracker.com/wine.asp?iWine=4920262",
 "scontornata": true
 },
 "8015194522933": {
@@ -2252,8 +2235,7 @@
 "scontornata": true
 },
 "8720181414800": {
-"fonte": "web:ean:1.67:https://magitalia.bg/preparat-cif-crema-perla-rosa-500-ml",
-"scontornata": false
+"fonte": null
 },
 "8003000024917": {
 "fonte": "openfoodfacts:8003000024917",
@@ -2478,10 +2460,10 @@
 "scontornata": true
 },
 "1126756": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8000000003256": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8700216307796": {
 "fonte": "openbeautyfacts:8700216307796",
@@ -2520,7 +2502,7 @@
 "scontornata": true
 },
 "8000000002600": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8008429258448": {
 "fonte": "web:ean:1.75:https://www.candyfrizz.it/prodotto/cuori-di-cioccolato-a-latte-gusto-caramello-la-suissa-1-kg/",
@@ -2619,8 +2601,7 @@
 "scontornata": true
 },
 "8010346020053": {
-"fonte": "web:nome:0.75:https://www.bol.com/nl/nl/p/lavazza-a-modo-mio-orzo-10-x-12-120-capsules/9300000162936865/",
-"scontornata": true
+"fonte": null
 },
 "8007975010906": {
 "fonte": "openfoodfacts:8007975010906",
@@ -2782,7 +2763,7 @@
 "scontornata": true
 },
 "8000000000026": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8013355501537": {
 "fonte": "openfoodfacts:8013355501537",
@@ -2880,7 +2861,7 @@
 "scontornata": true
 },
 "8000000001214": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "3048440114199": {
 "fonte": "web:nome:1.00:https://www.latuaspesa.com/product/bevanda-yoga-ace-ml200x3-bevanda-yoga-ace-ml200x3",
@@ -2967,7 +2948,7 @@
 "scontornata": true
 },
 "8000000002853": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8055515776294": {
 "fonte": "web:nome:0.50:https://ferdico.it/prodotto/cuki-vasch-allum-rs85g-x5-porz/",
@@ -3161,7 +3142,7 @@
 "scontornata": true
 },
 "8033481970786": {
-"fonte": "web:ean:1.33:https://www.zetacash.it/bicchieri-plastica-100-pezzi-cc-200-resistenti.html",
+"fonte": "web:nome2:0.67:https://www.manomano.it/p/bicchieri-200ccx100-dopla-65981757",
 "scontornata": true
 },
 "8009320044147": {
@@ -3237,7 +3218,7 @@
 "scontornata": true
 },
 "8411114090092": {
-"fonte": "web:ean:1.17:https://www.jomashop.com/marvel-mens-captain-america-gift-set-fragrances-8411114090092.html",
+"fonte": "web:nome2:0.83:https://www.bonaticompany.com.br/higiene-e-cuidados-pessoais/beleza-e-perfumaria/perfumaria/perfume-capitan-america-h-ed",
 "scontornata": true
 },
 "8014601998644": {
@@ -3253,10 +3234,10 @@
 "scontornata": true
 },
 "15322": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "VINCE002": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "3352370002830": {
 "fonte": "web:ean:1.60:https://www.latuaspesa.com/product/pommery-brut-royal-ml750-pommery-brut-royal-ml750",
@@ -3267,8 +3248,7 @@
 "scontornata": true
 },
 "8003413010293": {
-"fonte": "web:nome:0.67:https://www.guglielmostorelamezia.com/prodotto/cialde-pronto-espresso-150-pz/",
-"scontornata": true
+"fonte": null
 },
 "8720182307859": {
 "fonte": "web:ean:1.67:https://www.zetacash.it/cif-spray-green-active-vetri-brillanti-650-ml.html",
@@ -3343,7 +3323,7 @@
 "scontornata": true
 },
 "8388777574903": {
-"fonte": "web:ean:0.80:https://www.mclgroupricambi.it/product/sgrassatore-profumato-4-in-1-vanilla-fruits-480-ml-deomix/",
+"fonte": "web:nome2:0.60:https://deomix.it/home/129-deo-mix-evo-plus-4-in-1-vanilla-fruits-sgrassa-profuma-igienizza-lucida.html",
 "scontornata": true
 },
 "8388777574934": {
@@ -3411,7 +3391,8 @@
 "scontornata": true
 },
 "8000000001504": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:1.00:https://camperdowncellars.com.au/products/fevertreemedtonic200mlsng",
+"scontornata": true
 },
 "80106715": {
 "fonte": "openfoodfacts:80106715",
@@ -3460,7 +3441,7 @@
 "scontornata": true
 },
 "8000000000484": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8003510034819": {
 "fonte": "web:ean:2.00:https://www.melonistore.com/geomar-scrub-viso-cremoso-2in1-150-ml-8003510034819.html",
@@ -3491,7 +3472,7 @@
 "scontornata": true
 },
 "8000000003201": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8058647846774": {
 "fonte": "web:nome:1.00:https://www.puntoqui.com/guanti-pz100-nitrile-nero-taglia-m.html",
@@ -3554,7 +3535,7 @@
 "scontornata": true
 },
 "8000000001719": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8006280010847": {
 "fonte": "openfoodfacts:8006280010847",
@@ -3613,7 +3594,7 @@
 "scontornata": true
 },
 "8000000000491": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8003495103883": {
 "fonte": "openfoodfacts:8003495103883",
@@ -3678,8 +3659,7 @@
 "scontornata": true
 },
 "8009545001215": {
-"fonte": "web:nome:0.00:https://shanghaisgeauto.en.made-in-china.com/product/CJnUhHNwYpRr/China-Wholesale-SUV-Black-Electric-Vehicle-Usage-Li-Au",
-"scontornata": true
+"fonte": null
 },
 "8021719180137": {
 "fonte": "web:ean:1.83:https://galiani.it/products/ottimo-carta-forno-100-fogli-33x27cm-8021719180137",
@@ -3710,7 +3690,7 @@
 "scontornata": true
 },
 "8700216528795": {
-"fonte": "web:ean:1.67:https://nonpesa.it/prodotto/pantene-pro-v-antiforfora-3-in-1-shampoo-balsamo-trattamento-active-nutri-plex-250-ml",
+"fonte": "web:nome2:0.67:https://www.carrefour.it/p/pantene-pro-v-antiforfora-shampoo-active-nutri-plex-250-ml/8700216504225.html",
 "scontornata": true
 },
 "8001440121319": {
@@ -3746,8 +3726,7 @@
 "scontornata": true
 },
 "000000000011": {
-"fonte": "web:ean:1.00:https://www.brightechcase.com/view/item/000000000011",
-"scontornata": true
+"fonte": null
 },
 "8001909539013": {
 "fonte": "web:ean:0.75:https://aristeaspa.it/prodotto/piatti-piani-220-bianchi-riutilizzabili-ari/",
@@ -3766,7 +3745,7 @@
 "scontornata": true
 },
 "8000000002112": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8029303010150": {
 "fonte": "openfoodfacts:8029303010150",
@@ -3801,8 +3780,7 @@
 "scontornata": true
 },
 "8011941002727": {
-"fonte": "web:ean:1.80:https://www.produseitalia.ro/Detergent-pardoseala-Rio-Casamia-Marsiglia-1250ml?tab=description",
-"scontornata": true
+"fonte": null
 },
 "8007545000092": {
 "fonte": "web:ean:0.75:https://latterialocatelli.com/negozio/riso-originario-italiano-grazia-ideale-per-dolci-minestre-e-timballi/",
@@ -3885,7 +3863,7 @@
 "scontornata": true
 },
 "1122003": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8003510002238": {
 "fonte": "web:ean:2.00:https://www.bernava.net/products/intesa-styling-spuma-forte-300-ml",
@@ -3936,7 +3914,7 @@
 "scontornata": true
 },
 "1100142": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8024608007072": {
 "fonte": "web:ean:0.50:https://www.caffetwins.com/it/prodotti/1225/caffe-toraldo-caffe-e-nocciola-caffe-aromatizzati-cialda-ese-44/",
@@ -3963,7 +3941,7 @@
 "scontornata": true
 },
 "8000000002259": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "070177177553": {
 "fonte": "openfoodfacts:070177177553",
@@ -3982,7 +3960,7 @@
 "scontornata": true
 },
 "8000000002747": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8005330003815": {
 "fonte": "web:nome:0.67:https://www.maxicasa.it/it/prodotto/9ad0f524-987f-4ff9-a77c-f8189221800f",
@@ -4020,10 +3998,10 @@
 "scontornata": true
 },
 "8000000000439": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8000000001924": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8015836063510": {
 "fonte": "web:ean:0.40:https://www.visindustrie.com/prodotti/genepesca/cozze/",
@@ -4122,7 +4100,7 @@
 "scontornata": true
 },
 "8054609784146": {
-"fonte": "web:ean:1.17:https://www.jomashop.com/aquolina-unisex-chill-gift-set-8054609784146.html",
+"fonte": "web:nome2:0.83:https://www.ebay.it/itm/126776922229",
 "scontornata": true
 },
 "8051732110194": {
@@ -4178,8 +4156,7 @@
 "scontornata": true
 },
 "8053841520857": {
-"fonte": "web:nome:1.00:https://bridgingthegendergap.net/item/le-iga-di-calabria-birra-cala-magliocco-casa-comerci-da-75cl/",
-"scontornata": true
+"fonte": null
 },
 "5998818172512": {
 "fonte": "openfoodfacts:5998818172512",
@@ -4238,8 +4215,7 @@
 "scontornata": true
 },
 "8033196757498": {
-"fonte": "web:nome:1.00:https://artiegrafica.it/shop/carta/decoupage/riso/carta-riso-calici-per-decorare-per-prima-comunione-renkalik-33x48/1864",
-"scontornata": true
+"fonte": null
 },
 "8017412003736": {
 "fonte": "web:nome:0.50:https://www.froseshop.cz/fiorillo-candeggina-delicata-1-85l-tekuty-odstranovac-skvrn-praci-gel-p251168/",
@@ -4353,8 +4329,7 @@
 "scontornata": true
 },
 "8388777574095": {
-"fonte": "web:nome:1.00:https://deomix.it/deo-mix-profuma-biancheria/36-profuma-bucato-fresco-intenso-100ml-8027170005125.html",
-"scontornata": true
+"fonte": null
 },
 "8054633839522": {
 "fonte": "web:ean:1.50:https://incibeauty.com/produit/8054633839522",
@@ -4381,8 +4356,7 @@
 "scontornata": true
 },
 "8055519861873": {
-"fonte": "web:ean:1.17:https://www.jomashop.com/ducati-mens-1926-gift-set-bath-body-8055519861873.html",
-"scontornata": true
+"fonte": null
 },
 "3600524194161": {
 "fonte": "web:ean:2.00:https://www.maxicasa.it/it/prodotto/elvive-balsamo-250ml-color-vive-3600524194161",
@@ -4449,7 +4423,7 @@
 "scontornata": true
 },
 "8000000000958": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8420321693514": {
 "fonte": "web:ean:1.67:https://nonpesa.it/prodotto/fripozo-filetto-di-pollo-alla-kentucky-hot-spicy-250-gr",
@@ -4476,7 +4450,8 @@
 "scontornata": true
 },
 "8000000001627": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:0.60:https://gindeisibillini.com/prodotto/box-cassetta-in-legno/",
+"scontornata": true
 },
 "8011701089906": {
 "fonte": "web:ean:1.80:https://www.rinascente.it/en/item/vecchio-magazzino-doganale-gil-authentic-rural-gin-70cl-22259131",
@@ -4507,19 +4482,18 @@
 "scontornata": true
 },
 "8000500398548": {
-"fonte": "web:ean:1.50:https://www.caiyadelicious.it/shop/dolce/cioccolata/confezioni-cioccolata/ferrero-kinder-calza-befana-165g/",
-"scontornata": true
+"fonte": null
 },
 "4001686010990": {
 "fonte": "openfoodfacts:4001686010990",
 "scontornata": true
 },
 "8000000002884": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:1.00:https://www.bergel.it/product/ichnusa-birra-sarda-non-filtrata-cl33x24/",
+"scontornata": true
 },
 "80160939": {
-"fonte": "web:ean:1.00:https://www.machines4u.com.au/view/advert/Ryobi-R18CS-Cordless-Circular-Saw/1240745/",
-"scontornata": true
+"fonte": null
 },
 "8003850286947": {
 "fonte": "web:nome:0.75:https://dambros.it/online/prodotto/0000061801",
@@ -4588,7 +4562,7 @@
 "scontornata": true
 },
 "8000000000989": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8024608004217": {
 "fonte": "web:nome:1.00:https://smartechshop.it/caffe-macinato-toraldo-crema-di-napoli-250gr/",
@@ -4642,7 +4616,7 @@
 "scontornata": true
 },
 "8010346040143": {
-"fonte": "web:nome:0.50:https://shop.formaggidieros.it/en/products/nocciolino-di-capra-copia",
+"fonte": "web:nome2:0.75:https://shop.crastan.it/products/10-capsule-nocciolino-compatibili-dolce-gusto",
 "scontornata": true
 },
 "8076809580380": {
@@ -4697,10 +4671,10 @@
 "scontornata": true
 },
 "8000000002143": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8003000375507": {
 "fonte": "openfoodfacts:8003000375507",
@@ -4791,8 +4765,7 @@
 "scontornata": true
 },
 "3386460101035": {
-"fonte": "web:ean:1.00:https://www.jomashop.com/montblanc-fragrances-exlmes33-a-3-3oz.html",
-"scontornata": true
+"fonte": null
 },
 "8076809584722": {
 "fonte": "openfoodfacts:8076809584722",
@@ -4903,7 +4876,7 @@
 "scontornata": true
 },
 "8000000000774": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8001440129568": {
 "fonte": "openfoodfacts:8001440129568",
@@ -5022,7 +4995,7 @@
 "scontornata": true
 },
 "8000000003416": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8057168150056": {
 "fonte": "web:nome:1.00:https://www.saporidallitalia.it/en/vini-bianchi/832-cecily-vino-ciro-bianco-doc-btg-borgognotta-alta_specialita-alimenti",
@@ -5068,16 +5041,14 @@
 "scontornata": true
 },
 "8001514002506": {
-"fonte": "web:nome:0.00:https://www.peacocktv.com/watch-online/tv/george-lopez/8626869364324923112/seasons/3/episodes/dubya-dad-and-dating-part-",
-"scontornata": true
+"fonte": null
 },
 "8032891920152": {
-"fonte": "web:nome:0.00:https://www.pinterest.com/pin/the-rihup--8022105581847252/",
+"fonte": "web:nome2:0.75:https://www.eurogelsrl.it/negozio/abitue/abitue-6-ricoperto-alla-fragola-6x300gr/",
 "scontornata": true
 },
 "8001480719101": {
-"fonte": "web:nome:0.00:https://www.amazon.ca/Stationery-Aesthetic-Supplies-Birthday-Photocard/dp/B0D1QPWQSS",
-"scontornata": true
+"fonte": null
 },
 "8002895096962": {
 "fonte": "openfoodfacts:8002895096962",
@@ -5088,11 +5059,10 @@
 "scontornata": true
 },
 "8000000003348": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8008990009586": {
-"fonte": "web:nome:0.00:https://www.freepik.com/premium-ai-image/tuff-texture-uhd-wallpaper_213743204.htm",
-"scontornata": true
+"fonte": null
 },
 "8032774731110": {
 "fonte": "openfoodfacts:8032774731110",
@@ -5107,15 +5077,13 @@
 "scontornata": true
 },
 "8003045100256": {
-"fonte": "web:nome:0.00:https://www.lorddecor.com/blog/large-kitchen-island-ideas",
-"scontornata": true
+"fonte": null
 },
 "8007761110056": {
 "fonte": null
 },
 "8054956597420": {
-"fonte": "web:nome:0.00:https://www.bedlamfarm.com/2022/12/20/photo-journal-december-20-what-christmas-cards-means-to-me-cont/",
-"scontornata": true
+"fonte": null
 },
 "8004499011501": {
 "fonte": "openfoodfacts:8004499011501",
@@ -5126,12 +5094,11 @@
 "scontornata": true
 },
 "8720181351594": {
-"fonte": "web:nome:0.00:https://www.youtube.com/watch?v=phLdXRJ0Gfg",
+"fonte": "web:nome2:0.83:https://www.scontify.net/pulizia-casa/coccolino-ammorbidente-concentrato-orchidea-viola-e-mirtilli-ammorbidente-lavatric",
 "scontornata": true
 },
 "8016190809011": {
-"fonte": "web:nome:0.00:https://www.therandomvibez.com/deadline-quotes/",
-"scontornata": true
+"fonte": null
 },
 "3011932000829": {
 "fonte": "openfoodfacts:3011932000829",
@@ -5142,11 +5109,10 @@
 "scontornata": true
 },
 "8004260005586": {
-"fonte": "web:nome:0.00:https://coloringninja.com/pony-coloring-pages",
-"scontornata": true
+"fonte": null
 },
 "8006540363775": {
-"fonte": "web:nome:0.00:https://storage.googleapis.com/tzyomjbmrerwkkiblog/office-potluck-ideas-for-christmas.html",
+"fonte": "web:nome2:0.75:https://www.ingroscart.it/dentifricio-az-multiprotezione-carie-gel-tubetto-da-75-ml-pg022.html",
 "scontornata": true
 },
 "3600542159821": {
@@ -5182,15 +5148,13 @@
 "scontornata": true
 },
 "8032642590177": {
-"fonte": "web:nome:0.00:https://diycandy.com/3d-hello-kitty-characters/",
-"scontornata": true
+"fonte": null
 },
 "8009320044444": {
-"fonte": "web:nome:0.00:https://kids.gwnews.com/articles/the-real-unsinkables-go-splash",
-"scontornata": true
+"fonte": null
 },
 "8000000001658": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "75041670": {
 "fonte": "openfoodfacts:75041670",
@@ -5209,7 +5173,7 @@
 "scontornata": true
 },
 "8000000001962": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8716000965066": {
 "fonte": "openfoodfacts:8716000965066",
@@ -5220,19 +5184,17 @@
 "scontornata": true
 },
 "1805517643266": {
-"fonte": "web:nome:0.00:https://anatomy.app/encyclopedia/aorta",
+"fonte": "web:nome2:0.80:https://ingrocaffe.it/CAFFE-BORBONE/4x16-CAPSULE-CIOCCOLATO-DOLCE-GUSTO-BORBONE/1277",
 "scontornata": true
 },
 "8055176431709": {
-"fonte": "web:nome:0.00:https://www.bloommaterials.com/product/compression-molded-eva-midsole-rise/",
-"scontornata": true
+"fonte": null
 },
 "8034028339042": {
-"fonte": "web:nome:0.00:https://www.theteashow.com/2022-tea-pre-party-part-2-by-otola-photography/",
-"scontornata": true
+"fonte": null
 },
 "8002410044775": {
-"fonte": "web:nome:0.00:https://www.thelotterytoday.com/vi/lottery/xsmn/2026-11-16",
+"fonte": "web:nome2:1.00:https://www.redcare.it/cosmetici-igiene/IT983376450/borotalco-bagno-rinfrescante.htm",
 "scontornata": true
 },
 "8004400003137": {
@@ -5244,30 +5206,27 @@
 "scontornata": false
 },
 "8004333015122": {
-"fonte": "web:nome:0.00:https://www.linkedin.com/posts/joshagardner_china-salary-costs-activity-6803538683644522496-jmpt",
-"scontornata": true
+"fonte": null
 },
 "8000000002501": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:0.80:https://www.devis.it/prodotto/lavazza-caffe-decaffeinato-in-grani-set-3-confezioni-da-500g-totale-15-kg/",
+"scontornata": true
 },
 "8003000134104": {
 "fonte": "openfoodfacts:8003000134104",
 "scontornata": true
 },
 "8024112009357": {
-"fonte": "web:nome:0.00:https://www.freepik.com/premium-ai-image/blurry-cityscape-low-angle-daytime-view_356852078.htm",
-"scontornata": true
+"fonte": null
 },
 "8000000002990": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8054529251063": {
-"fonte": "web:nome:0.25:https://www.wikihow.com/Caress",
-"scontornata": true
+"fonte": null
 },
 "8006783750417": {
-"fonte": "web:nome:0.25:https://www.artofit.org/image-gallery/388998486544967111/text-types-la-carta-formal/",
-"scontornata": true
+"fonte": null
 },
 "223": {
 "fonte": null
@@ -5277,8 +5236,7 @@
 "scontornata": true
 },
 "3043700103319": {
-"fonte": "web:nome:0.00:https://www.upends.com/blogs/articles/cresco-vape-pen-review-the-features-design-quality-and-more-details-about-the-cres",
-"scontornata": true
+"fonte": null
 },
 "8445290970985": {
 "fonte": "openfoodfacts:8445290970985",
@@ -5288,27 +5246,24 @@
 "fonte": null
 },
 "8721317778148": {
-"fonte": "web:nome:0.00:https://indianexpress.com/section/sports/cricket/live-score/",
-"scontornata": true
+"fonte": null
 },
 "8076809573757": {
 "fonte": "openfoodfacts:8076809573757",
 "scontornata": true
 },
 "8057168150018": {
-"fonte": "web:nome:0.00:https://moonagedaydream.film/movie/minions-movie-meme",
-"scontornata": true
+"fonte": null
 },
 "1123547": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "5000112556247": {
 "fonte": "openfoodfacts:5000112556247",
 "scontornata": true
 },
 "8720181920806": {
-"fonte": "web:nome:0.00:https://www.slideshare.net/KirtlyDay/us-air-force-white-paper-templates",
-"scontornata": true
+"fonte": null
 },
 "8718951580930": {
 "fonte": "web:nome:0.40:https://www.colgate.com/en-ph",
@@ -5319,58 +5274,50 @@
 "scontornata": true
 },
 "8023065121208": {
-"fonte": "web:nome:0.00:https://wallpapercave.com/pink-coquette-desktop-wallpapers",
-"scontornata": true
+"fonte": null
 },
 "8000000002440": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8008714006334": {
 "fonte": "openfoodfacts:8008714006334",
 "scontornata": true
 },
 "8003350513062": {
-"fonte": "web:nome:0.00:https://wallpaperaccess.com/imperial-fists",
-"scontornata": true
+"fonte": null
 },
 "8055176439989": {
 "fonte": "openfoodfacts:8055176439989",
 "scontornata": true
 },
 "8000040720335": {
-"fonte": "web:nome:0.00:https://www.yahoo.com/entertainment/articles/lindsay-hubbard-just-debuted-major-173518339.html",
-"scontornata": true
+"fonte": null
 },
 "8076809580670": {
 "fonte": "openfoodfacts:8076809580670",
 "scontornata": true
 },
 "8700216828550": {
-"fonte": "web:nome:0.33:https://store.steampowered.com/app/322170/?l=spanish",
-"scontornata": true
+"fonte": null
 },
 "806891059734": {
 "fonte": null
 },
 "8388777575009": {
-"fonte": "web:nome:0.00:http://www.roxyskitchen.com/10-irresistible-christmas-tree-cupcakes.html",
-"scontornata": true
+"fonte": null
 },
 "8388777575122": {
-"fonte": "web:nome:0.00:https://healthjade.com/shingles/",
-"scontornata": true
+"fonte": null
 },
 "8388777575153": {
-"fonte": "web:nome:0.00:http://www.innokin.com/blog/what-is-a-disposable-vape",
-"scontornata": true
+"fonte": null
 },
 "8000580203329": {
 "fonte": "openfoodfacts:8000580203329",
 "scontornata": true
 },
 "8411114093352": {
-"fonte": "web:nome:0.00:https://www.pinterest.com/pin/different-types-of-triangles-with-definitions-angles-infographic-diagram-including-right-o",
-"scontornata": true
+"fonte": null
 },
 "8023065122434": {
 "fonte": null
@@ -5380,16 +5327,14 @@
 "scontornata": true
 },
 "8720181474200": {
-"fonte": "web:nome:0.20:https://clipartcraft.com/explore/dove-clipart-bird/",
-"scontornata": true
+"fonte": null
 },
 "8029804011403": {
 "fonte": "openfoodfacts:8029804011403",
 "scontornata": true
 },
 "8001412007306": {
-"fonte": "web:nome:0.25:https://cadbull.com/detail/25649/Wooden-truss-design-with-dimensional-detail",
-"scontornata": true
+"fonte": null
 },
 "8000500435441": {
 "fonte": "openfoodfacts:8000500435441",
@@ -5404,16 +5349,14 @@
 "scontornata": true
 },
 "8700216887342": {
-"fonte": "web:nome:0.14:https://pixabay.com/images/search/woodland+fairy/",
-"scontornata": true
+"fonte": null
 },
 "8014601052452": {
 "fonte": "openfoodfacts:8014601052452",
 "scontornata": true
 },
 "8011690445240": {
-"fonte": "web:nome:0.00:https://gamerant.com/bleach-best-manga-covers-ranked/",
-"scontornata": true
+"fonte": null
 },
 "8001280068119": {
 "fonte": "openbeautyfacts:8001280068119",
@@ -5432,8 +5375,7 @@
 "scontornata": true
 },
 "8002910063481": {
-"fonte": "web:nome:0.25:https://kerux.com/index.asp?iid=6473894&cid=8",
-"scontornata": true
+"fonte": null
 },
 "8002885016796": {
 "fonte": "openfoodfacts:8002885016796",
@@ -5444,47 +5386,37 @@
 "scontornata": true
 },
 "8017412004016": {
-"fonte": "web:nome:0.00:https://blankcalendarpages.com/yearly-calendar/2027",
-"scontornata": true
+"fonte": null
 },
 "8017412000360": {
-"fonte": "web:nome:0.00:https://madebyteachers.com/products/asl-colors-flashcards-b-w-color-boarders/",
-"scontornata": true
+"fonte": null
 },
 "8008570603166": {
-"fonte": "web:nome:0.50:https://cajonguide.com/best-flutes/",
-"scontornata": true
+"fonte": null
 },
 "8002340018624": {
-"fonte": "web:nome:0.20:https://wallpaperaccess.com/fresh-vegetables",
-"scontornata": true
+"fonte": null
 },
 "8076809574310": {
-"fonte": "web:nome:0.00:https://www.structuralguide.com/green-concrete/",
-"scontornata": true
+"fonte": null
 },
 "5201054037119": {
-"fonte": "web:nome:0.00:https://fabulousnorth.com/dunbar-castle/",
-"scontornata": true
+"fonte": null
 },
 "8001420003963": {
-"fonte": "web:nome:0.17:https://es.pngtree.com/freepng/illustration-of-a-gallant-rooster_20814947.html",
-"scontornata": true
+"fonte": null
 },
 "8001420011968": {
 "fonte": null
 },
 "8000139001086": {
-"fonte": "web:nome:0.00:https://in.pinterest.com/pin/beautiful-woman-white-hair-amidst-red-roses--92323861106984896/",
-"scontornata": true
+"fonte": null
 },
 "8001990039058": {
-"fonte": "web:nome:0.25:https://www.1stmardiv.marines.mil/Leaders/1st-Marine-Division-Leaders/Article/1250037/major-general-eric-m-smith/",
-"scontornata": true
+"fonte": null
 },
 "5600175195041": {
-"fonte": "web:nome:0.33:https://oratorionpaz.org/?z=gin-hass-alkoholfri-drinkspakke-u-YAEJSgZIx",
-"scontornata": true
+"fonte": null
 },
 "5099873029008": {
 "fonte": "web:nome:0.33:https://oratorionpaz.org/?z=gin-hass-alkoholfri-drinkspakke-u-YAEJSgZIx",
@@ -5520,7 +5452,7 @@
 "scontornata": true
 },
 "8032642590139": {
-"fonte": "web:nome:0.00:https://www.teacherspayteachers.com/browse/student-practice/worksheets/world-languages/chinese?gad_source=1",
+"fonte": "web:nome2:0.80:https://www.primomercato.it/products/imb-bicchieri-caffe-80-cc-100-pz",
 "scontornata": true
 },
 "8004030022010": {
@@ -5544,18 +5476,17 @@
 "scontornata": true
 },
 "8000000002136": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8034055200520": {
-"fonte": "web:nome:0.00:https://mshahrukhengineeringworks.com/applications/pump-insulation-covers",
+"fonte": "web:nome2:0.80:https://caffebundi.it/product/te-nero-limone-lime-e-curcuma-nero-nobile-dolce-gusto/",
 "scontornata": true
 },
 "8024608013608": {
 "fonte": null
 },
 "8008429022308": {
-"fonte": "web:nome:0.00:https://destinationuganda.com/destinations/murchison-falls/",
-"scontornata": true
+"fonte": null
 },
 "3086123399310": {
 "fonte": "openproductsfacts:3086123399310",
@@ -5566,8 +5497,7 @@
 "scontornata": true
 },
 "8500000191033": {
-"fonte": "web:nome:0.00:https://hello-her.com/an-easy-lbd-under-30/",
-"scontornata": true
+"fonte": null
 },
 "8006280010823": {
 "fonte": "openfoodfacts:8006280010823",
@@ -5578,8 +5508,7 @@
 "scontornata": true
 },
 "8001480401396": {
-"fonte": "web:nome:0.25:https://www.vecteezy.com/vector-art/51879076-abstract-illustration-geometric-background-with-vertical-lines",
-"scontornata": true
+"fonte": null
 },
 "3018300000245": {
 "fonte": "openfoodfacts:3018300000245",
@@ -5601,16 +5530,14 @@
 "scontornata": true
 },
 "8003510013036": {
-"fonte": "web:nome:0.00:https://www.teachoo.com/10701/3113/Electric-Motor/category/Concepts/",
-"scontornata": true
+"fonte": null
 },
 "8002594001939": {
 "fonte": "openfoodfacts:8002594001939",
 "scontornata": true
 },
 "080021116621": {
-"fonte": "web:nome:0.00:https://shop.old-maps.com/new-york/towns/cayuga-co-ny-1875-town/victory-new-york-1875-old-town-map-reprint-cayuga-co-atl",
-"scontornata": true
+"fonte": null
 },
 "8001090972194": {
 "fonte": null
@@ -5620,12 +5547,10 @@
 "scontornata": true
 },
 "8000630735350": {
-"fonte": "web:nome:0.00:https://www.iphonelife.com/content/how-to-redeem-apple-gift-card-family-sharing",
-"scontornata": true
+"fonte": null
 },
 "793541370557": {
-"fonte": "web:nome:0.00:https://wallpapercave.com/spotlight-wallpapers",
-"scontornata": true
+"fonte": null
 },
 "8014259145674": {
 "fonte": "openfoodfacts:8014259145674",
@@ -5644,8 +5569,7 @@
 "scontornata": true
 },
 "8010346020039": {
-"fonte": "web:nome:0.00:https://wallpapercave.com/sanrio-christmas-pc-wallpapers",
-"scontornata": true
+"fonte": null
 },
 "8056734230635": {
 "fonte": "openfoodfacts:8056734230635",
@@ -5656,19 +5580,17 @@
 "scontornata": true
 },
 "8000513000025": {
-"fonte": "web:nome:0.00:https://exx.stelizabethchicago.org/bloomberg-tv-europe-schedule-today/",
-"scontornata": true
+"fonte": null
 },
 "8015100578306": {
-"fonte": "web:nome:0.00:https://www.gettyimages.com.au/detail/news-photo/musician-dale-bozzio-of-the-group-missing-persons-performs-news-photo/4",
-"scontornata": true
+"fonte": null
 },
 "8000300379174": {
 "fonte": "openfoodfacts:8000300379174",
 "scontornata": true
 },
 "8015700166835": {
-"fonte": "web:nome:0.00:https://tonsofthanks.com/thursday-meme/",
+"fonte": "web:nome2:0.75:https://www.latuaspesa.com/product/detergente-intimo-delicato-ml200x2-neutro-roberts",
 "scontornata": true
 },
 "4006000086668": {
@@ -5688,11 +5610,10 @@
 "scontornata": true
 },
 "8003850403627": {
-"fonte": "web:nome:0.40:https://de.vecteezy.com/png/27572378-olive-olive-png-olive-mit-transparent-hintergrund-ai-generativ",
-"scontornata": true
+"fonte": null
 },
 "8700216459464": {
-"fonte": "web:nome:0.00:https://yoyochinese.com/blog/learn-mandarin-chinese-how-not-to-choose-a-chinese-name-transliteration",
+"fonte": "web:nome2:1.00:https://www.ideabellezza.it/spazzolino-manuale-pro-3d-white-clinical-pulizia-sbiancante-medio/",
 "scontornata": true
 },
 "8005121214260": {
@@ -5720,8 +5641,7 @@
 "scontornata": true
 },
 "8032754452714": {
-"fonte": "web:nome:0.00:https://www.etsy.com/listing/4616320525/kawaii-anime-boy-plush-cute-black-suit",
-"scontornata": true
+"fonte": null
 },
 "8700216528863": {
 "fonte": "openbeautyfacts:8700216528863",
@@ -5732,8 +5652,7 @@
 "scontornata": true
 },
 "8014210005245": {
-"fonte": "web:nome:0.00:https://www.gauthmath.com/solution/1986968597479684/Solve-x-4-2-2x-1-3-",
-"scontornata": true
+"fonte": null
 },
 "8008343201551": {
 "fonte": "openfoodfacts:8008343201551",
@@ -5756,8 +5675,7 @@
 "scontornata": true
 },
 "8009740899846": {
-"fonte": "web:nome:0.00:https://www.teacherspayteachers.com/Product/-Chinese-Reading-Comprehension-Sheet-Ms-Szeto-4330101",
-"scontornata": true
+"fonte": null
 },
 "8032715243863": {
 "fonte": "openfoodfacts:8032715243863",
@@ -5768,30 +5686,27 @@
 "scontornata": true
 },
 "8029202008203": {
-"fonte": "web:nome:0.00:https://us.headtopics.com/news/ella-langley-sweeps-2026-cma-awards-with-five-wins-89986041",
-"scontornata": true
+"fonte": null
 },
 "8002411102047": {
 "fonte": "openfoodfacts:8002411102047",
 "scontornata": true
 },
 "679602229197": {
-"fonte": "web:nome:0.25:https://www.policechiefmagazine.org/beyond-recruitment/",
+"fonte": "web:nome2:0.75:https://compras.macedonia.com.py/producto/police-deep-blue-for-man-100ml-eau-de-toilette/",
 "scontornata": true
 },
 "8029303060827": {
-"fonte": "web:nome:0.40:https://ikumen.blog/pop-culture-clipart/",
-"scontornata": true
+"fonte": null
 },
 "8029132729018": {
-"fonte": "web:nome:0.25:https://funko.com/pop-one-piece-4-pack/69107.html",
-"scontornata": true
+"fonte": null
 },
 "8029303072073": {
 "fonte": null
 },
 "8004333016143": {
-"fonte": "web:nome:0.00:https://www.nbcsportsphiladelphia.com/nba/ranking-the-10-most-important-members-of-the-1982-83-sixers/317211/",
+"fonte": "web:nome2:0.67:https://georgita.ge/en/products/product/45DF5C1A6E",
 "scontornata": true
 },
 "5053990183869": {
@@ -5803,16 +5718,13 @@
 "scontornata": true
 },
 "8003988813022": {
-"fonte": "web:nome:0.00:https://www.alamy.com/grand-anse-one-of-the-most-beautiful-beach-of-seychelles-la-digue-island-seychelles-image474236651",
-"scontornata": false
+"fonte": null
 },
 "5000204439618": {
-"fonte": "web:nome:0.00:https://storage.googleapis.com/drkaczeizylice/ancient-china-dolls.html",
-"scontornata": true
+"fonte": null
 },
 "8007033915853": {
-"fonte": "web:nome:0.00:https://www.etsy.com/listing/4614545659/ditsy-floral-cotton-twill-fabric",
-"scontornata": true
+"fonte": null
 },
 "8011941003601": {
 "fonte": "openfoodfacts:8011941003601",
@@ -5831,8 +5743,7 @@
 "scontornata": true
 },
 "8051499393670": {
-"fonte": "web:nome:0.00:https://thepantryspoon.com/rice-paper-dumplings-with-meat/",
-"scontornata": true
+"fonte": null
 },
 "8008343200851": {
 "fonte": "openfoodfacts:8008343200851",
@@ -5854,23 +5765,20 @@
 "scontornata": true
 },
 "8001263230694": {
-"fonte": "web:nome:0.00:https://people.com/home/ikea-catalog-hacks-2017/",
-"scontornata": true
+"fonte": null
 },
 "8004385036984": {
 "fonte": "openfoodfacts:8004385036984",
 "scontornata": true
 },
 "8004385039954": {
-"fonte": "web:nome:0.00:https://www.dookinternational.com/blog/moscow-kremlin-russia/",
-"scontornata": true
+"fonte": null
 },
 "8009150105650": {
 "fonte": null
 },
 "8006130501761": {
-"fonte": "web:nome:0.00:https://satta-king-live.en.softonic.com/android",
-"scontornata": true
+"fonte": null
 },
 "8000000001207": {
 "fonte": null
@@ -5880,7 +5788,7 @@
 "scontornata": true
 },
 "8003650025982": {
-"fonte": "web:nome:0.00:https://podcasts.apple.com/us/podcast/mental-floss/id1004794170",
+"fonte": "web:nome2:0.75:https://www.coopshop.it/product/smac-express-candsgrass650ml",
 "scontornata": true
 },
 "8076809579377": {
@@ -5891,12 +5799,10 @@
 "fonte": null
 },
 "4003790001970": {
-"fonte": "web:nome:0.00:https://pngtree.com/freepng/certificate-of-appreciation-card-template_7262606.html",
-"scontornata": true
+"fonte": null
 },
 "8001940004044": {
-"fonte": "web:nome:0.00:https://tenor.com/search/funny-thanksgiving-gifs",
-"scontornata": true
+"fonte": null
 },
 "8007750020304": {
 "fonte": null
@@ -5922,8 +5828,7 @@
 "scontornata": true
 },
 "8720181781049": {
-"fonte": "web:nome:0.00:https://voguemodelsearch.com/lamour-fou-public-life-yves-saint-laurent/",
-"scontornata": true
+"fonte": null
 },
 "8007975019114": {
 "fonte": "openfoodfacts:8007975019114",
@@ -5937,8 +5842,7 @@
 "scontornata": true
 },
 "8007223000574": {
-"fonte": "web:nome:0.00:https://geeksandgamers.com/gta-6-physical-copies-reportedly-ship-without-a-download-code/",
-"scontornata": true
+"fonte": null
 },
 "8001620004159": {
 "fonte": "openfoodfacts:8001620004159",
@@ -5949,19 +5853,16 @@
 "scontornata": true
 },
 "8024608010959": {
-"fonte": "web:nome:0.00:https://men.wikifeet.com/Cameron_Hamilton",
-"scontornata": true
+"fonte": null
 },
 "8024608007843": {
-"fonte": "web:nome:0.00:https://www.hoyolab.com/article/37952011",
-"scontornata": true
+"fonte": null
 },
 "8024608007881": {
 "fonte": null
 },
 "8024608013615": {
-"fonte": "web:nome:0.00:https://thebeat.asia/macau/the-list/whats-on/god-of-songs-jacky-cheung-performs-10th-world-tour-in-macao",
-"scontornata": true
+"fonte": null
 },
 "8015854141283": {
 "fonte": "openfoodfacts:8015854141283",
@@ -5971,8 +5872,7 @@
 "fonte": null
 },
 "8004205048203": {
-"fonte": "web:nome:0.00:https://www.walmart.com/ip/Clear-Large-Plastic-Storage-Tote-Bag-With-Straps-For-Clothes-Linen-And-Travel-Packing/2127960",
-"scontornata": true
+"fonte": null
 },
 "070177100360": {
 "fonte": "openfoodfacts:070177100360",
@@ -5990,22 +5890,19 @@
 "scontornata": true
 },
 "8000000002778": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8021719001029": {
-"fonte": "web:nome:0.00:https://www.amazon.it/Pete-Cat-Love-White-Shoes/dp/0007553633",
-"scontornata": true
+"fonte": null
 },
 "8021719001043": {
-"fonte": "web:nome:0.00:https://filmora.wondershare.com/photo-editor/cute-face-filter.html",
-"scontornata": true
+"fonte": null
 },
 "8009150107760": {
 "fonte": null
 },
 "8033576110530": {
-"fonte": "web:nome:0.00:https://www.kidspot.com.au/kitchen/recipes/basic-chocolate-soft-serve-ninja-swirl-recipe/dvyui9a3",
-"scontornata": true
+"fonte": null
 },
 "8006540987636": {
 "fonte": "openbeautyfacts:8006540987636",
@@ -6015,27 +5912,24 @@
 "fonte": null
 },
 "8017331089507": {
-"fonte": "web:nome:0.00:https://www.etsy.com/listing/1431244833/colorful-cat-art-abstract-cat-art",
+"fonte": "web:nome2:1.00:https://ferdicoshop.it/vim-sgrassatoretrigger-750-ml.html",
 "scontornata": true
 },
 "8000000002587": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8050046760712": {
-"fonte": "web:nome:0.00:https://pumble.com/ios-chat-app",
-"scontornata": true
+"fonte": null
 },
 "8000729201339": {
-"fonte": "web:nome:0.00:https://www.depop.com/products/solgamja-champion-reverse-weave-black-hoodie/",
-"scontornata": true
+"fonte": null
 },
 "8000729500753": {
 "fonte": "openfoodfacts:8000729500753",
 "scontornata": true
 },
 "8008250133327": {
-"fonte": "web:nome:0.00:https://kulturenvanteri.com/en/yer/sokullu-mehmet-pasa-camii-azapkapi/sokullu-mehmet-pasa-camii-azapkapi-2/",
-"scontornata": true
+"fonte": null
 },
 "8003760036212": {
 "fonte": null
@@ -6049,14 +5943,14 @@
 "scontornata": true
 },
 "4027800707805": {
-"fonte": "web:nome:0.00:https://www.freepik.com/premium-ai-image/shockwave-debris-from-bomb-explosion_82441175.htm",
-"scontornata": true
+"fonte": null
 },
 "12021": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "1030173": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:0.75:https://blog.webios.it/prodotto-in-offerta/b09f6qv5xr/zucchero-eridania-bustine-monodose-classico",
+"scontornata": true
 },
 "8032891928509": {
 "fonte": "web:nome:0.60:https://www.easycoop.com/coop-un-maxi-stecco-da-urlo-ricoperto-di-cioccolato-e-mandorle-4-x-80-g-4426482.html",
@@ -6094,15 +5988,14 @@
 "scontornata": true
 },
 "8000000001412": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8001263000327": {
 "fonte": "openfoodfacts:8001263000327",
 "scontornata": true
 },
 "8021719230566": {
-"fonte": "web:nome:0.00:https://basicmedicalkey.com/cricothyroidotomy/",
-"scontornata": true
+"fonte": null
 },
 "8056515591405": {
 "fonte": "web:nome:1.00:https://www.specialfly.net/product/amaro-cardus-50cl/",
@@ -6129,8 +6022,7 @@
 "scontornata": true
 },
 "8054145674130": {
-"fonte": "web:nome:0.00:https://www.pinterest.com/pin/9359111718661729/",
-"scontornata": true
+"fonte": null
 },
 "8006540367490": {
 "fonte": "openbeautyfacts:8006540367490",
@@ -6189,16 +6081,14 @@
 "scontornata": true
 },
 "8007950017166": {
-"fonte": "web:nome:0.00:https://www.alamy.com/paolo-veronese-the-wedding-feast-at-cana-the-wedding-at-cana-renaissance-painting-1562-1563-image3",
-"scontornata": true
+"fonte": null
 },
 "8076809501965": {
 "fonte": "openfoodfacts:8076809501965",
 "scontornata": true
 },
 "0000003333": {
-"fonte": "web:ean:1.00:https://aucview.aucfan.com/yahoo/p1121885219",
-"scontornata": true
+"fonte": null
 },
 "8006550387815": {
 "fonte": "web:ean:1.75:https://www.carrefour.it/p/boero-sciroppo-zucchero-di-canna-75-cl/8006550387815.html",
@@ -6233,12 +6123,10 @@
 "scontornata": true
 },
 "8004333014453": {
-"fonte": "web:nome:0.60:https://mqcyy.com/prodotto/latte-e-menta-caramella-busta-kg-1-mera-e-longhi/",
-"scontornata": true
+"fonte": null
 },
 "8010315015035": {
-"fonte": "web:nome:0.00:https://doorsandbeyond.com/collections/barn-sliding-doors?page=9",
-"scontornata": true
+"fonte": null
 },
 "8003000125317": {
 "fonte": "openfoodfacts:8003000125317",
@@ -6260,11 +6148,10 @@
 "scontornata": true
 },
 "123": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "0800561325053": {
-"fonte": "web:nome:0.00:https://stockcake.com/i/cat-chasing-light_770743_922679",
-"scontornata": true
+"fonte": null
 },
 "3287210000953": {
 "fonte": "openfoodfacts:3287210000953",
@@ -6299,8 +6186,7 @@
 "scontornata": true
 },
 "8720181859434": {
-"fonte": "web:nome:0.00:https://in.pinterest.com/pin/668643875975896273/",
-"scontornata": true
+"fonte": null
 },
 "8718951411814": {
 "fonte": "web:nome:1.67:https://allegro.pl/oferta/colgate-max-white-stain-protect-white-booster-pasta-do-zebow-75-ml-17831157579",
@@ -6319,7 +6205,7 @@
 "scontornata": true
 },
 "8000000002198": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8006621000803": {
 "fonte": "web:nome:0.50:https://www.manutan.it/it/mai/cotone-idrofilo",
@@ -6329,7 +6215,7 @@
 "fonte": null
 },
 "8021033005321": {
-"fonte": "web:nome:0.00:https://www.etsy.com/listing/4618269568/printable-thanksgiving-coloring-page",
+"fonte": "web:nome2:0.67:https://todisacasa.it/prodotto/oliviero-crock-croccantino-di-arachidi-1246045",
 "scontornata": true
 },
 "8029044114001": {
@@ -6375,8 +6261,7 @@
 "scontornata": true
 },
 "8029804012547": {
-"fonte": "web:nome:0.00:https://sg.louisvuitton.com/eng-sg/women/accessories/scarves/_/N-tmr7ugu",
-"scontornata": true
+"fonte": null
 },
 "8024854175280": {
 "fonte": "web:nome:0.75:https://www.madameclari.com/gambo-oro/",
@@ -6439,15 +6324,14 @@
 "scontornata": true
 },
 "8017412001732": {
-"fonte": "web:nome:0.00:https://dominicusdr.com/2024/12/27/restaurants-cuisine-dominicus-bayahibe-resorts/",
-"scontornata": true
+"fonte": null
 },
 "8000296000816": {
 "fonte": "web:ean:1.00:https://www.carollodetersivi.it/floyd-acido-muriatico-1lt",
 "scontornata": true
 },
 "8001549000157": {
-"fonte": "web:nome:0.00:https://www.vulture.com/2023/01/jeremy-renner-update-mayor-of-kingstown-poster.html",
+"fonte": "web:nome2:0.67:https://www.rosaenzo.net/shop/frattazzo-picasso",
 "scontornata": true
 },
 "8001100066998": {
@@ -6479,8 +6363,7 @@
 "scontornata": true
 },
 "8001263000785": {
-"fonte": "web:nome:0.50:https://www.liquor.com/gin-types-explainer-7368393",
-"scontornata": true
+"fonte": null
 },
 "8051732110453": {
 "fonte": "openfoodfacts:8051732110453",
@@ -6499,12 +6382,10 @@
 "scontornata": true
 },
 "80385936": {
-"fonte": "web:ean:1.00:https://classifieds.ksl.com/listing/80385936",
-"scontornata": true
+"fonte": null
 },
 "8024151813144": {
-"fonte": "web:nome:0.00:https://insiderpaper.com/german-tabloid-bild-to-cut-jobs-regional-editions/",
-"scontornata": true
+"fonte": null
 },
 "9002975342551": {
 "fonte": "openfoodfacts:9002975342551",
@@ -6606,7 +6487,7 @@
 "scontornata": true
 },
 "080021116676": {
-"fonte": "web:nome:0.00:https://www.ourmidland.com/news/article/public-charter-school-announces-plans-open-20305152.php",
+"fonte": "web:nome2:1.00:https://purocaffeshop.it/prodotto/dolce-gusto-ginseng-dolce-mastria/",
 "scontornata": true
 },
 "8006530437967": {
@@ -6618,12 +6499,10 @@
 "scontornata": true
 },
 "8710522411452": {
-"fonte": "web:nome:0.00:https://s3.amazonaws.com/awsdneovbsvj/mejores-mariscos-de-cdmx.html",
-"scontornata": true
+"fonte": null
 },
 "793541370052": {
-"fonte": "web:nome:0.50:https://www.eurodrinkcalabria.it/it/amaro-milone-astucciato-cl-70",
-"scontornata": true
+"fonte": null
 },
 "8006220004134": {
 "fonte": "web:nome:0.67:https://nokovandson.com/p/vino-mioneto-vivo-bianko-spumante-ekstra-draj-750ml",
@@ -6642,12 +6521,10 @@
 "scontornata": true
 },
 "8010346040044": {
-"fonte": "web:nome:0.50:https://www.webcontinental.com.br/sofa-retratil-reclinavel-porto-belo-veludo-capuccino-montano-cappuccino-003601001610/p",
-"scontornata": true
+"fonte": null
 },
 "8010346006033": {
-"fonte": "web:nome:0.00:https://storage.googleapis.com/privelanox/thanksgiving-coloring-pages-for-kids.html",
-"scontornata": true
+"fonte": null
 },
 "8056326211837": {
 "fonte": "web:nome:1.00:https://www.galbani.co.uk/products/mozzarella-made-from-buffalo-milk/galbani-mozzarella-di-latte-di-bufala-mini-150g",
@@ -6666,8 +6543,7 @@
 "scontornata": true
 },
 "8033993194427": {
-"fonte": "web:nome:0.00:https://superheld-band.de/eagle-symbolism-meanings-and-history/",
-"scontornata": true
+"fonte": null
 },
 "4018077760198": {
 "fonte": "openfoodfacts:4018077760198",
@@ -6729,8 +6605,7 @@
 "scontornata": true
 },
 "8014210001520": {
-"fonte": "web:nome:0.00:https://mnkienhung.edu.vn/top-999-patience-quotes-images-amazing-collection-patience-quotes-images-full-4k/",
-"scontornata": true
+"fonte": null
 },
 "8004690102305": {
 "fonte": "openfoodfacts:8004690102305",
@@ -6761,8 +6636,7 @@
 "scontornata": true
 },
 "8057506330539": {
-"fonte": "web:nome:0.00:https://www.freepik.com/premium-ai-image/man-wearing-striped-hat-striped-shirt_271623288.htm",
-"scontornata": true
+"fonte": null
 },
 "8009350303054": {
 "fonte": "web:ean:1.33:https://www.ebay.fr/itm/356622889189",
@@ -6788,8 +6662,7 @@
 "scontornata": true
 },
 "8004333016150": {
-"fonte": "web:nome:0.67:https://www.amazon.it/Amazon-Arachidi-Arrostite-Salate-confezione/dp/B0DDQBQ9NP",
-"scontornata": true
+"fonte": null
 },
 "5053990155354": {
 "fonte": "openfoodfacts:5053990155354",
@@ -6804,7 +6677,7 @@
 "scontornata": true
 },
 "8076809527392": {
-"fonte": "web:nome:0.33:https://media.v2.nationalgeographic.com/traditional-ragu-alla-bolognese/authentic-ragu-alla-bolognese-traditional-slow-c",
+"fonte": "web:nome2:1.00:https://aquamarket.ua/en/sousy-ketchupy-zapravki/4584-barilla-ragu-contadino-400-g-glass-sauce-for-pasta-with-dry-red-wi",
 "scontornata": true
 },
 "8004260001311": {
@@ -6812,16 +6685,14 @@
 "scontornata": true
 },
 "8009563101072": {
-"fonte": "web:nome:0.33:https://getsready.com/rio-de-janeiro-awarded-destination/",
+"fonte": "web:nome2:1.00:https://patapuff-megastore.it/products/rio-azzurro-wc-disincrostante-liquido-750ml",
 "scontornata": true
 },
 "8001420005271": {
-"fonte": "web:nome:0.00:https://etc.usf.edu/clipart/74300/74357/74357_pie_6-7.htm",
-"scontornata": true
+"fonte": null
 },
 "8000090005314": {
-"fonte": "web:nome:0.00:https://www.wimarys.com/getting-started-with-landscape-photography-tips-for-beginners/",
-"scontornata": true
+"fonte": null
 },
 "8000000002174": {
 "fonte": null
@@ -6855,7 +6726,7 @@
 "scontornata": true
 },
 "8004385040202": {
-"fonte": "web:nome:0.00:https://www.acrylicsignboards.in/",
+"fonte": "web:nome2:1.00:https://www.wineworldinc.com/958-santero-non-alcoholic-peach-tea-75cl.html",
 "scontornata": true
 },
 "8004385039640": {
@@ -6863,15 +6734,13 @@
 "scontornata": true
 },
 "8054633831175": {
-"fonte": "web:nome:0.20:https://icons8.com/icons/set/sap-bo",
-"scontornata": true
+"fonte": null
 },
 "8005495469365": {
-"fonte": "web:nome:0.00:https://www.lightinthebox.com/en/p/men-s-sporty-casual-daily-knit-comfortable-breathable-loafer-brown-blue-beige-white-b",
-"scontornata": true
+"fonte": null
 },
 "8000000001191": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8051511860876": {
 "fonte": "openfoodfacts:8051511860876",
@@ -6902,7 +6771,7 @@
 "scontornata": true
 },
 "8002340009295": {
-"fonte": "web:nome:0.00:https://note.com/platypus2000jp/n/n1b69c91df285?hl=en",
+"fonte": "web:nome2:1.00:https://www.rasoigoodfellas.com/prodotto/crema-depilatoria-corpo-uomo-200ml-strep-man/",
 "scontornata": true
 },
 "8001440128134": {
@@ -6918,8 +6787,7 @@
 "scontornata": true
 },
 "8076809500906": {
-"fonte": "web:nome:0.00:https://www.binance.com/en/square/post/16094472904489",
-"scontornata": true
+"fonte": null
 },
 "8720181781094": {
 "fonte": "web:nome:1.83:https://www.melonistore.com/sunsilk-shampoo-bye-bye-crespo-nutrimento-profondo-250-ml-8720181781094.html",
@@ -6958,20 +6826,17 @@
 "scontornata": true
 },
 "8024608007874": {
-"fonte": "web:nome:0.00:https://www.expii.com/t/qualitative-solubility-rules-predicting-precipitates-8575",
-"scontornata": true
+"fonte": null
 },
 "8024608002053": {
 "fonte": "openfoodfacts:8024608002053",
 "scontornata": true
 },
 "8021033005093": {
-"fonte": "web:nome:0.67:https://energyfamilyproject.org/product/torrone-bianco-300-gr/",
-"scontornata": true
+"fonte": null
 },
 "8005495469532": {
-"fonte": "web:nome:0.00:https://www.binance.com/en/square/post/5392884416978",
-"scontornata": true
+"fonte": null
 },
 "8005840004999": {
 "fonte": "openfoodfacts:8005840004999",
@@ -6994,7 +6859,7 @@
 "scontornata": true
 },
 "8000000003171": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8021719001067": {
 "fonte": "web:ean:2.00:https://www.spesamoderna.com/vaschette-e-vassoi-alluminio/5738-8021719001067-ottimo-contenitori-alluminio-forma-torta-gr",
@@ -7009,7 +6874,7 @@
 "scontornata": true
 },
 "8033576111827": {
-"fonte": "web:nome:0.00:https://tap-the-frog.en.softonic.com/android",
+"fonte": "web:nome2:1.00:https://www.eurodrinkcalabria.it/it/capsule-bialetti-verzi-gran-crema-pz-50",
 "scontornata": true
 },
 "8006540987728": {
@@ -7017,8 +6882,7 @@
 "scontornata": true
 },
 "4023103073937": {
-"fonte": "web:nome:0.00:https://www.microsiervos.com/archivo/libros/coleccion-500-libros-texto-gratis-springer.html",
-"scontornata": true
+"fonte": null
 },
 "8017331086063": {
 "fonte": "web:ean:2.00:https://www.zetacash.it/vim-liquido-sgrassante-limone-pavimenti-e-superfici-1000ml.html",
@@ -7029,7 +6893,7 @@
 "scontornata": true
 },
 "1116796": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8000729191876": {
 "fonte": "openfoodfacts:8000729191876",
@@ -7040,7 +6904,7 @@
 "scontornata": true
 },
 "8000000000422": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "7312040017508": {
 "fonte": "openfoodfacts:7312040017508",
@@ -7063,8 +6927,7 @@
 "scontornata": true
 },
 "8010878121303": {
-"fonte": "web:nome:0.00:https://www.the-afc.com/en/national/afc_asian_cup/news/afc_asian_cup_china_2023™_logo_launched_in_glittering_opening_cer",
-"scontornata": true
+"fonte": null
 },
 "8008110110550": {
 "fonte": "openfoodfacts:8008110110550",
@@ -7130,7 +6993,7 @@
 "scontornata": true
 },
 "8000000003089": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8054609785075": {
 "fonte": "web:nome:0.83:https://acquaesaponeonline.it/frm_dettaglio_prodotto.aspx?cod=046691",
@@ -7169,7 +7032,7 @@
 "scontornata": true
 },
 "8000000000798": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8053904763115": {
 "fonte": "web:nome:1.00:https://rotundodrink.it/prodotto/vino-san-francesco-terre-di-sale-pecorello-igt-2020-cl-75x6-bottiglie/",
@@ -7254,7 +7117,7 @@
 "scontornata": true
 },
 "8000000001788": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8004980003466": {
 "fonte": "web:nome:0.75:https://leefood.cl/carciofi-a-spicchi-in-olio-2400gr",
@@ -7296,14 +7159,14 @@
 "scontornata": true
 },
 "8000000002549": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "5449000033505": {
 "fonte": "web:ean:2.00:https://shop.despar.com/spesa-ritiro-negozio/via-pesaro-20/prodotto/coca-cola-original-bibita-coca-cola-1lt-pet-240418",
 "scontornata": true
 },
 "8000000001092": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8720181593567": {
 "fonte": "web:ean:1.80:https://www.melonistore.com/coccolino-wonder-wash-odor-protection-detersivo-bucato-lavatrice-2-pezzi-da-37-lavaggi-da-14",
@@ -7314,8 +7177,7 @@
 "scontornata": true
 },
 "80362081": {
-"fonte": "web:ean:1.00:https://web.croket.co.kr/seller/product/63c577367d7e096e303fbad8",
-"scontornata": true
+"fonte": null
 },
 "8006040660053": {
 "fonte": "openfoodfacts:8006040660053",
@@ -7482,7 +7344,7 @@
 "scontornata": true
 },
 "8000000001399": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "3460410507877": {
 "fonte": "openfoodfacts:3460410507877",
@@ -7537,7 +7399,7 @@
 "scontornata": true
 },
 "8002200142421": {
-"fonte": "web:nome:1.80:https://ibercoffee.com/en/lavazza-a-modo-mio-capsules/2980-kimbo-lavazza-a-modo-mio-pompei-coffee-pods-100-un-8002200142",
+"fonte": "web:nome2:0.80:https://caffe3c.com/products/caffe-kimbo-capsule-compatibili-a-modo-mio-miscela-pompei-100-capsule",
 "scontornata": true
 },
 "8000500390269": {
@@ -7549,12 +7411,10 @@
 "scontornata": true
 },
 "8034055202296": {
-"fonte": "web:nome:1.00:https://www.china-konte.com/products.html",
-"scontornata": true
+"fonte": null
 },
 "8034055200742": {
-"fonte": "web:nome:0.67:https://www.kontedesign.com/it/p/credenza-manchester-in-legno-di-mango-e-acciaio-nero-175x38x100-cm/",
-"scontornata": true
+"fonte": null
 },
 "8004690053195": {
 "fonte": "openfoodfacts:8004690053195",
@@ -7621,7 +7481,7 @@
 "scontornata": true
 },
 "8000000000668": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8028284154549": {
 "fonte": "web:nome:0.67:https://klam.it/prodotto/conserve/sottoli-e-sottaceti/melanzane-a-filetti-biologiche-320-gr-100-made-in-italy/",
@@ -7743,7 +7603,7 @@
 "fonte": null
 },
 "8014210009953": {
-"fonte": "web:nome:0.80:https://suamaesta.com/portfolio-item/re-tartu-praline-ripiene/",
+"fonte": "web:nome2:0.80:https://www.suamaesta.com/prodotto/re-tartu-coffee-confezione-singola/",
 "scontornata": true
 },
 "8008714003517": {
@@ -7763,7 +7623,7 @@
 "scontornata": true
 },
 "8000000002150": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8001590640258": {
 "fonte": "openfoodfacts:8001590640258",
@@ -7902,7 +7762,7 @@
 "scontornata": true
 },
 "3245422531580": {
-"fonte": "web:ean:1.60:https://www.carrefour.it/p/spontex-guanti-casalinghi-soft-cartoncino-taglia-l/3245422531580.html",
+"fonte": "web:nome2:1.00:https://www.casalinghidiscount.it/guanti-casalinghi-spontex-soft-l",
 "scontornata": true
 },
 "8019433020136": {
@@ -7942,7 +7802,7 @@
 "scontornata": true
 },
 "8000000002358": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "7322540332735": {
 "fonte": "web:ean:1.50:https://www.carrefour.it/p/tempo-original-fazzoletti-4-veli-10-pz/7322540332735.html",
@@ -8073,8 +7933,7 @@
 "scontornata": true
 },
 "8009545006029": {
-"fonte": "web:nome:0.00:https://x.com/KatlineLenora/status/2057124800267759642",
-"scontornata": true
+"fonte": null
 },
 "8032605211132": {
 "fonte": "openfoodfacts:8032605211132",
@@ -8085,12 +7944,10 @@
 "scontornata": true
 },
 "8001480719415": {
-"fonte": "web:nome:0.25:https://wallpapercave.com/portgas-d-ace-wallpaper",
-"scontornata": true
+"fonte": null
 },
 "8001480703995": {
-"fonte": "web:nome:0.20:https://wallpapercave.com/portgas-d-ace-wallpaper",
-"scontornata": true
+"fonte": null
 },
 "8007393000206": {
 "fonte": "openfoodfacts:8007393000206",
@@ -8105,12 +7962,10 @@
 "scontornata": true
 },
 "8018800031461": {
-"fonte": "web:nome:0.00:https://wallpaperaccess.com/seattle-hd",
-"scontornata": true
+"fonte": null
 },
 "8054145674147": {
-"fonte": "web:nome:0.00:https://www.wallcoo.net/game/yanfei-character-art-genshin-impact/",
-"scontornata": true
+"fonte": null
 },
 "8001200049921": {
 "fonte": "openfoodfacts:8001200049921",
@@ -8121,11 +7976,10 @@
 "scontornata": true
 },
 "8003045100478": {
-"fonte": "web:nome:0.00:https://jalopnik.com/2192861/genesis-magma-gt-concept-interior-design-reveal/",
-"scontornata": true
+"fonte": null
 },
 "8000000001566": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8000400203379": {
 "fonte": "openfoodfacts:8000400203379",
@@ -8164,8 +8018,7 @@
 "scontornata": true
 },
 "8029804007260": {
-"fonte": "web:nome:0.00:https://milorien.com/built-in-shelves-for-the-living-room-timeless-ideas-for-2026/",
-"scontornata": true
+"fonte": null
 },
 "8029241139265": {
 "fonte": "web:nome:0.14:https://primanyc.net/barbie-convention-2026-location/",
@@ -8184,8 +8037,7 @@
 "scontornata": true
 },
 "8010282206016": {
-"fonte": "web:nome:0.00:https://rhythm.eimagazine.com/jaarkalender-2025-365-dagen-kalender-2025-overzicht/",
-"scontornata": true
+"fonte": null
 },
 "8023701021893": {
 "fonte": "openfoodfacts:8023701021893",
@@ -8203,12 +8055,11 @@
 "scontornata": true
 },
 "8053841520086": {
-"fonte": "web:nome:0.00:https://www.dailymotion.com/video/xbwr5eq",
+"fonte": "web:nome2:1.00:https://birracala.it/products/la-prima-cotta",
 "scontornata": true
 },
 "0800689008153": {
-"fonte": "web:nome:0.00:https://www.gcosplay.com/products/honkai-star-rail-herta-premium-edition-cosplay-costume",
-"scontornata": true
+"fonte": null
 },
 "8008440510303": {
 "fonte": null
@@ -8218,8 +8069,7 @@
 "scontornata": true
 },
 "8001620302033": {
-"fonte": "web:nome:0.00:https://gta6online.wiki/guide/what-is-gta-6-online",
-"scontornata": true
+"fonte": null
 },
 "8006550387716": {
 "fonte": "openfoodfacts:8006550387716",
@@ -8230,12 +8080,10 @@
 "scontornata": true
 },
 "8055176432362": {
-"fonte": "web:nome:0.00:https://disneydreamlightvalley.fandom.com/wiki/Category:Wishblossom_Mountains_Characters",
-"scontornata": true
+"fonte": null
 },
 "8034028335792": {
-"fonte": "web:nome:0.00:https://msfsaddons.com/2026/04/07/delta-simulations-updated-freeware-uh-60m-blackhawk-is-here/",
-"scontornata": true
+"fonte": null
 },
 "8034028336713": {
 "fonte": null
@@ -8248,11 +8096,10 @@
 "fonte": null
 },
 "7460855230206": {
-"fonte": "web:nome:0.00:https://gifsec.com/blank-stare-gif/",
-"scontornata": true
+"fonte": null
 },
 "8004333014361": {
-"fonte": "web:nome:0.00:https://giphy.com/explore/mr-bean-dentist-clips",
+"fonte": "web:nome2:0.60:https://www.ilmioinvitoperfetto.it/prodotto/busta-bianca-perlata/",
 "scontornata": true
 },
 "8054751740038": {
@@ -8274,31 +8121,28 @@
 "fonte": null
 },
 "8005495469501": {
-"fonte": "web:nome:0.00:https://www.pinterest.com/pin/composition-in-landscape-photography-the-essential-guide-nature-ttl-in-2025--4820265850598",
+"fonte": "web:nome2:1.00:https://www.carollodetersivi.it/comprami-subito-carta-ig-4rot2v-500str",
 "scontornata": true
 },
 "323": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8005613000067": {
 "fonte": "openfoodfacts:8005613000067",
 "scontornata": true
 },
 "3185370001233": {
-"fonte": "web:nome:0.00:https://www.designyourway.net/blog/7-eleven-logo/",
-"scontornata": true
+"fonte": null
 },
 "8015194526238": {
-"fonte": "web:nome:0.00:https://brandfetch.com/luriechildrens.org",
-"scontornata": true
+"fonte": null
 },
 "80008446": {
 "fonte": "openfoodfacts:80008446",
 "scontornata": true
 },
 "8717163614327": {
-"fonte": "web:nome:0.25:https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2019.02837/full",
-"scontornata": true
+"fonte": null
 },
 "8004735020861": {
 "fonte": "openfoodfacts:8004735020861",
@@ -8317,7 +8161,7 @@
 "scontornata": true
 },
 "8720181859472": {
-"fonte": "web:nome:0.00:https://www.amazon.com/Taloyken-Handmade-Acrylic-Vacation-Reusable/dp/B0HFZCYYZF",
+"fonte": "web:nome2:0.86:https://maurysonline.it/coccolino-ammorbidente-concentrato-peonia-rossa--mela-1827ml-87-lavaggi",
 "scontornata": true
 },
 "6920354836152": {
@@ -8329,8 +8173,7 @@
 "scontornata": true
 },
 "8004494320288": {
-"fonte": "web:nome:0.00:https://www.theodysseyonline.com/12-chocolate-gifs-to-satisfy-your-addiction",
-"scontornata": true
+"fonte": null
 },
 "8028284163626": {
 "fonte": "web:nome:0.00:https://ela-spa.com/shop/face/cream/calm-skin-cream-forte/",
@@ -8357,42 +8200,36 @@
 "scontornata": true
 },
 "8024131000908": {
-"fonte": "web:nome:0.00:https://wall.alphacoders.com/big.php?i=1196680",
-"scontornata": true
+"fonte": null
 },
 "50099641": {
-"fonte": "web:nome:0.00:https://worksheetverse.com/maths-problem-solving-questions-worksheets/",
-"scontornata": true
+"fonte": null
 },
 "8388777574835": {
-"fonte": "web:nome:0.14:https://www.blu-ray.com/digital/Mayor-of-Kingstown-Seasons-1-2-Digital/61007/",
-"scontornata": true
+"fonte": null
 },
 "8388777574194": {
 "fonte": null
 },
 "8388777575191": {
-"fonte": "web:nome:0.00:https://nevseoboi.com.ua/en/flowers/36638-floral-wallpaper-903-30-wallpapers.html",
-"scontornata": true
+"fonte": null
 },
 "8032891920046": {
 "fonte": "openfoodfacts:8032891920046",
 "scontornata": true
 },
 "8710447174708": {
-"fonte": "web:nome:0.00:https://www.walmart.com/ip/Elephant-Soft-Cuddle-Toy-Sky-Blue-Polyester-Plush-for-Kids-and-Collectors-Ages-3-and-Up-Indoo",
-"scontornata": true
+"fonte": null
 },
 "8445291179653": {
 "fonte": "openfoodfacts:8445291179653",
 "scontornata": true
 },
 "8720181527920": {
-"fonte": "web:nome:0.25:https://www.birdsandblooms.com/birding/bird-photography/mourning-dove-photos/",
-"scontornata": true
+"fonte": null
 },
 "8720181291845": {
-"fonte": "web:nome:0.14:https://www.birdsandblooms.com/birding/bird-photography/mourning-dove-photos/",
+"fonte": "web:nome2:0.71:https://www.redcare-pharmacie.fr/beaute/BE09805542/dove-soft-feel-anti-transpirant-deodorant-spray-48h-peony-amber.htm",
 "scontornata": true
 },
 "4006824006323": {
@@ -8411,8 +8248,7 @@
 "scontornata": true
 },
 "8718951704114": {
-"fonte": "web:nome:0.00:https://tenor.com/search/success-gifs",
-"scontornata": true
+"fonte": null
 },
 "8003495700648": {
 "fonte": "openfoodfacts:8003495700648",
@@ -8423,8 +8259,7 @@
 "scontornata": true
 },
 "8710679025007": {
-"fonte": "web:nome:0.17:https://wallpapersafari.com/farmland-wallpaper/",
-"scontornata": true
+"fonte": null
 },
 "8021161617731": {
 "fonte": null
@@ -8438,8 +8273,7 @@
 "scontornata": true
 },
 "8055687860364": {
-"fonte": "web:nome:0.00:https://www.animalspot.net/rosy-maple-moth.html",
-"scontornata": true
+"fonte": null
 },
 "8002910024949": {
 "fonte": "openproductsfacts:8002910024949",
@@ -8457,7 +8291,7 @@
 "fonte": null
 },
 "8017412001244": {
-"fonte": "web:nome:0.00:https://www.burningcompass.com/countries/united-states/states/texas/texas-county-map-with-roads.html",
+"fonte": "web:nome2:0.80:https://mazeed.sa/en/products/فيوريلو-المنظف-العالمي-?id=fa0c60cd-4a04-41b5-98c1-04653b1e7f8e",
 "scontornata": true
 },
 "8076809582186": {
@@ -8477,24 +8311,20 @@
 "scontornata": true
 },
 "8051884503189": {
-"fonte": "web:nome:0.00:https://www.gifimage.net/awesome-job",
-"scontornata": true
+"fonte": null
 },
 "8001420012545": {
-"fonte": "web:nome:0.00:https://www.imdb.com/name/nm7484797/mediaviewer/rm420015872",
-"scontornata": true
+"fonte": null
 },
 "8000139002939": {
 "fonte": "openfoodfacts:8000139002939",
 "scontornata": true
 },
 "8015700167672": {
-"fonte": "web:nome:0.33:https://www.seppic.com/en-IN/product/clear-sprayable-siliconed-gel",
-"scontornata": true
+"fonte": null
 },
 "8006540765296": {
-"fonte": "web:nome:0.00:https://storage.googleapis.com/daoszewjmakwte/weather-and-climate-models.html",
-"scontornata": true
+"fonte": null
 },
 "5010327705453": {
 "fonte": "openfoodfacts:5010327705453",
@@ -8513,15 +8343,14 @@
 "scontornata": true
 },
 "7000000007422": {
-"fonte": "web:nome:0.00:https://tenor.com/en-GB/view/happy-thursday-images-happy-thursday-thursday-gif-8166454565187990937",
+"fonte": "web:nome2:1.00:https://www.winehousetrapani.com/prodotto/bonollo-chocotaste-of-grappa-di-amarone-barrique-con-sigaro-di-cioccolato-in-s",
 "scontornata": true
 },
 "8000000107831": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8004200123905": {
-"fonte": "web:nome:0.00:https://www.walmart.com/ip/Ryan-s-World-Combo-Panda-10-Large-Plush/648076247",
-"scontornata": true
+"fonte": null
 },
 "9002975338028": {
 "fonte": "openfoodfacts:9002975338028",
@@ -8535,12 +8364,10 @@
 "scontornata": true
 },
 "8006743008268": {
-"fonte": "web:nome:0.00:https://x.com/liko00/status/2044424787007598903",
-"scontornata": true
+"fonte": null
 },
 "8018706000097": {
-"fonte": "web:nome:0.00:https://offers.boulderdiagnostics.com/good-job-everyone-gif-bon-travail-gif/",
-"scontornata": true
+"fonte": null
 },
 "8009320044543": {
 "fonte": "openfoodfacts:8009320044543",
@@ -8559,12 +8386,10 @@
 "scontornata": true
 },
 "8034055202531": {
-"fonte": "web:nome:0.00:https://www.worldfootball.net/player_summary/sahr-senesie/",
-"scontornata": true
+"fonte": null
 },
 "3600523449187": {
-"fonte": "web:nome:0.12:https://picstank.com/explore/letter-l-clipart-alphabet-clipart",
-"scontornata": true
+"fonte": null
 },
 "8008429020021": {
 "fonte": "openfoodfacts:8008429020021",
@@ -8579,67 +8404,56 @@
 "scontornata": true
 },
 "8014129231100": {
-"fonte": "web:nome:0.00:https://www.howtogeek.com/youtube-music-personal-radio/",
-"scontornata": true
+"fonte": null
 },
 "8700216744775": {
-"fonte": "web:nome:0.00:https://violettefieldthreads.com/products/berklee-top-and-shorts",
-"scontornata": true
+"fonte": null
 },
 "8002415150068": {
-"fonte": "web:nome:0.00:https://quotefancy.com/quote/956352/Langston-Hughes-Life-dosent-frighten-me-at-all",
-"scontornata": true
+"fonte": null
 },
 "8001480401716": {
-"fonte": "web:nome:0.25:https://www.micoope.com.gt/?o=types-of-lines-in-geometry-examples-anyone-can-understand-nn-jE3L64iO",
-"scontornata": true
+"fonte": null
 },
 "3035542004206": {
 "fonte": "openfoodfacts:3035542004206",
 "scontornata": true
 },
 "8000380210879": {
-"fonte": "web:nome:0.00:https://www.carvaidya.com/news/mahindras-new-family-suv-gets-10-premium-features",
+"fonte": "web:nome2:0.80:https://crescentmkt.com/products/loacker-classic-double-choc-wafers-175g",
 "scontornata": true
 },
 "8034097154041": {
-"fonte": "web:nome:0.00:https://www.pinterest.com/pin/10-best-pomeranian-haircuts-with-pictures--36802921955309543/",
-"scontornata": true
+"fonte": null
 },
 "8076809585767": {
-"fonte": "web:nome:0.00:http://pngimg.com/image/81924",
-"scontornata": true
+"fonte": null
 },
 "8009320043881": {
 "fonte": "openfoodfacts:8009320043881",
 "scontornata": true
 },
 "8003510027927": {
-"fonte": "web:nome:0.00:https://www.youtube.com/watch?v=dSGOcjXa9u0",
-"scontornata": true
+"fonte": null
 },
 "8029044114049": {
-"fonte": "web:nome:0.00:https://www.slideshare.net/slideshow/gluteal-region-by-insha-ur-rahman/136433652",
-"scontornata": true
+"fonte": null
 },
 "080021116645": {
-"fonte": "web:nome:0.00:https://www.telephone.city/enseigne/decathlon/saint-denis-de-la-reunion-36668/",
-"scontornata": true
+"fonte": null
 },
 "080021116669": {
-"fonte": "web:nome:0.00:https://www.lazada.com.my/products/silk-embroidered-nanjing-yunjin-coin-purse-creative-gift-practical-button-storage-bag",
-"scontornata": true
+"fonte": null
 },
 "8003535081898": {
-"fonte": "web:nome:0.00:https://picstank.com/explore/printable-calendar-november-2026-full-page",
-"scontornata": true
+"fonte": null
 },
 "8720181297076": {
 "fonte": "openbeautyfacts:8720181297076",
 "scontornata": true
 },
 "8000000001993": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8006220006121": {
 "fonte": null
@@ -8657,22 +8471,21 @@
 "scontornata": true
 },
 "8010346020077": {
-"fonte": "web:nome:0.00:https://www.youtube.com/watch?v=72aKue8ifyo",
-"scontornata": true
+"fonte": null
 },
 "8000000001320": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8034097877070": {
 "fonte": "openfoodfacts:8034097877070",
 "scontornata": true
 },
 "8000513201811": {
-"fonte": "web:nome:0.00:https://mapsplatform.google.com/intl/en_uk/maps-products/routes/",
+"fonte": "web:nome2:0.75:https://enotecarocchi.it/prodotto/grappa-nardini-bianca-selezione-extrafina-legno-70cl/",
 "scontornata": true
 },
 "8000000002280": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "7613035673564": {
 "fonte": "openfoodfacts:7613035673564",
@@ -8699,8 +8512,7 @@
 "scontornata": true
 },
 "8003850403634": {
-"fonte": "web:nome:0.33:https://www.vecteezy.com/photo/49140934-sunlit-olive-branch-with-bokeh-background-nature-agriculture-mediterranean-aesth",
-"scontornata": true
+"fonte": null
 },
 "8006530133425": {
 "fonte": "web:nome:0.00:https://www.pagetraffic.in/blog/instagram-for-business/",
@@ -8726,28 +8538,24 @@
 "scontornata": true
 },
 "8059388871254": {
-"fonte": "web:nome:0.00:https://www.petmd.com/dog/breeds/rottweiler",
+"fonte": "web:nome2:0.75:https://acasamia.lt/produktas/focaccia-rettangolare-400-gr/",
 "scontornata": true
 },
 "8051884507965": {
-"fonte": "web:nome:0.00:https://www.brit.co/small-turkey-recipes/",
-"scontornata": true
+"fonte": null
 },
 "8700216504225": {
-"fonte": "web:nome:0.00:https://www.pexels.com/photo/urban-scene-with-historical-stone-bridge-and-modern-buildings-29838831/",
-"scontornata": true
+"fonte": null
 },
 "8032715242897": {
 "fonte": "openfoodfacts:8032715242897",
 "scontornata": true
 },
 "8033501760007": {
-"fonte": "web:nome:0.00:https://huskytones.com/fussball-tabelle-1-liga-2-bundesliga-tabelle/",
-"scontornata": true
+"fonte": null
 },
 "8024131000946": {
-"fonte": "web:nome:0.50:https://dishingouthealth.com/one-pan-pasta/",
-"scontornata": true
+"fonte": null
 },
 "8002183012483": {
 "fonte": "openfoodfacts:8002183012483",
@@ -8758,28 +8566,24 @@
 "scontornata": true
 },
 "8009545001222": {
-"fonte": "web:nome:0.00:https://wallpapers.com/picture/big-truck-pictures-1920-x-1200-5co4i2j32r4daxti.html",
-"scontornata": true
+"fonte": null
 },
 "8009545009761": {
-"fonte": "web:nome:0.00:https://www.vecteezy.com/vector-art/19027761-panorama-seamless-grid-texture-can-be-used-for-web-and-print-design-editabl",
-"scontornata": true
+"fonte": null
 },
 "8034097154430": {
-"fonte": "web:nome:0.00:https://www.pinterest.com/pin/413205334582717527/",
-"scontornata": true
+"fonte": null
 },
 "8076809580762": {
 "fonte": "openfoodfacts:8076809580762",
 "scontornata": true
 },
 "8024854097360": {
-"fonte": "web:nome:0.00:https://democreator.wondershare.com/video-messages/best-video-chat-apps-for-exceptional-workflow.html",
+"fonte": "web:nome2:0.75:https://www.alcioccolato.com/accessori-attrezzature/54895-cf-6-piatti-fondi-nice-pp-rosso-180x180-mm.html",
 "scontornata": true
 },
 "8054609784344": {
-"fonte": "web:nome:0.50:https://denkpositief.com/52-manipulatieve-dingen-die-narcisten-tijdens-een-ruzie-zeggen/",
-"scontornata": true
+"fonte": null
 },
 "8056732092822": {
 "fonte": "openfoodfacts:8056732092822",
@@ -8806,12 +8610,10 @@
 "scontornata": true
 },
 "8002267013245": {
-"fonte": "web:nome:0.00:https://www.homedepot.com/p/reviews/American-Standard-Cadet-PRO-12-in-2-Piece-1-28-GPF-Single-Flush-Extra-Tall-Elongated",
-"scontornata": true
+"fonte": null
 },
 "8004395009206": {
-"fonte": "web:nome:0.00:https://www.needpix.com/photo/download/548552/novorossiya-flag-of-novorossiya-donbass",
-"scontornata": true
+"fonte": null
 },
 "8712566451227": {
 "fonte": "openfoodfacts:8712566451227",
@@ -8841,47 +8643,42 @@
 "scontornata": true
 },
 "8004260429627": {
-"fonte": "web:nome:0.00:https://www.deviantart.com/dianawolfthefurry/art/Lovecore-969024342",
+"fonte": "web:nome2:1.00:https://www.mastrolino.it/vetri-e-multiuso/8044-regina-blitz-bobina.html",
 "scontornata": true
 },
 "8008343200714": {
-"fonte": "web:nome:0.00:https://www.pinterest.com/pin/orthodoxy--14496030036197231/",
-"scontornata": true
+"fonte": null
 },
 "8008343709668": {
 "fonte": "openfoodfacts:8008343709668",
 "scontornata": true
 },
 "8001410075093": {
-"fonte": "web:nome:0.00:https://fastportqa.honda.com/gemini-tattoos-for-men/male-two-faced-gemini-tattoo-orangetattooshop-com",
-"scontornata": true
+"fonte": null
 },
 "8008758900148": {
-"fonte": "web:nome:0.00:https://templates.rjuuc.edu.np/en/genshin-character-card-template.html",
+"fonte": "web:nome2:0.75:https://www.adriaticametalli.it/prodotti-per-la-pulizia/4200-sacco-spazzatura-daily-ambrato-90x120-cf10.html",
 "scontornata": true
 },
 "8009545010767": {
-"fonte": "web:nome:0.20:https://clipart-library.com/sales.html",
-"scontornata": true
+"fonte": null
 },
 "8032715243252": {
 "fonte": "openfoodfacts:8032715243252",
 "scontornata": true
 },
 "8006040660145": {
-"fonte": "web:nome:0.20:https://wallpapersafari.com/w/R3U4rQ",
-"scontornata": true
+"fonte": null
 },
 "8004385039978": {
-"fonte": "web:nome:0.00:https://www.pinterest.com/pin/home-workout--505951339370449010/",
-"scontornata": true
+"fonte": null
 },
 "8020141112006": {
 "fonte": "openfoodfacts:8020141112006",
 "scontornata": true
 },
 "8006130504076": {
-"fonte": "web:nome:0.00:https://www.express.co.uk/entertainment/films/824549/Star-Wars-Force-Awakens-Dr-Kalonia-Harriet-Walter-strange-experienc",
+"fonte": "web:nome2:0.67:https://piume.it/scala-detersivo-liquido-bucato-lavatrice-gienizzante-salvacolore-bouquet-fiorito-37-lavaggi-lt-1-5-8006",
 "scontornata": true
 },
 "8001263270195": {
@@ -8889,20 +8686,17 @@
 "scontornata": true
 },
 "8018800031751": {
-"fonte": "web:nome:0.00:https://www.splashmath.com/math-vocabulary/geometry/perpendicular-lines",
-"scontornata": true
+"fonte": null
 },
 "8000340473535": {
 "fonte": "openfoodfacts:8000340473535",
 "scontornata": true
 },
 "8003640034987": {
-"fonte": "web:nome:0.00:https://www.tntsports.co.uk/cricket/india-v-england/2024/india-v-england-first-test-day-4-highlights-as-tom-hartley-insp",
-"scontornata": true
+"fonte": null
 },
 "8010282001024": {
-"fonte": "web:nome:0.00:https://znap.link/olxtoto",
-"scontornata": true
+"fonte": null
 },
 "8003495702932": {
 "fonte": "openfoodfacts:8003495702932",
@@ -8917,8 +8711,7 @@
 "scontornata": true
 },
 "8002340009318": {
-"fonte": "web:nome:0.00:https://www.vulture.com/2023/01/jeremy-renner-update-mayor-of-kingstown-poster.html",
-"scontornata": true
+"fonte": null
 },
 "8001440124525": {
 "fonte": "openfoodfacts:8001440124525",
@@ -8940,20 +8733,18 @@
 "fonte": null
 },
 "8059602243294": {
-"fonte": "web:nome:0.17:https://selk-diakonie.de/sweet-sweet-official/",
+"fonte": "web:nome2:0.83:https://ttmarket.bg/product/sweet-home-collection-ammorbidente-concentrato-gocce-di-seta-koncentriran-omekotitel-za-dreh",
 "scontornata": true
 },
 "8033247633597": {
-"fonte": "web:nome:0.00:http://www.minecraftpixelarttemplates.com/2012/08/hello-kitty.html",
-"scontornata": true
+"fonte": null
 },
 "3046920024204": {
 "fonte": "openfoodfacts:3046920024204",
 "scontornata": true
 },
 "8052691650141": {
-"fonte": "web:nome:0.00:https://secure.avis.com.mt/avis-malta-vans-box-vans-pickups-commercial-vehicle-rentals",
-"scontornata": true
+"fonte": null
 },
 "80165484": {
 "fonte": "openfoodfacts:80165484",
@@ -8967,15 +8758,14 @@
 "fonte": null
 },
 "8024608008000": {
-"fonte": "web:nome:0.00:https://www.pinterest.com/pin/chinese-writing-practice-sheets--210261876341707346/",
+"fonte": "web:nome2:0.60:https://www.rocard.it/shop/caffe-toraldo-cialda-carta-miscela-arabica/",
 "scontornata": true
 },
 "8024608007928": {
-"fonte": "web:nome:0.00:https://www.elespanol.com/elbernabeu/real-madrid/futbol/20220218/portada-periodico-mundo-deportivo-viernes-febrero-paso/",
-"scontornata": true
+"fonte": null
 },
 "8024608007102": {
-"fonte": "web:nome:0.00:https://www.ebay.com/itm/128181739598",
+"fonte": "web:nome2:0.75:https://caffe-shop.it/shop/a-modo-mio-gattopardo-ginseng-128-capsule/",
 "scontornata": true
 },
 "8029044102220": {
@@ -8987,7 +8777,7 @@
 "scontornata": true
 },
 "8076809530262": {
-"fonte": "web:nome:0.00:https://www.twinkl.fr/resource/ma-t-n-1257-addition-up-to-12-number-line-activity-sheets-english-mandarin-chinese",
+"fonte": "web:nome2:0.67:https://www.supermercatocarpineti.it/prodotto/m-b-m-trancino/",
 "scontornata": true
 },
 "070177177454": {
@@ -8999,8 +8789,7 @@
 "scontornata": true
 },
 "8021033001156": {
-"fonte": "web:nome:0.00:https://www.vulture.com/2023/01/jeremy-renner-update-mayor-of-kingstown-poster.html",
-"scontornata": true
+"fonte": null
 },
 "8000500381960": {
 "fonte": "openfoodfacts:8000500381960",
@@ -9013,44 +8802,41 @@
 "fonte": null
 },
 "8021719001104": {
-"fonte": "web:nome:0.00:https://www.budsies.com/selfies-services/",
+"fonte": "web:nome2:1.00:https://www.cicalia.com/it/vaschette-contenitori/83167-ottimo-vaschette-allum-c-cop-1-porz-4-pz.html",
 "scontornata": true
 },
 "8001263240464": {
-"fonte": "web:nome:0.00:https://www.tripadvisor.com/Restaurant_Review-g154992-d929431-Reviews-Morrison_s_Restaurant-Kingston_Ontario.html",
-"scontornata": true
+"fonte": null
 },
 "8029804016651": {
-"fonte": "web:nome:0.00:https://picstank.com/explore/different-types-of-skin-cancer-moles",
-"scontornata": true
+"fonte": null
 },
 "8006540987865": {
-"fonte": "web:nome:0.00:https://lexica.art/prompt/ac88f1b4-8e25-4622-a17b-1418a1ea8f20",
-"scontornata": true
+"fonte": null
 },
 "80679240": {
 "fonte": "openfoodfacts:80679240",
 "scontornata": true
 },
 "8017331107683": {
-"fonte": "web:nome:0.00:https://www.primark.com/en-gb/p/1-15yrs-bow-graphic-shirt-pyjamas-ivory-991181466006",
-"scontornata": true
+"fonte": null
 },
 "8030426000195": {
-"fonte": "web:nome:0.00:https://www.camperland-rv.com/inventory/114506/madison-wisconsin-utv-denago-ev-rover-xl.php",
-"scontornata": true
+"fonte": null
 },
 "8000000000323": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:1.00:https://travino.it/lonetti-2020-battito-rosso-melissa-doc-6505001000.html",
+"scontornata": true
 },
 "8000000000446": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:1.00:https://www.rarohoreca.it/it/vino-critone-bianco-librandi-igt-cl75",
+"scontornata": true
 },
 "8000000000415": {
 "fonte": null
 },
 "7777777777777": {
-"fonte": "web:nome:0.00:https://www.gettyimages.ie/photos/frontier-airlines-inc",
+"fonte": "web:nome2:0.80:https://shop.lacosentina.com/products/vino-sette-chiese-calabria-rosso-igp-serracavallo",
 "scontornata": true
 },
 "7312040017683": {
@@ -9070,8 +8856,7 @@
 "scontornata": true
 },
 "8001440137679": {
-"fonte": "web:nome:0.25:https://nationaltoday.com/international-day-of-yoga/",
-"scontornata": true
+"fonte": null
 },
 "8056095083048": {
 "fonte": null
@@ -9145,7 +8930,7 @@
 "scontornata": true
 },
 "1022": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8054609784160": {
 "fonte": "web:ean:1.40:https://www.magale.it/prodotti/profumi/profumi-donna/set-regalo/aquolina-crush-zucchero-a-velo-set-regalo-acqua-profumat",
@@ -9292,7 +9077,7 @@
 "scontornata": true
 },
 "8000000001825": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8015194533199": {
 "fonte": "web:ean:1.40:https://www.drmax.sk/chanteclair-gel-marsiglia-35pd",
@@ -9346,7 +9131,7 @@
 "scontornata": true
 },
 "8000000003102": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8002590045364": {
 "fonte": "openfoodfacts:8002590045364",
@@ -9365,27 +9150,23 @@
 "scontornata": true
 },
 "8054145674123": {
-"fonte": "web:nome:1.00:https://www.lampen24.be/p/artemide-demetra-spotlight-wandlamp-2700k-wit-1060853.html",
-"scontornata": true
+"fonte": null
 },
 "8388777574767": {
-"fonte": "web:nome:0.00:https://www.gettyimages.ie/photos/wild-boar-china",
-"scontornata": true
+"fonte": null
 },
 "8388777574590": {
-"fonte": "web:nome:0.20:https://oarbc.org/senior-adult-luncheon-at-skyview/",
-"scontornata": true
+"fonte": null
 },
 "8388777574309": {
-"fonte": "web:ean:0.75:https://www.mclgroupricambi.it/product/detersivo-pavimenti-petali-di-peonia-1-lt-deomix/",
-"scontornata": true
+"fonte": null
 },
 "8054633839577": {
 "fonte": "web:ean:0.67:https://www.theconvenienceshop.com/product/dermomed-b-s-orchidea-650ml/",
 "scontornata": true
 },
 "8006130801342": {
-"fonte": "web:nome:0.00:https://www.etsy.com/listing/4446606686/comfort-colors-your-name-in-japanese",
+"fonte": "web:nome2:1.00:https://detersiviscala.it/prodotti/piatti-sgrassante-limone-750ml/",
 "scontornata": true
 },
 "8005121213218": {
@@ -9409,10 +9190,10 @@
 "scontornata": true
 },
 "8000000002976": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8000000003454": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8000500399866": {
 "fonte": "openfoodfacts:8000500399866",
@@ -9427,7 +9208,8 @@
 "scontornata": true
 },
 "8000000003300": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:0.60:https://www.youdreamitaly.com/en/polselli-polselli-farina-mix-roman-pinsa-and-pizza-kg-5-flour-for-pizza",
+"scontornata": true
 },
 "8006280050201": {
 "fonte": "openfoodfacts:8006280050201",
@@ -9482,7 +9264,7 @@
 "scontornata": true
 },
 "8029960000204": {
-"fonte": "web:nome:0.00:https://linmakemagazine.blogspot.com/2022/02/jennifer-lawrence-red-carpet.html",
+"fonte": "web:nome2:1.00:https://it.dreamstime.com/fotografie-stock-fuochi-d-artificio-image5983773",
 "scontornata": true
 },
 "8001420012286": {
@@ -9530,8 +9312,7 @@
 "scontornata": true
 },
 "4005900787002": {
-"fonte": "web:ean:1.50:https://bestpharmacy.gr/el/hansaplast-universal-10.html",
-"scontornata": true
+"fonte": null
 },
 "8426617615253": {
 "fonte": "web:nome:1.00:https://www.wilko.com/en-uk/haribo-starmix-11-pack/p/8371277",
@@ -9638,7 +9419,8 @@
 "scontornata": true
 },
 "8000000001290": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:1.00:https://www.reginatofratelli.it/en/-maxi-bobina-big-900-gr750-mt80-320-str-2-veli",
+"scontornata": true
 },
 "8720181311185": {
 "fonte": "web:ean:2.00:https://www.carrefour.it/p/mentadent-white-now-revitalize-75-ml/8720181311185.html",
@@ -9648,8 +9430,7 @@
 "fonte": null
 },
 "8003535081973": {
-"fonte": "web:nome:0.75:https://www.coopshop.it/product/ovetti-lt-ripnocwitors-1-kg",
-"scontornata": true
+"fonte": null
 },
 "8002590081867": {
 "fonte": "openfoodfacts:8002590081867",
@@ -9851,7 +9632,7 @@
 "scontornata": true
 },
 "8000000001221": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "3460410528025": {
 "fonte": "openfoodfacts:3460410528025",
@@ -10018,7 +9799,7 @@
 "scontornata": true
 },
 "8000000002839": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8006320072743": {
 "fonte": "web:ean:1.67:https://www.carrefour.it/p/vape-elettroemanatore-piastrine-classic-10-ricariche/8006320072743.html",
@@ -10057,7 +9838,7 @@
 "scontornata": true
 },
 "8000000002693": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8050046762112": {
 "fonte": "openfoodfacts:8050046762112",
@@ -10231,7 +10012,7 @@
 "scontornata": true
 },
 "4100130008993": {
-"fonte": "web:ean:1.50:https://iperdrive.iper.it/product/bottiglia-12x355cl-12-x-355cl-tennents-super",
+"fonte": "web:nome2:0.75:https://www.qualescegliere.it/birra/tennent-s-super-12-x-50-cl/",
 "scontornata": true
 },
 "8005121214574": {
@@ -10263,7 +10044,7 @@
 "scontornata": true
 },
 "8000000001580": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8007975016106": {
 "fonte": "openfoodfacts:8007975016106",
@@ -10278,8 +10059,7 @@
 "scontornata": true
 },
 "8002910063405": {
-"fonte": "web:ean:1.80:https://nonpesa.it/prodotto/calgon-power-gel-4in1-anticalcare-lavatrice-750-ml",
-"scontornata": true
+"fonte": null
 },
 "8000040040815": {
 "fonte": "openfoodfacts:8000040040815",
@@ -10361,7 +10141,8 @@
 "fonte": null
 },
 "8000000003126": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:1.00:https://www.ilpasticcere.it/prodotti/cornetto-ai-cereali/cornetto-integrale-mela-e-cannella.html",
+"scontornata": true
 },
 "8076809516648": {
 "fonte": "openfoodfacts:8076809516648",
@@ -10404,8 +10185,7 @@
 "scontornata": true
 },
 "8412428016976": {
-"fonte": "web:ean:1.50:https://www.notino.de/ep-line/frozen-geschenksetfuer-naegel-fuer-kinder/",
-"scontornata": true
+"fonte": null
 },
 "4809015157015": {
 "fonte": "openfoodfacts:4809015157015",
@@ -10424,7 +10204,7 @@
 "scontornata": true
 },
 "8056284710083": {
-"fonte": "web:ean:2.00:https://www.tuttocasashop.it/index.php?route=product/product&product_id=27204",
+"fonte": "web:nome2:1.00:https://www.tiportolaspesa.it/negozio/usa-e-getta/accessori-tavola/piatto-fondo-bianco-riutilizzabile-elios-x-25/",
 "scontornata": true
 },
 "8000500468173": {
@@ -10464,7 +10244,7 @@
 "scontornata": true
 },
 "8000000001870": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8002885005103": {
 "fonte": "openfoodfacts:8002885005103",
@@ -10535,18 +10315,18 @@
 "scontornata": true
 },
 "8000000001672": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8000000002969": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8009545001192": {
 "fonte": "web:nome:0.33:https://www.drogheriasulmona.it/onlineshop/erbe-aromatiche-e-spezie/161-grigliata.html",
 "scontornata": true
 },
 "8008168001107": {
-"fonte": "web:ean:0.67:https://spesagela.it/SURGELATI/274-Amica-Natura-Bovino-10-Hamburger-di-Carne-gr-750.html",
-"scontornata": false
+"fonte": "web:nome2:0.67:https://www.naturasi.it/prodotti/hamburger-di-bovino-carnesi-3207",
+"scontornata": true
 },
 "3103220027400": {
 "fonte": "openfoodfacts:3103220027400",
@@ -10581,8 +10361,7 @@
 "scontornata": true
 },
 "8034055201169": {
-"fonte": "web:nome:0.67:https://www.amazon.it/KONTE-DESIGN-vetroceramica-statuario-verniciato-allungabile/dp/B0C9TKMR4T",
-"scontornata": true
+"fonte": null
 },
 "8034055200230": {
 "fonte": "web:nome:0.67:https://meafarma.it/oc-tisana-snellente-500ml",
@@ -10693,7 +10472,7 @@
 "scontornata": true
 },
 "8000000003041": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8076809528368": {
 "fonte": "web:nome:0.67:https://www.italiengourmet.com/nastrine-x-6-gr240-mulino-bianco",
@@ -10720,7 +10499,7 @@
 "scontornata": true
 },
 "8000000000897": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8002105433112": {
 "fonte": "web:nome:0.80:https://www.natuzzidistribuzione.com/it/olio-di-semi-di-girasole-alto-oleico-5lt-pet-161226",
@@ -10846,8 +10625,7 @@
 "scontornata": true
 },
 "3086123493056": {
-"fonte": "web:ean:1.75:https://www.ebay.it/itm/389053798826",
-"scontornata": true
+"fonte": null
 },
 "8033247630220": {
 "fonte": "web:nome:1.00:https://minchinburyfruitmarket.com.au/rice-crackers-350g",
@@ -10970,11 +10748,11 @@
 "scontornata": true
 },
 "4015400824657": {
-"fonte": "web:ean:1.67:https://barcode-list.com/barcode/EN/barcode-4015400824657/Search.htm",
-"scontornata": true
+"fonte": null
 },
 "7000148": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:1.00:https://www.tiportolaspesa.it/negozio/fuori-pasto/tavolette-cioccolato/tav-excellence-85-cacao-gr100/",
+"scontornata": true
 },
 "5010039200338": {
 "fonte": "openfoodfacts:5010039200338",
@@ -11033,7 +10811,8 @@
 "scontornata": true
 },
 "8000000002761": {
-"fonte": "codice-interno"
+"fonte": "web:nome2:1.00:https://www.tripadvisor.com/Restaurant_Review-g187907-d15237669-Reviews-Caffe_Vannucci-Perugia_Province_of_Perugia_Umbri",
+"scontornata": true
 },
 "8051499390167": {
 "fonte": "web:nome:0.50:https://www.ebay.it/itm/294442711605",
@@ -11084,8 +10863,7 @@
 "scontornata": true
 },
 "8010146005601": {
-"fonte": "web:nome:0.75:https://www.facebook.com/cirovellecasrl/posts/spicchi-di-felicitàcuori-di-carciofi-sottolio-vittoriaolive-dal-1938/58598",
-"scontornata": true
+"fonte": null
 },
 "8001263190097": {
 "fonte": "web:nome:1.00:https://www.pascarellafoodservice.it/prodotto/fiume-vodka-bianca-ruskov-38-2lt/",
@@ -11108,8 +10886,7 @@
 "scontornata": true
 },
 "8000121410377": {
-"fonte": "web:ean:0.75:https://www.cibimarket.co.uk/products/eridania-zucchero-bustine-10-kg-1-in-a-box",
-"scontornata": true
+"fonte": null
 },
 "8029960008200": {
 "fonte": "web:nome:1.00:https://saporietradizioniditalia.it/a-maritata-di-giancarlo-suriano/",
@@ -11156,7 +10933,7 @@
 "scontornata": true
 },
 "8000000001542": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8051499397081": {
 "fonte": "web:nome:0.57:https://www.qogita.com/products/f46e1305c57a4e43a7b6c3f8d367e914/ama-de-casa-super-mop-stripes-180-gr-microfiber-mop/",
@@ -11238,10 +11015,10 @@
 "scontornata": true
 },
 "8000000003225": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8000000002488": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8000090004461": {
 "fonte": "openfoodfacts:8000090004461",
@@ -11276,7 +11053,7 @@
 "scontornata": true
 },
 "8000000000842": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8015536000914": {
 "fonte": "web:nome:1.00:https://www.lebontadelmaresrl.it/home/83-broccoli-rosette-1kg-bonduelle.html",
@@ -11331,7 +11108,7 @@
 "scontornata": true
 },
 "8720182303110": {
-"fonte": "web:ean:1.75:https://emigross.it/prodotto/cif-spray-attivo-multiuso-con-candeggina-profumo-di-limone650-ml/",
+"fonte": "web:nome2:0.75:https://vnosnipreparati.com/product/cif-spray-attivo-con-candeggina-al-limone-650-ml",
 "scontornata": true
 },
 "8000020000266": {
@@ -11347,7 +11124,7 @@
 "scontornata": true
 },
 "8000000001030": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8720181351433": {
 "fonte": "web:ean:1.50:https://allegro.pl/produkt/coccolino-sandalowiec-wiciokrzew-plyn-do-plukania-088fcb6e-eae9-4c29-963a-0b1fc738490e",
@@ -11374,15 +11151,14 @@
 "scontornata": true
 },
 "8033706390856": {
-"fonte": "web:nome:0.75:https://tostoprofumeria.com/15994-cosmogel-cosmogel-cera-water-wax-iper-strong-mb-100-ml.html",
-"scontornata": true
+"fonte": null
 },
 "8056515590224": {
 "fonte": "web:nome:1.00:https://latteriadelsole-shoponline.it/products/copia-del-crema-di-liquore-crema-di-mandorle-azienda-agricola-patea-50-cl",
 "scontornata": true
 },
 "8000000000385": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8003980030007": {
 "fonte": "web:ean:2.00:https://groscidac.eu/ecom_cp/prodotto/cuki-congela-gelopiu-sacchetti-freezer-7-strati-formato-piccolissimo-17-x-22-cm-40",
@@ -11397,7 +11173,7 @@
 "scontornata": true
 },
 "8388777574293": {
-"fonte": "web:nome:1.00:https://deomix.it/deo-mix-pavimento/38-deo-mix-pavimento-diamond-1000ml-8027170005170.html",
+"fonte": "web:nome2:0.71:https://deomix.it/profumatore-e-pulitore/26-deo-mix-profumatore-diamond-450ml-8027170005019.html",
 "scontornata": true
 },
 "8388777574118": {
@@ -11465,7 +11241,7 @@
 "scontornata": true
 },
 "8000000003294": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8000270707120": {
 "fonte": "openfoodfacts:8000270707120",
@@ -11504,7 +11280,7 @@
 "scontornata": true
 },
 "8000000002129": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8051732110309": {
 "fonte": "web:ean:2.00:https://www.lovetheitalianfood.com/it/lavazza-a-modo-mio/2596-30-capsule-di-frutti-di-bosco-comp-lavazza-a-modo-mio-arom",
@@ -11607,7 +11383,7 @@
 "scontornata": true
 },
 "8003510002214": {
-"fonte": "web:ean:1.67:https://barcode-list.com/barcode/EN/barcode-8003510002214/Search.htm",
+"fonte": "web:nome2:1.00:https://www.bernava.net/products/intesa-styling-ecofix-lacca-forte-300-ml",
 "scontornata": true
 },
 "8034055201589": {
@@ -11623,7 +11399,7 @@
 "scontornata": true
 },
 "8005130003503": {
-"fonte": "web:nome:0.20:https://www.inspirationalscienceforsubs.com/lesson-ideas/ecosystems-biodiversity-how-life-links-up/",
+"fonte": "web:nome2:1.00:https://www.ebay.it/itm/305267176743",
 "scontornata": true
 },
 "8001480407787": {
@@ -11771,8 +11547,7 @@
 "scontornata": true
 },
 "4023103073029": {
-"fonte": "web:ean:1.80:https://www.mineralpavani.it/it/carta-detergenza-pulizia-e-igiene-della-casa/2716-vileda-panno-pavimenti-x-3-40231030730",
-"scontornata": true
+"fonte": null
 },
 "8700216528344": {
 "fonte": "web:ean:1.67:https://www.carrefour.it/p/pantene-pro-v-ricci-perfetti-balsamo-active-nutri-plex-200-ml/8700216528344.html",
@@ -11911,7 +11686,7 @@
 "scontornata": true
 },
 "8000000002303": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8004385034539": {
 "fonte": "openfoodfacts:8004385034539",
@@ -11950,7 +11725,7 @@
 "scontornata": true
 },
 "8000000001283": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8004385035437": {
 "fonte": "openfoodfacts:8004385035437",
@@ -12049,8 +11824,7 @@
 "scontornata": true
 },
 "8032603497743": {
-"fonte": "web:nome:0.00:https://wallpapersafari.com/thanksgiving-quotes-wallpapers/",
-"scontornata": true
+"fonte": null
 },
 "8051511861903": {
 "fonte": "web:nome:0.83:https://dambros.it/online/prodotto/0000181237/vaschetta-gelato-nocciola-tiramisu-crema-e-stracciatella-1kg-tonitto",
@@ -12089,7 +11863,7 @@
 "scontornata": true
 },
 "8000000002679": {
-"fonte": "codice-interno"
+"fonte": null
 },
 "8021507738601": {
 "fonte": "web:ean:1.75:https://rozetka.com.ua/ua/cantina_terlano_8021507738601/p407232396/",
