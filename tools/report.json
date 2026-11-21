@@ -28,7 +28,8 @@
 "scontornata": true
 },
 "80084909": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://coopacasa.coopetruria.coop.it/acqua-succhi-e-bibite/acque/effervescenti-naturali/349555.html",
+"scontornata": true
 },
 "8001200050262": {
 "fonte": "openfoodfacts:8001200050262",
@@ -158,7 +159,8 @@
 "scontornata": true
 },
 "8034028330667": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://123koffiecapsules.nl/products/borbone-dek-capsules-a-modo-mio-50-stuks",
+"scontornata": false
 },
 "8034028330599": {
 "fonte": "web:ean:2.00:https://marketcaffe.com/caffe-borbone/15-100-capsule-point-caffe-borbone-miscela-nera-8034028330599.html",
@@ -350,7 +352,8 @@
 "scontornata": true
 },
 "8011690441983": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.franzysonline.it/fatigati-cucchiaini-per-cocktail-12pz.html",
+"scontornata": false
 },
 "8001280026102": {
 "fonte": "openbeautyfacts:8001280026102",
@@ -417,7 +420,8 @@
 "scontornata": true
 },
 "8050043994882": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.carrefour.it/p/apoteke-fisiobenessere-ghiaccio-istantaneo-1-pz/8050043994882.html",
+"scontornata": true
 },
 "8000570000419": {
 "fonte": "web:ean:2.00:https://www.lasorgente.net/25046-gin-bosford-extra-dry-1-l-8000570000419.html",
@@ -448,7 +452,8 @@
 "scontornata": true
 },
 "8003350552009": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.agritechstore.it/guanto-in-nitrile-evo-chef-100-pz-colore-nero",
+"scontornata": false
 },
 "9002975301558": {
 "fonte": "openfoodfacts:9002975301558",
@@ -523,7 +528,8 @@
 "scontornata": true
 },
 "80220718": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.nakonestore.com/products/strega-alberti-1860-riserva-liquore-70cl",
+"scontornata": true
 },
 "80001461": {
 "fonte": "openfoodfacts:80001461",
@@ -625,7 +631,8 @@
 "scontornata": true
 },
 "8000000001160": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.grosmarket.it/product/olio-exv-ml10x102-bst-gaia",
+"scontornata": true
 },
 "8003650019790": {
 "fonte": "web:ean:2.00:https://casabalo.com/prodotto/omino-bianco-freschezza-alpina-2lt-candeggina-delicata/",
@@ -636,7 +643,8 @@
 "scontornata": false
 },
 "8000000001467": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.coopshop.it/product/ovetti-di-cioccolato-al-latte-con-sorpresa-60-gr-dolfin",
+"scontornata": true
 },
 "8055687860579": {
 "fonte": "web:nome:1.00:https://www.pastificiogioia.it/linea-classica/17-i-paccheri-rigati-500gr.html",
@@ -679,7 +687,8 @@
 "scontornata": false
 },
 "4006034102495": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.nicesurgelati.it/products/patate-stick-750g-25kg",
+"scontornata": false
 },
 "8041790504950": {
 "fonte": "openfoodfacts:8041790504950",
@@ -916,7 +925,8 @@
 "scontornata": true
 },
 "8000000001528": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://www.tannico.it/products/trento-brut-doc-millesimato-2021-jeroboam-altemasi-cassetta-di-legno",
+"scontornata": true
 },
 "070177177539": {
 "fonte": "openfoodfacts:070177177539",
@@ -935,7 +945,8 @@
 "scontornata": true
 },
 "8000000002792": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.ilristorante.fr/2022/08/29/le-zuppa-inglese-le-fameux-dessert-italien/",
+"scontornata": false
 },
 "8021719140902": {
 "fonte": "web:nome:0.75:https://www.condellogroup.it/156-sacchetti-vaschette-alimentari/68146-decla-vaschetta-allumtorta-grande-2pz-801386000016",
@@ -966,7 +977,8 @@
 "scontornata": false
 },
 "8005479033155": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.paesidelgusto.it/negroamaro-caratteristiche-e-abbinamenti-cosa-mangiare-con-il-vino-simbolo-del-salento/",
+"scontornata": true
 },
 "8021507739608": {
 "fonte": "openfoodfacts:8021507739608",
@@ -1064,7 +1076,8 @@
 "scontornata": true
 },
 "8000000003423": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://boutique-brands.com/products/paolucci-amaro-ciociaro-70cl",
+"scontornata": true
 },
 "8388776979914": {
 "fonte": "web:ean:0.86:https://www.reginatofratelli.it/it/deo-due-ammorbidente-50-lavaggi-premium-collection-bianco-latte-1-l",
@@ -1190,7 +1203,8 @@
 "scontornata": false
 },
 "8023701999109": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://dambros.it/online/prodotto/0000038218/coca-cola-in-lattina-33cl",
+"scontornata": true
 },
 "8051732110392": {
 "fonte": "openfoodfacts:8051732110392",
@@ -1252,7 +1266,8 @@
 "scontornata": true
 },
 "8000630754498": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://ferdicoshop.it/coccolino-wonder-max-sport-expert-54-lavaggi-2160-ml.html",
+"scontornata": true
 },
 "6920354836138": {
 "fonte": "web:ean:2.00:https://www.dm-drogeriemarkt.it/colgate-dentifricio-family-action-p6920354836138.html",
@@ -1481,7 +1496,8 @@
 "scontornata": true
 },
 "8002200145811": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.lolloshop.net/prodotto/kimbo-napoli-caffe-in-capsule-compatibili-lavazza-espresso-point-100-capsule/",
+"scontornata": true
 },
 "8000500071083": {
 "fonte": "openfoodfacts:8000500071083",
@@ -1516,7 +1532,8 @@
 "scontornata": false
 },
 "8000000001733": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://longtouw.com/product/confezione-regalo-rum-legendario-7-anni-elixir-mymemo-legendario/",
+"scontornata": true
 },
 "8008970060606": {
 "fonte": "web:ean:2.00:https://shop.despar.com/spesa-consegna-domicilio/87050/prodotto/leocrema-crema-corpo-leocrema-fluida-argan-250ml-1790131",
@@ -1559,7 +1576,8 @@
 "scontornata": true
 },
 "8000000000583": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://purocaffeshop.it/prodotto/dolce-gusto-ginseng-dolce-mastria/",
+"scontornata": true
 },
 "80558606": {
 "fonte": "web:nome:0.75:https://ourcoffeemap.com/product/caffe-kenon-max-bar/",
@@ -1578,7 +1596,8 @@
 "scontornata": true
 },
 "8032745831788": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://www.ittitalia.it/prodotti/preparato-per-risotto-top-quality/",
+"scontornata": false
 },
 "8002590076443": {
 "fonte": "openfoodfacts:8002590076443",
@@ -1593,7 +1612,8 @@
 "scontornata": true
 },
 "8010346007030": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://caffemontano.shop/product/kit-degustazione-capsule-nescafe-dolce-gusto/",
+"scontornata": false
 },
 "8056734230611": {
 "fonte": "web:ean:0.60:https://amiciitaly.com.ua/anchousy-monte-mare-160g/",
@@ -1687,7 +1707,8 @@
 "scontornata": true
 },
 "5410376611857": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.sagi-spa.it/it/farm-fritesr-patate-wedges-skin-on-25kgx4pz---spicchi-con-buccia-18",
+"scontornata": true
 },
 "8041790505179": {
 "fonte": "openfoodfacts:8041790505179",
@@ -1718,7 +1739,8 @@
 "scontornata": false
 },
 "5050456005314": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.luxplus.no/produkt/playboy-vip-for-her-edt-shower-gel-toilet-bag-60-ml-250-ml-1-stk",
+"scontornata": true
 },
 "8005121210309": {
 "fonte": "openfoodfacts:8005121210309",
@@ -1813,7 +1835,8 @@
 "scontornata": true
 },
 "8017412005044": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://store.berchicci.ca/Fiorillo-Sapone-Calabria-Scilla-Hand-Face-Soap-750ml",
+"scontornata": true
 },
 "8003495118375": {
 "fonte": "openfoodfacts:8003495118375",
@@ -1876,7 +1899,8 @@
 "scontornata": false
 },
 "8055687860340": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://latteriadelsole-shoponline.it/products/pasta-aromatizzata-tagliatelle-alla-liquirizia-pastificio-gioia-500g-807",
+"scontornata": false
 },
 "8000300231229": {
 "fonte": "openfoodfacts:8000300231229",
@@ -1907,7 +1931,8 @@
 "scontornata": false
 },
 "8024608007959": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://shop.crastan.it/products/10-capsule-nocciolino-compatibili-dolce-gusto",
+"scontornata": true
 },
 "8024608050931": {
 "fonte": "web:ean:2.00:https://marketcaffe.com/toraldo/2881-100-capsule-dolce-gusto-toraldo-miscela-gourmet-8024608050931.html",
@@ -1918,7 +1943,8 @@
 "scontornata": false
 },
 "8033011700005": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.primomercato.it/products/corona-maxi-scorta-tovaglioli-monouso-monovelo-180pz",
+"scontornata": true
 },
 "8015854140453": {
 "fonte": "openfoodfacts:8015854140453",
@@ -1979,7 +2005,8 @@
 "scontornata": true
 },
 "8000000003263": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.dicorbis.com/a/12481-vino-espumoso-platino-brut-75cl",
+"scontornata": true
 },
 "8051406160418": {
 "fonte": "web:nome:0.67:https://www.jinglemen.com/product/rosastro-vino-rosato-igt-2024/",
@@ -2235,7 +2262,8 @@
 "scontornata": true
 },
 "8720181414800": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://magitalia.bg/preparat-cif-crema-perla-rosa-500-ml",
+"scontornata": false
 },
 "8003000024917": {
 "fonte": "openfoodfacts:8003000024917",
@@ -2250,7 +2278,8 @@
 "scontornata": true
 },
 "8000000000804": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.lyhskq.com/product/coca-cola-zero-vetro-cl-33-vap-ct-24-bt/",
+"scontornata": true
 },
 "8720181599583": {
 "fonte": "web:ean:1.40:https://www.szerek.hu/Coccolino-FreshProtect-oblito-1750L-6db-karton-Peo",
@@ -2353,7 +2382,8 @@
 "scontornata": true
 },
 "8000000001511": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.valfruttagranchef.it/prodotti/fagioli-cannellini-2/",
+"scontornata": false
 },
 "8014601028747": {
 "fonte": "openfoodfacts:8014601028747",
@@ -2460,10 +2490,12 @@
 "scontornata": true
 },
 "1126756": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.cleaningmanagement.it/guanti-nitrile-chef-qubo-4-neri-tgl-pz100.htm",
+"scontornata": true
 },
 "8000000003256": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://wwieweine.de/Ciro-bianco-DOC-2025",
+"scontornata": true
 },
 "8700216307796": {
 "fonte": "openbeautyfacts:8700216307796",
@@ -2502,7 +2534,8 @@
 "scontornata": true
 },
 "8000000002600": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.vino.com/en/dettaglio/ciro-doc-rosato-cataldo-calabretta-2025.html",
+"scontornata": true
 },
 "8008429258448": {
 "fonte": "web:ean:1.75:https://www.candyfrizz.it/prodotto/cuori-di-cioccolato-a-latte-gusto-caramello-la-suissa-1-kg/",
@@ -2601,7 +2634,8 @@
 "scontornata": true
 },
 "8010346020053": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://tuttocaffeweb.it/prodotto/a-modo-mio-orzo/",
+"scontornata": true
 },
 "8007975010906": {
 "fonte": "openfoodfacts:8007975010906",
@@ -2948,7 +2982,8 @@
 "scontornata": true
 },
 "8000000002853": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.vannuccichocolates.com/catalogo/praline/cioccolatini-al-liquore-vannucci/",
+"scontornata": false
 },
 "8055515776294": {
 "fonte": "web:nome:0.50:https://ferdico.it/prodotto/cuki-vasch-allum-rs85g-x5-porz/",
@@ -3055,7 +3090,8 @@
 "scontornata": true
 },
 "1101517": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.grandettaglio.it/acqua-sorbello-cl50-x-12-naturale-pet",
+"scontornata": true
 },
 "8001200050491": {
 "fonte": "openfoodfacts:8001200050491",
@@ -3234,10 +3270,12 @@
 "scontornata": true
 },
 "15322": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.vino.com/en/dettaglio/ciro-doc-rosso-classico-superiore-riserva-cataldo-calabretta-2019.html",
+"scontornata": true
 },
 "VINCE002": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.wineexpert.it/it/prodotto/grayasusi-rosato-calabria-2020-ceraudo.aspx",
+"scontornata": true
 },
 "3352370002830": {
 "fonte": "web:ean:1.60:https://www.latuaspesa.com/product/pommery-brut-royal-ml750-pommery-brut-royal-ml750",
@@ -3248,7 +3286,8 @@
 "scontornata": true
 },
 "8003413010293": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.guglielmostorelamezia.com/prodotto/cialde-pronto-espresso-150-pz/",
+"scontornata": false
 },
 "8720182307859": {
 "fonte": "web:ean:1.67:https://www.zetacash.it/cif-spray-green-active-vetri-brillanti-650-ml.html",
@@ -3323,7 +3362,7 @@
 "scontornata": true
 },
 "8388777574903": {
-"fonte": "web:nome2:0.60:https://deomix.it/home/129-deo-mix-evo-plus-4-in-1-vanilla-fruits-sgrassa-profuma-igienizza-lucida.html",
+"fonte": "web:nome2:0.60:https://deangeliselettrodomestici.com/products/deomix-sgrassatore-4in1",
 "scontornata": true
 },
 "8388777574934": {
@@ -3426,7 +3465,8 @@
 "scontornata": true
 },
 "111": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://fromaggio.com/es/products/queso-fresco",
+"scontornata": true
 },
 "5201054017111": {
 "fonte": "openfoodfacts:5201054017111",
@@ -3472,7 +3512,8 @@
 "scontornata": true
 },
 "8000000003201": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://grecocaffe.com/collections/a-modo-mio®-compatibile-100-copia",
+"scontornata": true
 },
 "8058647846774": {
 "fonte": "web:nome:1.00:https://www.puntoqui.com/guanti-pz100-nitrile-nero-taglia-m.html",
@@ -3613,10 +3654,12 @@
 "scontornata": false
 },
 "8010346005043": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://shopee.co.id/DEK-TENGAH-NEX-2-II-Nex-Crossover-ORIGINAL-100--i.860455624.24514239444",
+"scontornata": true
 },
 "8000000002341": {
-"fonte": null
+"fonte": "web:nome2:0.62:https://www.pesceazzurro.it/it/filetti-di-acciughe-al-peperoncino-in-olio-di-oliva-vaso-erm220gr-p14/",
+"scontornata": true
 },
 "8020537680508": {
 "fonte": "openfoodfacts:8020537680508",
@@ -3659,7 +3702,8 @@
 "scontornata": true
 },
 "8009545001215": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://moravka.rs/proizvod/origano-12g-garden/",
+"scontornata": false
 },
 "8021719180137": {
 "fonte": "web:ean:1.83:https://galiani.it/products/ottimo-carta-forno-100-fogli-33x27cm-8021719180137",
@@ -3726,7 +3770,8 @@
 "scontornata": true
 },
 "000000000011": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://kingstreetcellar.co.uk/products/domaine-delise-petit-chablis",
+"scontornata": true
 },
 "8001909539013": {
 "fonte": "web:ean:0.75:https://aristeaspa.it/prodotto/piatti-piani-220-bianchi-riutilizzabili-ari/",
@@ -3745,7 +3790,8 @@
 "scontornata": true
 },
 "8000000002112": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://shop.popcaffe.it/en/product/shop-popcaffe-it-capsule-babilon-nocciolino-bialetti/",
+"scontornata": true
 },
 "8029303010150": {
 "fonte": "openfoodfacts:8029303010150",
@@ -3780,7 +3826,8 @@
 "scontornata": true
 },
 "8011941002727": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.farmacosmo.it/casa/casamia-marsiglia-detergente-pavimenti-e-superfici-1250-ml-142852/",
+"scontornata": true
 },
 "8007545000092": {
 "fonte": "web:ean:0.75:https://latterialocatelli.com/negozio/riso-originario-italiano-grazia-ideale-per-dolci-minestre-e-timballi/",
@@ -3863,7 +3910,8 @@
 "scontornata": true
 },
 "1122003": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://idealmarket1987.com/prodotto/spumante-santero-958-la-pupazza/",
+"scontornata": true
 },
 "8003510002238": {
 "fonte": "web:ean:2.00:https://www.bernava.net/products/intesa-styling-spuma-forte-300-ml",
@@ -3914,7 +3962,8 @@
 "scontornata": false
 },
 "1100142": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://tsmarketgo.com/prodotto/schweppes-acqua-tonica-confezione-4-bottiglie-da-18-cl/",
+"scontornata": true
 },
 "8024608007072": {
 "fonte": "web:ean:0.50:https://www.caffetwins.com/it/prodotti/1225/caffe-toraldo-caffe-e-nocciola-caffe-aromatizzati-cialda-ese-44/",
@@ -3960,7 +4009,8 @@
 "scontornata": true
 },
 "8000000002747": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.viniecapricci.com/estore/vannucci-sorriso-orange-e-caffe-180g/",
+"scontornata": true
 },
 "8005330003815": {
 "fonte": "web:nome:0.67:https://www.maxicasa.it/it/prodotto/9ad0f524-987f-4ff9-a77c-f8189221800f",
@@ -3991,14 +4041,16 @@
 "scontornata": true
 },
 "8000000002563": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://rotundodrink.it/prodotto/vino-bianco-ceraudo-petelia-val-di-neto-igt-cl-75/",
+"scontornata": true
 },
 "8007890007319": {
 "fonte": "web:nome:0.75:https://www.cicalia.com/it/vino/52824-cavit-nano-ghiacciato-frizz-ml125x6.html",
 "scontornata": true
 },
 "8000000000439": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.vino.com/dettaglio/calabria-igt-rosato-terre-lontane-librandi-2025.html",
+"scontornata": true
 },
 "8000000001924": {
 "fonte": null
@@ -4156,7 +4208,8 @@
 "scontornata": true
 },
 "8053841520857": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://www.calabrianews24.com/news/95927307782/birra-cala-cosenza-la-presentazione-delle-iga-di-calabria",
+"scontornata": false
 },
 "5998818172512": {
 "fonte": "openfoodfacts:5998818172512",
@@ -4262,7 +4315,8 @@
 "scontornata": true
 },
 "8004980048535": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.zona.eu/product/pronto-fresco-cipolla-caramellata-830-g",
+"scontornata": true
 },
 "8033532100612": {
 "fonte": "web:ean:1.00:https://www.greens.com.mt/productdetails?pid=8033532100612",
@@ -4329,7 +4383,8 @@
 "scontornata": true
 },
 "8388777574095": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://deomix.it/deo-mix-profuma-biancheria/36-profuma-bucato-fresco-intenso-100ml-8027170005125.html",
+"scontornata": true
 },
 "8054633839522": {
 "fonte": "web:ean:1.50:https://incibeauty.com/produit/8054633839522",
@@ -4423,7 +4478,8 @@
 "scontornata": false
 },
 "8000000000958": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.partycity.it/prodotto/forchettine-bamboo-9cm-100pz/",
+"scontornata": false
 },
 "8420321693514": {
 "fonte": "web:ean:1.67:https://nonpesa.it/prodotto/fripozo-filetto-di-pollo-alla-kentucky-hot-spicy-250-gr",
@@ -4493,7 +4549,8 @@
 "scontornata": true
 },
 "80160939": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.abillion.com/products/funghi-misti-conditi-10644784",
+"scontornata": true
 },
 "8003850286947": {
 "fonte": "web:nome:0.75:https://dambros.it/online/prodotto/0000061801",
@@ -4551,7 +4608,8 @@
 "scontornata": true
 },
 "1100059": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://winehundred.com/en/products/liquorice-caffo-liquirizia-cl-50-27",
+"scontornata": true
 },
 "8000380202010": {
 "fonte": "openfoodfacts:8000380202010",
@@ -4562,7 +4620,8 @@
 "scontornata": false
 },
 "8000000000989": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.coopshop.it/product/sgrassatore-lysoform-750ml",
+"scontornata": true
 },
 "8024608004217": {
 "fonte": "web:nome:1.00:https://smartechshop.it/caffe-macinato-toraldo-crema-di-napoli-250gr/",
@@ -4632,7 +4691,8 @@
 "scontornata": true
 },
 "3016661158773": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.wellcome.com.hk/en/p/Nescafe+Dolce+Gusto+Genio+S+Touch+1PC/i/101846774.html",
+"scontornata": true
 },
 "8033993193802": {
 "fonte": "web:nome:0.83:https://ferdicoshop.it/neutroderma-acqua-micellare-rosaeloto-500ml.html",
@@ -4674,7 +4734,8 @@
 "fonte": null
 },
 "8": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://ferdico.it/prodotto/sisa-pancetta-dol-cub-g100x2/",
+"scontornata": true
 },
 "8003000375507": {
 "fonte": "openfoodfacts:8003000375507",
@@ -4995,14 +5056,16 @@
 "scontornata": true
 },
 "8000000003416": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.easycoop.com/vino-bian-tavola-coop-box-5-l-7743648.html",
+"scontornata": false
 },
 "8057168150056": {
 "fonte": "web:nome:1.00:https://www.saporidallitalia.it/en/vini-bianchi/832-cecily-vino-ciro-bianco-doc-btg-borgognotta-alta_specialita-alimenti",
 "scontornata": true
 },
 "8000000002662": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://shop.zito.it/calabria-igt/24-vino-igt-calabria-rosso.html",
+"scontornata": true
 },
 "8014529004502": {
 "fonte": "web:nome:1.00:https://vinoluxecellars.com/product/campoverde-pecorello-ferrocinto-2022/",
@@ -5041,14 +5104,16 @@
 "scontornata": false
 },
 "8001514002506": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.ilpiaceredellacqua.com/prodotto/birra-blonde-pietra-bio-gluten-free-33cl/",
+"scontornata": true
 },
 "8032891920152": {
 "fonte": "web:nome2:0.75:https://www.eurogelsrl.it/negozio/abitue/abitue-6-ricoperto-alla-fragola-6x300gr/",
 "scontornata": true
 },
 "8001480719101": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.euro-market.ro/produse-de-curatenie/ace-gentile-fresco-candeggina-colorati-950ml.html",
+"scontornata": true
 },
 "8002895096962": {
 "fonte": "openfoodfacts:8002895096962",
@@ -5059,10 +5124,12 @@
 "scontornata": false
 },
 "8000000003348": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.acqua-leo.it/frizzante-pet-15lt/",
+"scontornata": true
 },
 "8008990009586": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.coopshop.it/product/sp-rete-fantpeeling-arix1pz",
+"scontornata": false
 },
 "8032774731110": {
 "fonte": "openfoodfacts:8032774731110",
@@ -5077,7 +5144,8 @@
 "scontornata": false
 },
 "8003045100256": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://federshop.it/products/alba-ammorbidente-argan-narciso-33-lavaggi-1850ml",
+"scontornata": true
 },
 "8007761110056": {
 "fonte": null
@@ -5109,7 +5177,8 @@
 "scontornata": true
 },
 "8004260005586": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.tiportolaspesa.it/negozio/usa-e-getta/asciugatutto-e-tovaglioli/asciugatutto-nicky-cucina-x-2/",
+"scontornata": true
 },
 "8006540363775": {
 "fonte": "web:nome2:0.75:https://www.ingroscart.it/dentifricio-az-multiprotezione-carie-gel-tubetto-da-75-ml-pg022.html",
@@ -5151,10 +5220,12 @@
 "fonte": null
 },
 "8009320044444": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://biribox.com/products/pesto-genovese-con-olio-doliva-980g",
+"scontornata": false
 },
 "8000000001658": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.enostorelissone.it/prodotto/birra-becks-33cl-x-24-bott/",
+"scontornata": false
 },
 "75041670": {
 "fonte": "openfoodfacts:75041670",
@@ -5173,7 +5244,8 @@
 "scontornata": false
 },
 "8000000001962": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://www.xtrawine.com/products/domaine-j-laurens-blanquette-de-limoux-le-moulin-brut",
+"scontornata": true
 },
 "8716000965066": {
 "fonte": "openfoodfacts:8716000965066",
@@ -5188,10 +5260,12 @@
 "scontornata": true
 },
 "8055176431709": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://lachiccacaffe.it/prodotto/borbone-dolce-gusto-cappuccino-irish-baileys-16-pz/",
+"scontornata": false
 },
 "8034028339042": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.tazzulella.it/products/borbone-caffe-capsule-a-modo-mio-oro-50pz-compost-dc-pro",
+"scontornata": true
 },
 "8002410044775": {
 "fonte": "web:nome2:1.00:https://www.redcare.it/cosmetici-igiene/IT983376450/borotalco-bagno-rinfrescante.htm",
@@ -5217,19 +5291,23 @@
 "scontornata": true
 },
 "8024112009357": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.clintex.it/it/cannucce-bio-in-pla-nere-cm-21xo7-mm-500pz",
+"scontornata": false
 },
 "8000000002990": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.fratellimazza.it/it/12268-capsule-25-anni-fa-of-bonollo-grappa-amaro-orang-bicc.html",
+"scontornata": true
 },
 "8054529251063": {
 "fonte": null
 },
 "8006783750417": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.cartasudavellino.it/home/36-vit-profumata-carta-igienica.html",
+"scontornata": true
 },
 "223": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.vino.com/dettaglio/ciro-doc-rosato-cataldo-calabretta-2025.html",
+"scontornata": true
 },
 "8002140055119": {
 "fonte": "openbeautyfacts:8002140055119",
@@ -5253,7 +5331,8 @@
 "scontornata": false
 },
 "8057168150018": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://grappolowineshop.com/product/french-rose-calabria-italy-rosato-ciro/",
+"scontornata": false
 },
 "1123547": {
 "fonte": null
@@ -5263,7 +5342,8 @@
 "scontornata": true
 },
 "8720181920806": {
-"fonte": null
+"fonte": "web:nome2:0.86:https://www.carrefour.it/p/coccolino-ammorbidente-concentrato-botanical-perfume-prima-fioritura-50-lavaggi-750-ml/872018",
+"scontornata": true
 },
 "8718951580930": {
 "fonte": "web:nome:0.40:https://www.colgate.com/en-ph",
@@ -5274,17 +5354,20 @@
 "scontornata": false
 },
 "8023065121208": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.latuacantina.com/prodotto/confezione-experience-vanoir-nonino/",
+"scontornata": false
 },
 "8000000002440": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://roncagliabio.com/prodotti/confetture/confettura-extra-di-mirtilli/",
+"scontornata": true
 },
 "8008714006334": {
 "fonte": "openfoodfacts:8008714006334",
 "scontornata": false
 },
 "8003350513062": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.qualityshopplace.com/product/dischetti-struccanti-cotoneve-maxi-50pz/",
+"scontornata": true
 },
 "8055176439989": {
 "fonte": "openfoodfacts:8055176439989",
@@ -5298,16 +5381,20 @@
 "scontornata": false
 },
 "8700216828550": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.filgistore.it/it/detergenti/4950-dash-power-detersivo-liquido-lavatrice-freschezza-lenor-risveglio-primaveri",
+"scontornata": true
 },
 "806891059734": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.lolloshop.net/prodotto/detergente-pavimenti-liquigel-floreale-750ml-deo-due/",
+"scontornata": true
 },
 "8388777575009": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://deomix.it/detersivi-e-ammorbidenti/167-deo-mix-detersivo-lavatrice-petali-di-peonia-super-concentrato-8027170005",
+"scontornata": false
 },
 "8388777575122": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://deomix.it/deo-mix-pavimento/179-2-in-1-pavimento-e-multisuperficie-sogno-di-lavanda-1000ml.html",
+"scontornata": true
 },
 "8388777575153": {
 "fonte": null
@@ -5317,7 +5404,8 @@
 "scontornata": true
 },
 "8411114093352": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://shopee.com.my/MINISO-Disney-Stitch-Hawaii-Series-Stylish-Handy-Phone-Pouch-Gift-Mobile-Bag-10-Cm-×-2-Cm-×-18-cm-",
+"scontornata": false
 },
 "8023065122434": {
 "fonte": null
@@ -5327,14 +5415,16 @@
 "scontornata": true
 },
 "8720181474200": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.coopshop.it/product/deo-sprdove-mencspoac150ml",
+"scontornata": true
 },
 "8029804011403": {
 "fonte": "openfoodfacts:8029804011403",
 "scontornata": true
 },
 "8001412007306": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.distilleriebagnoli.it/en/product/eau-dorange-triple-sec/",
+"scontornata": false
 },
 "8000500435441": {
 "fonte": "openfoodfacts:8000500435441",
@@ -5349,14 +5439,16 @@
 "scontornata": true
 },
 "8700216887342": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.ipertriscountspesaonline.it/product/fairy-caps-platinum-miracle-x20",
+"scontornata": false
 },
 "8014601052452": {
 "fonte": "openfoodfacts:8014601052452",
 "scontornata": false
 },
 "8011690445240": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.franzysonline.it/fatigati-bicchieri-di-plastica-80cc-100pz-bianchi.html",
+"scontornata": false
 },
 "8001280068119": {
 "fonte": "openbeautyfacts:8001280068119",
@@ -5375,7 +5467,8 @@
 "scontornata": true
 },
 "8002910063481": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.amazon.ae/Finish-Powerball-Dishwasher-ActiveLift-Technology/dp/B0D1PJGT7N",
+"scontornata": false
 },
 "8002885016796": {
 "fonte": "openfoodfacts:8002885016796",
@@ -5389,34 +5482,41 @@
 "fonte": null
 },
 "8017412000360": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://cristalcleanproducts.com/product/preparat-za-pochistvane-na-kanali-fiorillo-sturatutto-liquido/",
+"scontornata": true
 },
 "8008570603166": {
 "fonte": null
 },
 "8002340018624": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.coopshop.it/product/salvstrucfc-pelli-sens60pz",
+"scontornata": true
 },
 "8076809574310": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://dottorconvenienza.it/mulino-bianco-sg-frollrcioc",
+"scontornata": true
 },
 "5201054037119": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.tigros.it/product/yogurt-pesca-0-gr150-fruyo-fage",
+"scontornata": false
 },
 "8001420003963": {
-"fonte": null
+"fonte": "web:nome2:0.83:https://allegro.pl/produkt/risotto-z-grzybami-riso-bonta-p-funghi-250g-gallo-c4e27a96-9546-43d0-81f4-d0551122a71d",
+"scontornata": true
 },
 "8001420011968": {
 "fonte": null
 },
 "8000139001086": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.amazon.it/Garofalo-Melone-Pasta-Semola-Grano/dp/B00XUMROXQ",
+"scontornata": true
 },
 "8001990039058": {
 "fonte": null
 },
 "5600175195041": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://sanlorenzoenoteca.it/prodotto/adamus-organic-dry-gin-signature-edition-2023-70cl-astucciato/",
+"scontornata": true
 },
 "5099873029008": {
 "fonte": "web:nome:0.33:https://oratorionpaz.org/?z=gin-hass-alkoholfri-drinkspakke-u-YAEJSgZIx",
@@ -5431,7 +5531,8 @@
 "scontornata": false
 },
 "8000000002211": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://tremarie.sammontanaitalia.it/croissanterie/tutti-i-prodotti/cornetti/grancroissant-crema.html",
+"scontornata": true
 },
 "8009460000058": {
 "fonte": "openfoodfacts:8009460000058",
@@ -5441,7 +5542,8 @@
 "fonte": null
 },
 "8058647846781": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.elettromedicali.it/monouso-e-medicazione/guanti-monouso/prodotto-guanti-in-nitrile-nero-doc-black-powder-fre",
+"scontornata": false
 },
 "8426617615260": {
 "fonte": "openfoodfacts:8426617615260",
@@ -5486,7 +5588,8 @@
 "fonte": null
 },
 "8008429022308": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://unclefood.com/products/la-suissa-pralina-granbonita-nocio-latgian-1kg",
+"scontornata": true
 },
 "3086123399310": {
 "fonte": "openproductsfacts:3086123399310",
@@ -5497,7 +5600,8 @@
 "scontornata": false
 },
 "8500000191033": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.der-schnapsstodl.de/legendario/ron-9-anejo",
+"scontornata": true
 },
 "8006280010823": {
 "fonte": "openfoodfacts:8006280010823",
@@ -5523,34 +5627,40 @@
 "scontornata": false
 },
 "8000000002594": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://maracatucaffe.it/en/product/macchina-caffe-toraldo-rock-cialde-nero",
+"scontornata": true
 },
 "8720182387547": {
 "fonte": "openfoodfacts:8720182387547",
 "scontornata": true
 },
 "8003510013036": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.acnonsolobody.com/products/intesa-styling-gel-wet-look-extra-strong-con-vitamina-pp-150ml",
+"scontornata": true
 },
 "8002594001939": {
 "fonte": "openfoodfacts:8002594001939",
 "scontornata": false
 },
 "080021116621": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://yumland.pl/sklep/kawy-i-herbaty/kapsulki/kapsulki-nescafe-dolce-gusto-espresso-decaffeinato-kawa-bezkofeinowa-16",
+"scontornata": false
 },
 "8001090972194": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.latuaspesa.com/product/detersivo-pavimenti-superfici-delicate-marmo-ml930-mastro-lindo",
+"scontornata": true
 },
 "8001040198995": {
 "fonte": "openfoodfacts:8001040198995",
 "scontornata": true
 },
 "8000630735350": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.redcare.it/benessere/IT906043284/mentadent-white-system.htm",
+"scontornata": true
 },
 "793541370557": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.lacinio.store/products/amaro-milone-zero",
+"scontornata": false
 },
 "8014259145674": {
 "fonte": "openfoodfacts:8014259145674",
@@ -5583,7 +5693,8 @@
 "fonte": null
 },
 "8015100578306": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.lowprice.ch/de/geschirrspuelmaschinen/45384-detersivo-per-piatti-carboni-attivi-8015100578306.html",
+"scontornata": true
 },
 "8000300379174": {
 "fonte": "openfoodfacts:8000300379174",
@@ -5641,7 +5752,8 @@
 "scontornata": false
 },
 "8032754452714": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://ferdicoshop.it/eudorex-pannopell-idea-tre-panno-microfibra-30x32-cm-3-pz.html",
+"scontornata": true
 },
 "8700216528863": {
 "fonte": "openbeautyfacts:8700216528863",
@@ -5652,7 +5764,8 @@
 "scontornata": true
 },
 "8014210005245": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://suamaesta.com/prodotto/panettone-pera-e-cioccolato/",
+"scontornata": true
 },
 "8008343201551": {
 "fonte": "openfoodfacts:8008343201551",
@@ -5675,7 +5788,8 @@
 "scontornata": true
 },
 "8009740899846": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.farmacosmo.it/profumi/fresia-lanzarote-elisir-aromatico-profumo-donna-100-ml-vapo-179535/",
+"scontornata": true
 },
 "8032715243863": {
 "fonte": "openfoodfacts:8032715243863",
@@ -5700,10 +5814,12 @@
 "fonte": null
 },
 "8029132729018": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://marketcaffe.com/pop-nescafe-dolce-gusto/4791-crema-fredda-caffe-pop-brick-da-500-gr-8029132729018.html",
+"scontornata": true
 },
 "8029303072073": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.outletdecafe.fr/capsules-pop-caffe-naos-nespresso-cremoso-2",
+"scontornata": true
 },
 "8004333016143": {
 "fonte": "web:nome2:0.67:https://georgita.ge/en/products/product/45DF5C1A6E",
@@ -5718,13 +5834,16 @@
 "scontornata": false
 },
 "8003988813022": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://avellamagazzini.com/products/puro-amore-ammorbidente-concentrato-maxi-formato-xxl-golden-fly-1806-ml-86-lavaggi-",
+"scontornata": true
 },
 "5000204439618": {
-"fonte": null
+"fonte": "web:nome2:0.71:https://www.melonistore.com/raid-night-day-elettrico-1-ricarica-zanzare-120-ore-5000204473865.html",
+"scontornata": false
 },
 "8007033915853": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.profumeriemallardo.com/shop/uomo/65419-bal-set-diamante-n-homme-100ml-8007033916041.html",
+"scontornata": true
 },
 "8011941003601": {
 "fonte": "openfoodfacts:8011941003601",
@@ -5754,7 +5873,8 @@
 "scontornata": true
 },
 "8001410099006": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.rocard.it/shop/domopak-spazzy-saccoverde-sacchi-umido-20l-100-biodegradabili-e-compostabili-con-manici-trasp",
+"scontornata": true
 },
 "8054521549274": {
 "fonte": "web:nome:0.33:https://salroche.com/blogs/todo-sobre-la-sal/diferencia-sal-marina-sal-comun",
@@ -5765,23 +5885,27 @@
 "scontornata": false
 },
 "8001263230694": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://bottleofitaly.com/en/products/sambuca-bianca-70cl-damante?variant=50371208577362",
+"scontornata": true
 },
 "8004385036984": {
 "fonte": "openfoodfacts:8004385036984",
 "scontornata": false
 },
 "8004385039954": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.buycartway.com/product/santero-958-spritz-lemon/",
+"scontornata": true
 },
 "8009150105650": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://farmaciadelcorso.net/venus-sapone-liq-neutro-250-ml",
+"scontornata": true
 },
 "8006130501761": {
 "fonte": null
 },
 "8000000001207": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.coopshop.it/product/sg-sc-fab-pass-fruit-560ml",
+"scontornata": true
 },
 "8056732092815": {
 "fonte": "openfoodfacts:8056732092815",
@@ -5796,13 +5920,15 @@
 "scontornata": false
 },
 "8029960006510": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.wloskiesery.pl/produkt/spaghettata-alla-tropeana-50g-muraca-2/",
+"scontornata": false
 },
 "4003790001970": {
 "fonte": null
 },
 "8001940004044": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.melonistore.com/vileda-glitzi-spugna-abrasivo-verde-2-1-pz-8001940004044.html",
+"scontornata": true
 },
 "8007750020304": {
 "fonte": null
@@ -5828,21 +5954,24 @@
 "scontornata": true
 },
 "8720181781049": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.lacinziadetersivi.it/shampoo-e-balsamo/77686-sunsilk-shampoo-scintille-di-luce-250ml-8710522892718.html",
+"scontornata": true
 },
 "8007975019114": {
 "fonte": "openfoodfacts:8007975019114",
 "scontornata": true
 },
 "8000000001979": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.thesalusburywinestore.com/products/tarlant-brut-nature",
+"scontornata": true
 },
 "8003340065236": {
 "fonte": "openfoodfacts:8003340065236",
 "scontornata": false
 },
 "8007223000574": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.mastrolino.it/pavimenti-e-superfici/7884-ters-lavapavimenti-2-lt-verde.html",
+"scontornata": true
 },
 "8001620004159": {
 "fonte": "openfoodfacts:8001620004159",
@@ -5856,30 +5985,35 @@
 "fonte": null
 },
 "8024608007843": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.arfestore.it/prodotto/mix-cialda-toraldo-cremosa-forte-e-cremoso/",
+"scontornata": false
 },
 "8024608007881": {
 "fonte": null
 },
 "8024608013615": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://caffetoraldo.ch/product/toraldo-cremosa-150-stueck/",
+"scontornata": false
 },
 "8015854141283": {
 "fonte": "openfoodfacts:8015854141283",
 "scontornata": false
 },
 "8005495468993": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.bernava.net/products/scala-maxi-scorta-tovaglioli-200-pz",
+"scontornata": true
 },
 "8004205048203": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.caiyadelicious.it/shop/dolce/pasticceria/prodotto-da-forno/tre-marie-panettone-ananas-dore-930g/",
+"scontornata": true
 },
 "070177100360": {
 "fonte": "openfoodfacts:070177100360",
 "scontornata": false
 },
 "3600542159753": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.tuttodetersivi.it/prodotto/shampultra-davena-2in1-kids-250ml/149649",
+"scontornata": true
 },
 "8000500020012": {
 "fonte": "openfoodfacts:8000500020012",
@@ -5893,7 +6027,8 @@
 "fonte": null
 },
 "8021719001029": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.tiportolaspesa.it/negozio/usa-e-getta/contenitori-alluminio/vaschetta-alluminio-coperchio-optimo-4-porzioni-",
+"scontornata": true
 },
 "8021719001043": {
 "fonte": null
@@ -5902,7 +6037,8 @@
 "fonte": null
 },
 "8033576110530": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://nostra.trade/catalogue/verzi-gran-crema-1000g/",
+"scontornata": true
 },
 "8006540987636": {
 "fonte": "openbeautyfacts:8006540987636",
@@ -5929,7 +6065,8 @@
 "scontornata": false
 },
 "8008250133327": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://iperdrive.iper.it/product/bio-maxi-formato-sacchi-100-biodegradabili-70x110-cm-110-litri-5-pz-sacchi-biodegr70x1",
+"scontornata": true
 },
 "8003760036212": {
 "fonte": null
@@ -5946,7 +6083,8 @@
 "fonte": null
 },
 "12021": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://simplewine.ru/catalog/product/fiano_don_chisciotte_2021_075_151113/",
+"scontornata": false
 },
 "1030173": {
 "fonte": "web:nome2:0.75:https://blog.webios.it/prodotto-in-offerta/b09f6qv5xr/zucchero-eridania-bustine-monodose-classico",
@@ -5969,7 +6107,8 @@
 "scontornata": true
 },
 "8000000003362": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.acqua-leo.it/frizzante-vetro-75cl/",
+"scontornata": true
 },
 "8009193031053": {
 "fonte": "openfoodfacts:8009193031053",
@@ -5988,14 +6127,16 @@
 "scontornata": false
 },
 "8000000001412": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://olympusboutique.com/products/maryley-giacca-in-felpa-con-alamari-ricamati-e-collo-coreano-2",
+"scontornata": true
 },
 "8001263000327": {
 "fonte": "openfoodfacts:8001263000327",
 "scontornata": true
 },
 "8021719230566": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.ancheprodotti.it/prodotto/box-pellicola-in-pvc-h30cm-x-300mt-9-my/",
+"scontornata": true
 },
 "8056515591405": {
 "fonte": "web:nome:1.00:https://www.specialfly.net/product/amaro-cardus-50cl/",
@@ -6081,14 +6222,16 @@
 "scontornata": false
 },
 "8007950017166": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.drink-ex.it/birra-gluten-free/1900-birra-poretti-4-luppoli-gluten-free-33-cl-8007950017159.html",
+"scontornata": true
 },
 "8076809501965": {
 "fonte": "openfoodfacts:8076809501965",
 "scontornata": false
 },
 "0000003333": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://vineandbranchwine.com/products/domaine-j-laurens-le-moulin-blanquette-de-limoux-brut-750ml",
+"scontornata": true
 },
 "8006550387815": {
 "fonte": "web:ean:1.75:https://www.carrefour.it/p/boero-sciroppo-zucchero-di-canna-75-cl/8006550387815.html",
@@ -6148,10 +6291,12 @@
 "scontornata": true
 },
 "123": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.enotecatelaro.it/ciro-bianco-doc-cataldo-calabretta",
+"scontornata": true
 },
 "0800561325053": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://foodybev.com/beverage/notizie-bevande-analcoliche/2025/04/01/tassoni-presenta-la-cedrata-zero-e-le-novita-2025/",
+"scontornata": false
 },
 "3287210000953": {
 "fonte": "openfoodfacts:3287210000953",
@@ -6205,14 +6350,16 @@
 "scontornata": true
 },
 "8000000002198": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.lutigel.it/prodotto/cornetto-5-cereali-ai-frutti-rossi/",
+"scontornata": false
 },
 "8006621000803": {
 "fonte": "web:nome:0.50:https://www.manutan.it/it/mai/cotone-idrofilo",
 "scontornata": true
 },
 "0111111111111": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.casaamericana.com.py/producto/nutkao-crema-de-cacao-duo-750g-196287",
+"scontornata": true
 },
 "8021033005321": {
 "fonte": "web:nome2:0.67:https://todisacasa.it/prodotto/oliviero-crock-croccantino-di-arachidi-1246045",
@@ -6223,7 +6370,8 @@
 "scontornata": false
 },
 "8006540927656": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.carrefour.it/p/dash-detersivo-liquido-lavatrice-classico-21-lavaggi-1050-ml/8006540927656.html",
+"scontornata": true
 },
 "806891059055": {
 "fonte": "web:nome:1.80:https://taganza.com/product/deo-due-amm-1lt-fleur-dor/",
@@ -6238,7 +6386,8 @@
 "scontornata": false
 },
 "8388777574583": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://deomix.it/deo-mix-profuma-biancheria/58-profuma-biancheria-profuma-e-stira-petali-di-peonia-300ml-8027170005354.",
+"scontornata": false
 },
 "8000680500076": {
 "fonte": "openproductsfacts:8000680500076",
@@ -6261,7 +6410,8 @@
 "scontornata": true
 },
 "8029804012547": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://thekitcheneverything.com/15-creme-de-cacao-drinks/",
+"scontornata": false
 },
 "8024854175280": {
 "fonte": "web:nome:0.75:https://www.madameclari.com/gambo-oro/",
@@ -6324,7 +6474,8 @@
 "scontornata": true
 },
 "8017412001732": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://epicentrk.ua/ua/shop/mplc-zasib-dla-cisenna-ta-znezirenna-fiorillo-sgrassatore-limone-750-ml-001732-1f0b32fe-c87",
+"scontornata": true
 },
 "8000296000816": {
 "fonte": "web:ean:1.00:https://www.carollodetersivi.it/floyd-acido-muriatico-1lt",
@@ -6363,7 +6514,8 @@
 "scontornata": true
 },
 "8001263000785": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.calle.dk/sv-se/lordson-gin-bag-in-box-375-3-l-500008246",
+"scontornata": true
 },
 "8051732110453": {
 "fonte": "openfoodfacts:8051732110453",
@@ -6404,7 +6556,8 @@
 "scontornata": false
 },
 "8000000001641": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.vino-quotidiano.it/product/cremant-de-limoux-tete-de-cuvee-la-rose-n7-rose-brut-domaine-j-laurens/",
+"scontornata": true
 },
 "8009320044130": {
 "fonte": "openfoodfacts:8009320044130",
@@ -6521,10 +6674,12 @@
 "scontornata": true
 },
 "8010346040044": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.staples.co.uk/food-drink-catering/drinks/coffee-pods/nescafe-dolce-gusto-cappucino-capsules-pk-48-12352725/",
+"scontornata": false
 },
 "8010346006033": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://caffemontano.shop/product/prisma-capsule-compatibili-lavazza-a-modo-mio/",
+"scontornata": false
 },
 "8056326211837": {
 "fonte": "web:nome:1.00:https://www.galbani.co.uk/products/mozzarella-made-from-buffalo-milk/galbani-mozzarella-di-latte-di-bufala-mini-150g",
@@ -6605,7 +6760,8 @@
 "scontornata": true
 },
 "8014210001520": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://suamaesta.com/prodotto/fragranti-biscotti-al-burro-gocce-di-cioccolato/",
+"scontornata": false
 },
 "8004690102305": {
 "fonte": "openfoodfacts:8004690102305",
@@ -6636,14 +6792,16 @@
 "scontornata": true
 },
 "8057506330539": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.megaprezzo.com/validoso-piatti-fondi-riutilizzabili-20pz",
+"scontornata": false
 },
 "8009350303054": {
 "fonte": "web:ean:1.33:https://www.ebay.fr/itm/356622889189",
 "scontornata": true
 },
 "8013558000196": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.specialitapizzimenti.com/prodotto/pizze-san-martino/",
+"scontornata": false
 },
 "8014115000659": {
 "fonte": "web:ean:1.80:https://www.latuaspesa.com/product/poli-vaca-mora-amaro-32-cl70-poli-vaca-mora-amaro-32-cl70",
@@ -6691,10 +6849,12 @@
 "fonte": null
 },
 "8000090005314": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://raspada.shop/products/saiwa-salatini-ritz-astucciati-200g",
+"scontornata": false
 },
 "8000000002174": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.bindi.de/product/croissant-rodrigo-moro-nocciola-cacao-croissant-aus-hellem-und-dunklem-hefeteig-gefuellt-mi",
+"scontornata": true
 },
 "8006783626507": {
 "fonte": "web:nome:1.40:https://www.ragstore.it/tovaglioli/23601-carta-mani-asciugatutto-casalavoro-800-strappi-2-rotoli-8006783626507.html",
@@ -6739,7 +6899,8 @@
 "fonte": null
 },
 "8000000001191": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://enotecarocchi.it/prodotto/sciroppo-monin-cocco-70cl/",
+"scontornata": true
 },
 "8051511860876": {
 "fonte": "openfoodfacts:8051511860876",
@@ -6825,14 +6986,16 @@
 "scontornata": false
 },
 "8024608007874": {
-"fonte": null
+"fonte": "web:nome2:0.83:https://smartechshop.it/toraldo-16-capsule-caffe-miscela-macchiato-caramel-compatibile-dolce-gusto/",
+"scontornata": true
 },
 "8024608002053": {
 "fonte": "openfoodfacts:8024608002053",
 "scontornata": false
 },
 "8021033005093": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://energyfamilyproject.org/product/torrone-bianco-300-gr/",
+"scontornata": false
 },
 "8005495469532": {
 "fonte": null
@@ -6858,7 +7021,8 @@
 "scontornata": true
 },
 "8000000003171": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.neroespresso.it/prodotto/ovetti-duri-ripieni-vannucci/",
+"scontornata": true
 },
 "8021719001067": {
 "fonte": "web:ean:2.00:https://www.spesamoderna.com/vaschette-e-vassoi-alluminio/5738-8021719001067-ottimo-contenitori-alluminio-forma-torta-gr",
@@ -6881,7 +7045,8 @@
 "scontornata": true
 },
 "4023103073937": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.leroymerlin.it/prodotti/guanti-vileda-extra-sensation-m-90953959.html",
+"scontornata": true
 },
 "8017331086063": {
 "fonte": "web:ean:2.00:https://www.zetacash.it/vim-liquido-sgrassante-limone-pavimenti-e-superfici-1000ml.html",
@@ -6892,7 +7057,8 @@
 "scontornata": true
 },
 "1116796": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://perbaccowein.de/fili-rosato-igt-vino-frizzante.html",
+"scontornata": true
 },
 "8000729191876": {
 "fonte": "openfoodfacts:8000729191876",
@@ -6903,7 +7069,8 @@
 "scontornata": true
 },
 "8000000000422": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.grandettaglio.it/vino-serracavallo-terraccia-rosso-riserva-lt075",
+"scontornata": true
 },
 "7312040017508": {
 "fonte": "openfoodfacts:7312040017508",
@@ -6926,7 +7093,8 @@
 "scontornata": false
 },
 "8010878121303": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://latteriadelsole-shoponline.it/products/vino-rosato-imerio-ciro-rosato-cantina-zito-75cl-558",
+"scontornata": false
 },
 "8008110110550": {
 "fonte": "openfoodfacts:8008110110550",
@@ -6977,7 +7145,8 @@
 "scontornata": true
 },
 "8051499397142": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.qogita.com/products/41dfc5ae4a20429bb738b252d6860e03/ama-de-casa-ama-de-casa-scopa-titan/",
+"scontornata": true
 },
 "4067700028549": {
 "fonte": "openfoodfacts:4067700028549",
@@ -6992,7 +7161,8 @@
 "scontornata": true
 },
 "8000000003089": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.easycoop.com/coop-gelato-al-tiramisu-con-gocce-di-pan-di-spagna-500-g-4594162.html",
+"scontornata": true
 },
 "8054609785075": {
 "fonte": "web:nome:0.83:https://acquaesaponeonline.it/frm_dettaglio_prodotto.aspx?cod=046691",
@@ -7031,7 +7201,8 @@
 "scontornata": false
 },
 "8000000000798": {
-"fonte": null
+"fonte": "web:nome2:0.86:https://bottlebarn.com/products/nv-bele-casel-asolo-prosecco-superiore-extra-dry",
+"scontornata": true
 },
 "8053904763115": {
 "fonte": "web:nome:1.00:https://rotundodrink.it/prodotto/vino-san-francesco-terre-di-sale-pecorello-igt-2020-cl-75x6-bottiglie/",
@@ -7050,7 +7221,8 @@
 "scontornata": true
 },
 "80908500": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://ilvolantino.it/offerta/birra-strong-lager-bulldog-105853",
+"scontornata": true
 },
 "3080216034508": {
 "fonte": "openfoodfacts:3080216034508",
@@ -7069,7 +7241,8 @@
 "scontornata": false
 },
 "8054529251001": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.gmdistribuzione.eu/product/bobina-monorotolo-wow-2v-goffrata-500-strappi-x-4-rotoli/",
+"scontornata": true
 },
 "8004970145817": {
 "fonte": "openfoodfacts:8004970145817",
@@ -7116,7 +7289,8 @@
 "scontornata": false
 },
 "8000000001788": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://centaurusint.net/montresor-capitel-della-crosara-amarone-della-valpolicella-classico-2015-75cl/p-11409.html",
+"scontornata": true
 },
 "8004980003466": {
 "fonte": "web:nome:0.75:https://leefood.cl/carciofi-a-spicchi-in-olio-2400gr",
@@ -7135,7 +7309,8 @@
 "scontornata": true
 },
 "8000000001368": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://westgatewinestore.com/2021-cerminara-rcs-ciro-rosso",
+"scontornata": true
 },
 "8015194536596": {
 "fonte": "web:ean:1.83:https://www.melonistore.com/chanteclair-additivo-bucato-bianco-attivo-extra-power-900-ml-8015194536596.html",
@@ -7158,14 +7333,16 @@
 "scontornata": false
 },
 "8000000002549": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://www.buonaitalia.us/product/ciro-doc-rosso-classico-bold-traditional-gaglioppo-red-wine/",
+"scontornata": false
 },
 "5449000033505": {
 "fonte": "web:ean:2.00:https://shop.despar.com/spesa-ritiro-negozio/via-pesaro-20/prodotto/coca-cola-original-bibita-coca-cola-1lt-pet-240418",
 "scontornata": true
 },
 "8000000001092": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.zona.eu/product/coca-cola-zero-vap-24-pezzi-x-33-cl",
+"scontornata": true
 },
 "8720181593567": {
 "fonte": "web:ean:1.80:https://www.melonistore.com/coccolino-wonder-wash-odor-protection-detersivo-bucato-lavatrice-2-pezzi-da-37-lavaggi-da-14",
@@ -7343,7 +7520,8 @@
 "scontornata": true
 },
 "8000000001399": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.glamood.com/it/giacca-doppio-petto-gate-P288548.htm",
+"scontornata": true
 },
 "3460410507877": {
 "fonte": "openfoodfacts:3460410507877",
@@ -7413,7 +7591,8 @@
 "fonte": null
 },
 "8034055200742": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.capsuleshop.it/it/capsule-compatibili-nescafe-dolce-gusto/passione-88/the-nero-limone-dolce-gusto.html",
+"scontornata": false
 },
 "8004690053195": {
 "fonte": "openfoodfacts:8004690053195",
@@ -7480,7 +7659,8 @@
 "scontornata": true
 },
 "8000000000668": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://bravicaffe.com/product/macinato-fresco-miscela-bar/",
+"scontornata": true
 },
 "8028284154549": {
 "fonte": "web:nome:0.67:https://klam.it/prodotto/conserve/sottoli-e-sottaceti/melanzane-a-filetti-biologiche-320-gr-100-made-in-italy/",
@@ -7801,7 +7981,8 @@
 "scontornata": true
 },
 "8000000002358": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://giosiwine.com/prodotto/cedrata-tassoni-cassa-da-25-bottiglie-x-18-cl/",
+"scontornata": true
 },
 "7322540332735": {
 "fonte": "web:ean:1.50:https://www.carrefour.it/p/tempo-original-fazzoletti-4-veli-10-pz/7322540332735.html",
@@ -7943,7 +8124,8 @@
 "scontornata": false
 },
 "8001480719415": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.ingrossomerce.it/produkt/scalacandeggina-classica-ml-2500/",
+"scontornata": true
 },
 "8001480703995": {
 "fonte": null
@@ -7961,7 +8143,8 @@
 "scontornata": true
 },
 "8018800031461": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.eurodrinkcalabria.it/it/serricella-nat-lt2x6-pet",
+"scontornata": true
 },
 "8054145674147": {
 "fonte": null
@@ -7975,10 +8158,12 @@
 "scontornata": true
 },
 "8003045100478": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.melonistore.com/alba-lavatrice-activ-iris-fiori-bianchi-detersivo-liquido-bucato-lavatrice-33-lavaggi-1850-m",
+"scontornata": true
 },
 "8000000001566": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://bottleofitaly.com/en/products/trento-doc-pas-dose-altemasi",
+"scontornata": true
 },
 "8000400203379": {
 "fonte": "openfoodfacts:8000400203379",
@@ -8017,7 +8202,8 @@
 "scontornata": false
 },
 "8029804007260": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://ingrocaffe.it/CAFFE-BARBARO/Barbaro-Cialda-Filtrocarta-ESE-Miscela-Rossa-Conf-150-Pz/1888",
+"scontornata": false
 },
 "8029241139265": {
 "fonte": "web:nome:0.14:https://primanyc.net/barbie-convention-2026-location/",
@@ -8036,7 +8222,8 @@
 "scontornata": true
 },
 "8010282206016": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://spadaforabibite.it/produzione/linea-lattine/bergamotto-spadafora/",
+"scontornata": true
 },
 "8023701021893": {
 "fonte": "openfoodfacts:8023701021893",
@@ -8061,7 +8248,8 @@
 "fonte": null
 },
 "8008440510303": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.amazon.it/Peroni-Bottiglia-Moderatamente-Gradazione-Alcolica/dp/B06WRV2S8J",
+"scontornata": false
 },
 "8076809573252": {
 "fonte": "openfoodfacts:8076809573252",
@@ -8082,7 +8270,8 @@
 "fonte": null
 },
 "8034028335792": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://marketcaffe.com/caffe-borbone/41-25-capsule-point-borbone-caffe-ginseng-8034028335792.html",
+"scontornata": true
 },
 "8034028336713": {
 "fonte": null
@@ -8092,13 +8281,15 @@
 "scontornata": false
 },
 "8004385039251": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.bargiornale.it/vino-birra/958-santero-punta-sul-brachetto-dacqui-docg/",
+"scontornata": false
 },
 "7460855230206": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://wein-outlet.com/produkt/brugal-1888-doblemente-anejado-reserva-familiar-ron-07l/",
+"scontornata": false
 },
 "8004333014361": {
-"fonte": "web:nome2:0.60:https://www.ilmioinvitoperfetto.it/prodotto/busta-bianca-perlata/",
+"fonte": "web:nome2:0.60:https://www.magazzinigianfreda.it/idee-regalo/idee-regalo/articoli-per-confezionare/buste-per-tutti-i-gusti-/buste-carto",
 "scontornata": true
 },
 "8054751740038": {
@@ -8117,7 +8308,8 @@
 "scontornata": false
 },
 "8054529250776": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.caress.it/prodotti/carta-igienica/caress-immensa/immensa-4-rotoli/",
+"scontornata": true
 },
 "8005495469501": {
 "fonte": "web:nome2:1.00:https://www.carollodetersivi.it/comprami-subito-carta-ig-4rot2v-500str",
@@ -8131,17 +8323,20 @@
 "scontornata": true
 },
 "3185370001233": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://arvi.ch/fr/products/moet-chandon-champagne-brut-imperial-nv",
+"scontornata": true
 },
 "8015194526238": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.carrefour.it/p/chanteclair-wc-disincrostante-mousse-625-ml/8015194526238.html",
+"scontornata": true
 },
 "80008446": {
 "fonte": "openfoodfacts:80008446",
 "scontornata": true
 },
 "8717163614327": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.fpsingrosso.com/igiene-casa-e-persona/61435-cif-1432-gel-bagno-brillante-750-ml.html",
+"scontornata": true
 },
 "8004735020861": {
 "fonte": "openfoodfacts:8004735020861",
@@ -8202,30 +8397,36 @@
 "fonte": null
 },
 "50099641": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.coopshop.it/product/deo-dove-go-fresh-vapo-75ml",
+"scontornata": true
 },
 "8388777574835": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://deomix.it/bagno/120-jet-clean-plus-blu-multiuso-igienizzante-casa-super-profumato-480ml.html",
+"scontornata": true
 },
 "8388777574194": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://deomix.it/profumatore-e-pulitore/20-deo-mix-profumatore-white-lotus-450ml-8027170005316.html",
+"scontornata": false
 },
 "8388777575191": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://ferdicoshop.it/peonia-essence-profumatutto-480-ml-white-talco.html",
+"scontornata": false
 },
 "8032891920046": {
 "fonte": "openfoodfacts:8032891920046",
 "scontornata": false
 },
 "8710447174708": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.orizzonteshop.it/products/unilever-dimension-sh-250ml-camomilla-unilever-ean-8710447174838",
+"scontornata": true
 },
 "8445291179653": {
 "fonte": "openfoodfacts:8445291179653",
 "scontornata": false
 },
 "8720181527920": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://baronesha.al/bli-online/higjena-personale-kujdesi-vetjak/higjena-trupit/dove-bath-deeply-nourishing-720ml/",
+"scontornata": true
 },
 "8720181291845": {
 "fonte": "web:nome2:0.71:https://www.redcare-pharmacie.fr/beaute/BE09805542/dove-soft-feel-anti-transpirant-deodorant-spray-48h-peony-amber.htm",
@@ -8236,7 +8437,8 @@
 "scontornata": true
 },
 "8008970010618": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.itabweb.com/en/colluttorio-durbans-menta-500ml-1pz-verde",
+"scontornata": true
 },
 "3600524194567": {
 "fonte": "web:nome:0.60:https://www.ilregnodelloshop.it/452-elvive-shampoo-hydra-hyaluronic.html",
@@ -8247,7 +8449,8 @@
 "scontornata": true
 },
 "8718951704114": {
-"fonte": null
+"fonte": "web:nome2:0.86:https://www.gros.it/product/fabuloso-ammconc-coccofbianchi-125l",
+"scontornata": true
 },
 "8003495700648": {
 "fonte": "openfoodfacts:8003495700648",
@@ -8272,7 +8475,8 @@
 "scontornata": false
 },
 "8055687860364": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://prodottitipiciscarfo.it/pasta-tipica/fileja-tricolore-500-gr/",
+"scontornata": true
 },
 "8002910024949": {
 "fonte": "openproductsfacts:8002910024949",
@@ -8310,17 +8514,20 @@
 "scontornata": false
 },
 "8051884503189": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.pietrozanettihome.com/it-it/prodotto/strofinaccio-fruity-100-cotone-6-colori/",
+"scontornata": false
 },
 "8001420012545": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.paladiniotello.it/prodotto/16787/",
+"scontornata": true
 },
 "8000139002939": {
 "fonte": "openfoodfacts:8000139002939",
 "scontornata": true
 },
 "8015700167672": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.tetadrogerie.sk/produkty/Vlasove-gely-/D39120-Taft-gel-na-vlasy-Stand-Up-Look-150-ml/",
+"scontornata": false
 },
 "8006540765296": {
 "fonte": null
@@ -8346,17 +8553,20 @@
 "scontornata": true
 },
 "8000000107831": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://aromaegusto.com/shop/capsule-caffe/capsule-caffe-lavazza-a-modo-mio/troiano-a-modo-mio-classica-pz-100/",
+"scontornata": true
 },
 "8004200123905": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.spesasicura.com/product/spontex-mapa-guanti-soft-grande-id-23323",
+"scontornata": false
 },
 "9002975338028": {
 "fonte": "openfoodfacts:9002975338028",
 "scontornata": false
 },
 "8700216307475": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://well.co.uk/head-shoulders-citrus-fresh-shampoo-250ml/",
+"scontornata": true
 },
 "8000050027813": {
 "fonte": "openfoodfacts:8000050027813",
@@ -8366,7 +8576,8 @@
 "fonte": null
 },
 "8018706000097": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.vino.com/dettaglio/isonzo-del-friuli-doc-cabernet-franc-borgo-conventi-2024.html",
+"scontornata": true
 },
 "8009320044543": {
 "fonte": "openfoodfacts:8009320044543",
@@ -8388,7 +8599,8 @@
 "fonte": null
 },
 "3600523449187": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.tuttodetersivi.it/prodotto/loreal-dermo-ex-latte-pss-400ml-fiori-rari/117666",
+"scontornata": true
 },
 "8008429020021": {
 "fonte": "openfoodfacts:8008429020021",
@@ -8403,13 +8615,16 @@
 "scontornata": false
 },
 "8014129231100": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.mcnet.tv/laura-scopa-larte-della-ceramica-e-le-forme-attuali/",
+"scontornata": false
 },
 "8700216744775": {
-"fonte": null
+"fonte": "web:nome2:0.83:https://www.trovaprezzi.it/detersivi-pulenti/prezzi-scheda-prodotto/lenor_unstoppables_profumo_per_bucato_oro_e_fiori_di",
+"scontornata": true
 },
 "8002415150068": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.itabweb.com/en/liking-busta-latte-menta-1kg",
+"scontornata": false
 },
 "8001480401716": {
 "fonte": null
@@ -8433,10 +8648,12 @@
 "scontornata": false
 },
 "8003510027927": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://maurysonline.it/malizia-deo-donna-100ml-animalier",
+"scontornata": false
 },
 "8029044114049": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.cicalia.com/it/pasticceria-secca/55764-dolc-monardo-bisc-margherit-cacao.html",
+"scontornata": true
 },
 "080021116645": {
 "fonte": null
@@ -8445,14 +8662,16 @@
 "fonte": null
 },
 "8003535081898": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.dupliclick.it/product/ovetti-maxi-nocciole-e-cereali-sonetti-witors",
+"scontornata": true
 },
 "8720181297076": {
 "fonte": "openbeautyfacts:8720181297076",
 "scontornata": false
 },
 "8000000001993": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.lacinio.store/products/miya-liquirizia-radicale",
+"scontornata": true
 },
 "8006220006121": {
 "fonte": null
@@ -8470,7 +8689,8 @@
 "scontornata": true
 },
 "8010346020077": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.smcogic.org/prodotto/a-modo-mio-don-carlo-camomilla-melatonina-16-capsule/",
+"scontornata": true
 },
 "8000000001320": {
 "fonte": null
@@ -8526,7 +8746,8 @@
 "scontornata": false
 },
 "8001480059450": {
-"fonte": null
+"fonte": "web:nome2:0.83:https://www.bimbostore.com/prodotto/pampers-baby-fresh-formula-escl-x500/",
+"scontornata": true
 },
 "8002630100497": {
 "fonte": "openfoodfacts:8002630100497",
@@ -8544,7 +8765,8 @@
 "fonte": null
 },
 "8700216504225": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.coopshop.it/product/shpantene-antiforfora-250ml",
+"scontornata": true
 },
 "8032715242897": {
 "fonte": "openfoodfacts:8032715242897",
@@ -8565,13 +8787,16 @@
 "scontornata": true
 },
 "8009545001222": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://www.abillion.com/reviews/61c987fb64822700a3222272",
+"scontornata": true
 },
 "8009545009761": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.isoladeisapori.net/product-page/peperoncino-frantumato",
+"scontornata": false
 },
 "8034097154430": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://lollovending.it/hai-gia-provato-le-perle-di-lollo/",
+"scontornata": true
 },
 "8076809580762": {
 "fonte": "openfoodfacts:8076809580762",
@@ -8612,7 +8837,8 @@
 "fonte": null
 },
 "8004395009206": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.amicafarmacia.com/products/proraso-sapone-da-barba-rinfrescante-in-tubo-150ml",
+"scontornata": true
 },
 "8712566451227": {
 "fonte": "openfoodfacts:8712566451227",
@@ -8623,7 +8849,8 @@
 "scontornata": false
 },
 "8004260009263": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.bennet.com/Categories/CURA-E-IGIENE-PERSONA/CARTA-IGIENICA-E-FAZZOLETTI/CARTA-IGIENICA/IG-CAMOMILLA-4-ROTOLI",
+"scontornata": false
 },
 "8013355501513": {
 "fonte": "openfoodfacts:8013355501513",
@@ -8653,24 +8880,28 @@
 "scontornata": true
 },
 "8001410075093": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://www.filgistore.it/it/casa/2986-domopak-spazzy-maxi-strong-sacchi-ultra-resistenti-10-pz-150-lt-80x120-cm-8001410",
+"scontornata": false
 },
 "8008758900148": {
 "fonte": "web:nome2:0.75:https://www.adriaticametalli.it/prodotti-per-la-pulizia/4200-sacco-spazzatura-daily-ambrato-90x120-cf10.html",
 "scontornata": true
 },
 "8009545010767": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.js1599.it/shop/sali-dal-mondo/sale-bianco-piramide-cipro/",
+"scontornata": true
 },
 "8032715243252": {
 "fonte": "openfoodfacts:8032715243252",
 "scontornata": true
 },
 "8006040660145": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.caiyadelicious.it/shop/dolce/creme-spalmabili/marmellata-e-miele/santa-rosa-confettura-zero-zuccheri-aggiunt",
+"scontornata": false
 },
 "8004385039978": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.santero.it/il-panettone-al-brachetto-dacqui-958-santero-colorone/",
+"scontornata": false
 },
 "8020141112006": {
 "fonte": "openfoodfacts:8020141112006",
@@ -8695,7 +8926,8 @@
 "fonte": null
 },
 "8010282001024": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://gerenoteca.com/shop/vino-frizzante-bianco-monamour-spadafora/",
+"scontornata": true
 },
 "8003495702932": {
 "fonte": "openfoodfacts:8003495702932",
@@ -8710,7 +8942,8 @@
 "scontornata": true
 },
 "8002340009318": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.profumerianewtimes.com/home/1266-strep-crema-depilatoria-corpo-150ml-8002340009318.html",
+"scontornata": true
 },
 "8001440124525": {
 "fonte": "openfoodfacts:8001440124525",
@@ -8729,14 +8962,16 @@
 "scontornata": true
 },
 "8710447423189": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://shop.risparmiocasa.com/sunsilk-olio-nutriente-scintille-di-luce-effetto-seta-75ml",
+"scontornata": true
 },
 "8059602243294": {
 "fonte": "web:nome2:0.83:https://ttmarket.bg/product/sweet-home-collection-ammorbidente-concentrato-gocce-di-seta-koncentriran-omekotitel-za-dreh",
 "scontornata": true
 },
 "8033247633597": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.amazon.it/SECCHIELLO-TARALLI-PUGLIA-PEPERONCINO-APERITIVO/dp/B07DVQGHBM",
+"scontornata": true
 },
 "3046920024204": {
 "fonte": "openfoodfacts:3046920024204",
@@ -8754,14 +8989,16 @@
 "scontornata": false
 },
 "8004172040637": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://faccisas.it/prodotto/topping-cioccolato/",
+"scontornata": true
 },
 "8024608008000": {
 "fonte": "web:nome2:0.60:https://www.rocard.it/shop/caffe-toraldo-cialda-carta-miscela-arabica/",
 "scontornata": true
 },
 "8024608007928": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.caffetwins.com/it/prodotti/572/caffe-toraldo-cappuccino-e-biscotto-bevande-solubili-compatibile-nescafe-dolc",
+"scontornata": true
 },
 "8024608007102": {
 "fonte": "web:nome2:0.75:https://caffe-shop.it/shop/a-modo-mio-gattopardo-ginseng-128-capsule/",
@@ -8788,7 +9025,8 @@
 "scontornata": true
 },
 "8021033001156": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://sanlorenzoenoteca.it/prodotto/uovo-di-cioccolato-al-latte-gran-nocciolato-piemonte-venchi-1000g/",
+"scontornata": true
 },
 "8000500381960": {
 "fonte": "openfoodfacts:8000500381960",
@@ -8798,30 +9036,35 @@
 "fonte": null
 },
 "8003980100410": {
-"fonte": null
+"fonte": "web:nome2:0.60:https://www.spesasicura.com/product/details/6270",
+"scontornata": true
 },
 "8021719001104": {
 "fonte": "web:nome2:1.00:https://www.cicalia.com/it/vaschette-contenitori/83167-ottimo-vaschette-allum-c-cop-1-porz-4-pz.html",
 "scontornata": true
 },
 "8001263240464": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://pisanisrl.it/product/grappa-andrea-da-ponte-bianca-veneta/",
+"scontornata": true
 },
 "8029804016651": {
 "fonte": null
 },
 "8006540987865": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.ferramentavanoli.com/viakal-casa-liquido-classico-470-ml",
+"scontornata": false
 },
 "80679240": {
 "fonte": "openfoodfacts:80679240",
 "scontornata": true
 },
 "8017331107683": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.gemaldetersivi.it/en/products/detergente-multiuso-con-carboni-attivi-vim-600ml",
+"scontornata": true
 },
 "8030426000195": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://lacalabrese.com/es/vino-bianco/235-vino-bianco-frizzante-statti-igt-bluette-cl-75-9145374727823.html",
+"scontornata": false
 },
 "8000000000323": {
 "fonte": "web:nome2:1.00:https://travino.it/lonetti-2020-battito-rosso-melissa-doc-6505001000.html",
@@ -8832,7 +9075,8 @@
 "scontornata": true
 },
 "8000000000415": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://anticabottegacalabrese.it/products/quattro-lustri-vino-rosso-dop-cantine-serracavallo",
+"scontornata": true
 },
 "7777777777777": {
 "fonte": "web:nome2:0.80:https://shop.lacosentina.com/products/vino-sette-chiese-calabria-rosso-igp-serracavallo",
@@ -8855,10 +9099,12 @@
 "scontornata": true
 },
 "8001440137679": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.bennet.com/Categories/BEVANDE/SUCCHI-DI-FRUTTA/BEVANDE-A-BASE-DI-FRUTTA/BEV-FRUTTI-R-ZERO-YOGA/p/P_3781804",
+"scontornata": true
 },
 "8056095083048": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://sostacaffe.it/zito-caffe-uno-system/781-100pz-capsule-miscela-decaffeinato-caffe-zito-compatibile-con-uno-system",
+"scontornata": false
 },
 "8007914007608": {
 "fonte": "openbeautyfacts:8007914007608",
@@ -8929,7 +9175,8 @@
 "scontornata": true
 },
 "1022": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://johndorywine.myshopify.com/products/antolini-valpolicella-ripasso-superiore-doc-2020-veneto-italy",
+"scontornata": true
 },
 "8054609784160": {
 "fonte": "web:ean:1.40:https://www.magale.it/prodotti/profumi/profumi-donna/set-regalo/aquolina-crush-zucchero-a-velo-set-regalo-acqua-profumat",
@@ -9115,7 +9362,8 @@
 "scontornata": false
 },
 "8000000002365": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://buycartway.com/product/colomba-tradizionale-attilio-servi-1kg/",
+"scontornata": true
 },
 "8056479012985": {
 "fonte": "web:nome:1.00:https://emozioniquotidiane.com/products/cialda-caffe-condore-cremoso-box-50-150-pz",
@@ -9189,7 +9437,8 @@
 "scontornata": true
 },
 "8000000002976": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://mymarca.it/en/products/retrogusto-casa-marche-2/italian-and-international-liqueurs/bonollo-grappa-moscato-elisir",
+"scontornata": true
 },
 "8000000003454": {
 "fonte": null
@@ -9263,8 +9512,7 @@
 "scontornata": true
 },
 "8029960000204": {
-"fonte": "web:nome2:1.00:https://it.dreamstime.com/fotografie-stock-fuochi-d-artificio-image5983773",
-"scontornata": true
+"fonte": null
 },
 "8001420012286": {
 "fonte": "openfoodfacts:8001420012286",
@@ -9311,7 +9559,8 @@
 "scontornata": false
 },
 "4005900787002": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.coopshop.it/product/cerotti-hansaplast-2fas-10pz",
+"scontornata": false
 },
 "8426617615253": {
 "fonte": "web:nome:1.00:https://www.wilko.com/en-uk/haribo-starmix-11-pack/p/8371277",
@@ -9426,10 +9675,12 @@
 "scontornata": true
 },
 "8000000002464": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.fornosignorelli.it/shop/miele-millefiori/",
+"scontornata": true
 },
 "8003535081973": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://vicofoodbox.com/it/cioccolato/6745-crispo-ovetti-ovoletts-cioccolato-latte-mini-lenti.html",
+"scontornata": true
 },
 "8002590081867": {
 "fonte": "openfoodfacts:8002590081867",
@@ -9631,7 +9882,8 @@
 "scontornata": true
 },
 "8000000001221": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://shop.enotecacefalo.com/store/FAVARO-ROSACHEROSANONSEI-CL-75-CONFEZIONE-DA-6-BOTTIGLIE-p785549772",
+"scontornata": true
 },
 "3460410528025": {
 "fonte": "openfoodfacts:3460410528025",
@@ -9798,7 +10050,8 @@
 "scontornata": true
 },
 "8000000002839": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.vannuccichocolates.com/catalogo/praline/pralina-ciliegia-rhum-vannucci/",
+"scontornata": false
 },
 "8006320072743": {
 "fonte": "web:ean:1.67:https://www.carrefour.it/p/vape-elettroemanatore-piastrine-classic-10-ricariche/8006320072743.html",
@@ -9837,7 +10090,8 @@
 "scontornata": true
 },
 "8000000002693": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.rollingwine.com/it/vino-rosato/3032-rosato-2024-calabria-igt.html",
+"scontornata": true
 },
 "8050046762112": {
 "fonte": "openfoodfacts:8050046762112",
@@ -9940,7 +10194,8 @@
 "scontornata": true
 },
 "0723": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.enotecacialdea.com/product/amarone-della-valpolicella-classico-moropio-2020-antolini/",
+"scontornata": true
 },
 "8054609784115": {
 "fonte": "web:nome:0.83:https://www.farmacosmo.it/cura-e-bellezza-corpo/aquolina-cofanetto-zucchero-al-velo-bagnodoccia-125-ml-latte-corpo-125-m",
@@ -10043,7 +10298,8 @@
 "scontornata": true
 },
 "8000000001580": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.lamborghiniwine.it/box-bottiglia-flute",
+"scontornata": false
 },
 "8007975016106": {
 "fonte": "openfoodfacts:8007975016106",
@@ -10058,7 +10314,8 @@
 "scontornata": true
 },
 "8002910063405": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.24shop24.it/prodotto/calgon-power-gel-anticalcare-lavatrice-3in1-750ml/",
+"scontornata": true
 },
 "8000040040815": {
 "fonte": "openfoodfacts:8000040040815",
@@ -10184,7 +10441,8 @@
 "scontornata": true
 },
 "8412428016976": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.keywestinternationale.com.ph/product/disney-frozen-creative-nail-art-salon-transfer-sticker-set/",
+"scontornata": true
 },
 "4809015157015": {
 "fonte": "openfoodfacts:4809015157015",
@@ -10243,7 +10501,8 @@
 "scontornata": false
 },
 "8000000001870": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.acypshop.net/product/fili-serracavallo/",
+"scontornata": true
 },
 "8002885005103": {
 "fonte": "openfoodfacts:8002885005103",
@@ -10317,7 +10576,8 @@
 "fonte": null
 },
 "8000000002969": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://mattia-weine.de/produkt/diamant-grappa-goldener-muskat-giori/",
+"scontornata": true
 },
 "8009545001192": {
 "fonte": "web:nome:0.33:https://www.drogheriasulmona.it/onlineshop/erbe-aromatiche-e-spezie/161-grigliata.html",
@@ -10360,7 +10620,8 @@
 "scontornata": true
 },
 "8034055201169": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.brustarsagradafamilia.com/product/bevanda-bianca-delattosata-compatibili-nescafe-dolce-gusto-10-capsule/",
+"scontornata": true
 },
 "8034055200230": {
 "fonte": "web:nome:0.67:https://meafarma.it/oc-tisana-snellente-500ml",
@@ -10471,7 +10732,8 @@
 "scontornata": false
 },
 "8000000003041": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://enotecacostantinipiero.it/spumanti/6953-Muller-Thurgau-Cavit-Brut.html",
+"scontornata": true
 },
 "8076809528368": {
 "fonte": "web:nome:0.67:https://www.italiengourmet.com/nastrine-x-6-gr240-mulino-bianco",
@@ -10573,7 +10835,8 @@
 "scontornata": true
 },
 "8054382870128": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.supersigma.com/prodotto/sigma-tranci-di-pesce-spada-al-naturale-surgelati-450-g/",
+"scontornata": false
 },
 "8076809571500": {
 "fonte": "openfoodfacts:8076809571500",
@@ -10624,7 +10887,8 @@
 "scontornata": true
 },
 "3086123493056": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.reginatofratelli.it/it/-bic-rasoi-twin-lady-bilama-x-6-949112",
+"scontornata": false
 },
 "8033247630220": {
 "fonte": "web:nome:1.00:https://minchinburyfruitmarket.com.au/rice-crackers-350g",
@@ -10810,8 +11074,7 @@
 "scontornata": false
 },
 "8000000002761": {
-"fonte": "web:nome2:1.00:https://www.tripadvisor.com/Restaurant_Review-g187907-d15237669-Reviews-Caffe_Vannucci-Perugia_Province_of_Perugia_Umbri",
-"scontornata": true
+"fonte": null
 },
 "8051499390167": {
 "fonte": "web:nome:0.50:https://www.ebay.it/itm/294442711605",
@@ -10862,7 +11125,8 @@
 "scontornata": true
 },
 "8010146005601": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://fooditalyworld.com/products/carc",
+"scontornata": false
 },
 "8001263190097": {
 "fonte": "web:nome:1.00:https://www.pascarellafoodservice.it/prodotto/fiume-vodka-bianca-ruskov-38-2lt/",
@@ -10885,7 +11149,8 @@
 "scontornata": false
 },
 "8000121410377": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.amazon.it/BUSTINE-MONODOSE-ZUCCHERO-ERIDANIA-CLASSICO/dp/B078ZFXJDT",
+"scontornata": true
 },
 "8029960008200": {
 "fonte": "web:nome:1.00:https://saporietradizioniditalia.it/a-maritata-di-giancarlo-suriano/",
@@ -10932,7 +11197,8 @@
 "scontornata": true
 },
 "8000000001542": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.falstaff.com/en/wines/2020-altemasi-blanc-de-noirs-trento-doc-brut",
+"scontornata": false
 },
 "8051499397081": {
 "fonte": "web:nome:0.57:https://www.qogita.com/products/f46e1305c57a4e43a7b6c3f8d367e914/ama-de-casa-super-mop-stripes-180-gr-microfiber-mop/",
@@ -11014,10 +11280,12 @@
 "scontornata": true
 },
 "8000000003225": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://www.distribuzionebevande.shop/product/birra-heineken-lattina-cl-33x24/",
+"scontornata": true
 },
 "8000000002488": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://laboutiquedelcaffe.com/products/birra-peroni-lattina-33clx24",
+"scontornata": false
 },
 "8000090004461": {
 "fonte": "openfoodfacts:8000090004461",
@@ -11052,7 +11320,8 @@
 "scontornata": true
 },
 "8000000000842": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://vicofoodbox.com/it/distillati-e-speciali/6363-antica-distilleria-petrone-limoncello-bicchieri-ceramica.html",
+"scontornata": true
 },
 "8015536000914": {
 "fonte": "web:nome:1.00:https://www.lebontadelmaresrl.it/home/83-broccoli-rosette-1kg-bonduelle.html",
@@ -11123,7 +11392,8 @@
 "scontornata": true
 },
 "8000000001030": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://cristalbeverage.com/prodotto/coca-cola-vap-033-lt-x-24-bott/",
+"scontornata": true
 },
 "8720181351433": {
 "fonte": "web:ean:1.50:https://allegro.pl/produkt/coccolino-sandalowiec-wiciokrzew-plyn-do-plukania-088fcb6e-eae9-4c29-963a-0b1fc738490e",
@@ -11157,7 +11427,8 @@
 "scontornata": true
 },
 "8000000000385": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://www.enovely.com/prodotti/j-laurens-cremant-de-limouxv-rose-brut-ndeg7",
+"scontornata": true
 },
 "8003980030007": {
 "fonte": "web:ean:2.00:https://groscidac.eu/ecom_cp/prodotto/cuki-congela-gelopiu-sacchetti-freezer-7-strati-formato-piccolissimo-17-x-22-cm-40",
@@ -11172,8 +11443,8 @@
 "scontornata": true
 },
 "8388777574293": {
-"fonte": "web:nome2:0.71:https://deomix.it/profumatore-e-pulitore/26-deo-mix-profumatore-diamond-450ml-8027170005019.html",
-"scontornata": true
+"fonte": "web:nome2:1.00:https://deomix.it/deo-mix-pavimento/38-deo-mix-pavimento-diamond-1000ml-8027170005170.html",
+"scontornata": false
 },
 "8388777574118": {
 "fonte": "web:nome:1.00:https://deomix.it/deo-mix-profuma-biancheria/32-profuma-bucato-petali-di-peonia-100ml-8027170005101.html",
@@ -11546,7 +11817,8 @@
 "scontornata": true
 },
 "4023103073029": {
-"fonte": null
+"fonte": "web:nome2:1.00:https://www.manomano.it/p/panno-in-microfibra-vileda-plus-multiuso-universale-36x38-cm-51238-54143725",
+"scontornata": true
 },
 "8700216528344": {
 "fonte": "web:ean:1.67:https://www.carrefour.it/p/pantene-pro-v-ricci-perfetti-balsamo-active-nutri-plex-200-ml/8700216528344.html",
@@ -11684,7 +11956,8 @@
 "scontornata": false
 },
 "8000000002303": {
-"fonte": null
+"fonte": "web:nome2:0.75:https://itabites.com/products/santa-rosa-confettura-ciliegie-350g-12-in-a-box",
+"scontornata": true
 },
 "8004385034539": {
 "fonte": "openfoodfacts:8004385034539",
@@ -11723,7 +11996,8 @@
 "scontornata": true
 },
 "8000000001283": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.freshtropical.it/it/sprite-lattina-24x330ml-ita",
+"scontornata": true
 },
 "8004385035437": {
 "fonte": "openfoodfacts:8004385035437",
@@ -11822,7 +12096,8 @@
 "scontornata": true
 },
 "8032603497743": {
-"fonte": null
+"fonte": "web:nome2:0.67:https://www.vannuccichocolates.com/catalogo/praline/pralina-il-perugino-vannucci/",
+"scontornata": true
 },
 "8051511861903": {
 "fonte": "web:nome:0.83:https://dambros.it/online/prodotto/0000181237/vaschetta-gelato-nocciola-tiramisu-crema-e-stracciatella-1kg-tonitto",
@@ -11861,7 +12136,8 @@
 "scontornata": false
 },
 "8000000002679": {
-"fonte": null
+"fonte": "web:nome2:0.80:https://topwineitalia.com/prodotti/vini/pecorello-matto-calabria-igt-cantine-de-mare/",
+"scontornata": true
 },
 "8021507738601": {
 "fonte": "web:ean:1.75:https://rozetka.com.ua/ua/cantina_terlano_8021507738601/p407232396/",
