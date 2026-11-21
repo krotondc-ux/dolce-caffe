@@ -424,7 +424,7 @@ const saldoDi=c=>c.mov.reduce((s,m)=>s+m.v,0);
 function nuovoStato(){
   const mv=(g,t,v)=>({d:dataBreve(fraGiorni(g)),t,v});
   return {
-    versione:2,giorno:isoGiorno(new Date()),incassoOggi:412.60,scontrini:27,mag:{},
+    versione:3,giorno:isoGiorno(new Date()),incassoOggi:412.60,scontrini:27,mag:{},
     crediti:[
       {id:1,nome:'Bar dello Sport',tel:'3331112223',dal:isoGiorno(fraGiorni(37)),mov:[mv(37,'Merce a credito',142.00),mv(20,'Merce a credito',96.40),mv(13,'Acconto contanti',-52.00)],prom:{on:true,freq:'Ogni settimana',giorno:0,ora:'09:00',wa:true}},
       {id:2,nome:'Market Da Pino',tel:'3285554411',dal:isoGiorno(fraGiorni(15)),mov:[mv(15,'Merce a credito',310.50),mv(5,'Bonifico',-150.00)],prom:{on:true,freq:'Ogni 2 settimane',giorno:4,ora:'10:00',wa:false}},
@@ -510,7 +510,7 @@ const clone=o=>JSON.parse(JSON.stringify(o));
 const Store={
   mode:'local',db:null,stato:null,ordini:{},onStato:null,onOrdini:null,ultimo:'',inScrittura:false,prossima:null,avvisato:false,
   start(){
-    const vec=LS.get('dc.stato');const nuovo=!vec||vec.versione!==2;
+    const vec=LS.get('dc.stato');const nuovo=!vec||vec.versione!==3;
     this.stato=nuovo?nuovoStato():vec;
     this.ordini=nuovo?ordiniDemo():(LS.get('dc.ordini')||ordiniDemo());
     LS.set('dc.stato',this.stato);LS.set('dc.ordini',this.ordini);
@@ -539,7 +539,7 @@ const Store={
         return;
       }
       const primo=this.mode!=='live';this.mode='live';if(primo)aggiornaSync();
-      if((snap.data()||{}).versione!==2){if(!seminato){seminato=true;this.ripristina()}return}
+      if((snap.data()||{}).versione!==3){if(!seminato){seminato=true;this.ripristina()}return}
       const js=JSON.stringify(snap.data());
       if(js===this.ultimo&&!primo)return;
       this.ultimo=js;this.stato=JSON.parse(js);this.onStato&&this.onStato(clone(this.stato));
@@ -600,7 +600,7 @@ const Cloud={
       const righe=await this.rpc('dc_leggi',{p_chiave:this.chiave(),p_dopo:0});
       store.mode='cloud';aggiornaSync();
       const st=righe.find(r=>r.k==='stato');
-      if(!st||!st.data||st.data.versione!==2){
+      if(!st||!st.data||st.data.versione!==3){
         // primo avvio con questo codice: si caricano i dati attuali del dispositivo
         await this.scrivi('stato',store.stato,true);
         for(const id of Object.keys(store.ordini))await this.scrivi('ordini/'+id,store.ordini[id],true);
@@ -654,7 +654,7 @@ function applicaStato(st){
 function applicaOrdini(o){
   S.ordini=Object.keys(o).map(id=>({...o[id],id,righe:(o[id].righe||[]).map(r=>[r.id,r.q])})).sort((a,b)=>b.ts-a.ts);
 }
-const statoDaSalvare=()=>({versione:2,giorno:S.giorno,incassoOggi:Math.round(S.incassoOggi*100)/100,scontrini:S.scontrini,contanti:Math.round((S.contanti||0)*100)/100,carte:Math.round((S.carte||0)*100)/100,
+const statoDaSalvare=()=>({versione:3,giorno:S.giorno,incassoOggi:Math.round(S.incassoOggi*100)/100,scontrini:S.scontrini,contanti:Math.round((S.contanti||0)*100)/100,carte:Math.round((S.carte||0)*100)/100,
   mag:magDa(S.prodotti),crediti:S.crediti,clienti:S.clienti});
 applicaStato(clone(Store.stato));applicaOrdini(clone(Store.ordini));S.visti=new Set(S.ordini.map(o=>o.id));
 let PID=new Map(),PARR=null;const P=id=>{if(PARR!==S.prodotti||PID.size!==S.prodotti.length){PARR=S.prodotti;PID=new Map(S.prodotti.map(p=>[p.id,p]))}return PID.get(id)};
