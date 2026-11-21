@@ -443,9 +443,9 @@ function nuovoStato(){
 function ordiniDemo(){
   const t=(g,h,m)=>{const d=fraGiorni(g);d.setHours(h,m,0,0);return d.getTime()};
   return {
-    o142:{n:'ORD-0142',rapp:'Luca M.',cliente:'Bar Centrale',ts:t(0,8,41),stato:'Nuovo',righe:[{id:trova(/CAFF.*1 ?KG|CAFFE/),q:6},{id:trova(/ZUCCHERO/),q:10},{id:trova(/CORNETT/),q:2}],note:'Consegna entro venerdì',pag:'RiBa 30 gg',consegna:''},
-    o141:{n:'ORD-0141',rapp:'Antonio C.',cliente:'Pasticceria Rosa',ts:t(0,8,5),stato:'Nuovo',righe:[{id:trova(/NUTELLA/),q:2},{id:trova(/BISCOTT|FROLL/),q:4},{id:trova(/LATTE/),q:5}],note:'',pag:'Bonifico',consegna:''},
-    o139:{n:'ORD-0139',rapp:'Luca M.',cliente:'Caffetteria Il Corso',ts:t(1,17,20),stato:'Evaso',righe:[{id:trova(/CAPSUL|CIALD/),q:3},{id:trova(/BICCHIER/),q:5}],note:'',pag:'Contanti',consegna:''}
+    o142:{n:'ORD-0142',rapp:'Luca M.',cliente:'Bar Centrale',ts:t(0,8,41),stato:'Nuovo',righe:[{id:trova(/^LAVAZZA|^KIMBO|^BORBONE/),q:6},{id:trova(/^COCA COLA/),q:12},{id:trova(/^ACQUA /),q:24}],note:'Consegna entro venerdì',pag:'RiBa 30 gg',consegna:''},
+    o141:{n:'ORD-0141',rapp:'Antonio C.',cliente:'Pasticceria Rosa',ts:t(0,8,5),stato:'Nuovo',righe:[{id:trova(/^NUTELLA/),q:2},{id:trova(/MULINO BIANCO|^BISC\./),q:4},{id:trova(/^LATTE /),q:5}],note:'',pag:'Bonifico',consegna:''},
+    o139:{n:'ORD-0139',rapp:'Luca M.',cliente:'Caffetteria Il Corso',ts:t(1,17,20),stato:'Evaso',righe:[{id:trova(/^BORBONE|^LAVAZZA/),q:3},{id:trova(/^BICCHIER/),q:5}],note:'',pag:'Contanti',consegna:''}
   };
 }
 
