@@ -3,7 +3,7 @@ on:
   push: { branches: [main] }
   workflow_dispatch:
   workflow_run:
-    workflows: ['Foto prodotti', 'Foto per nome', 'Foto rifinitura']
+    workflows: ['Foto prodotti', 'Foto per nome', 'Foto rifinitura', 'Foto per nome bing']
     types: [completed]
 permissions:
   contents: read

@@ -101,7 +101,7 @@ def da_web_nome(cod, nome, evita=''):
         res = []
         for tent in range(3):
             try:
-                res = DDGS().images(q, region='it-it', safesearch='moderate', max_results=15); break
+                res = DDGS().images(q, region='it-it', safesearch='moderate', max_results=15, backend=os.environ.get('BACKEND', 'auto')); break
             except Exception:
                 time.sleep(4 + tent * 6)
         time.sleep(1.5 + random.random())

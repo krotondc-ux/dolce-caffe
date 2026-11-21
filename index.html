@@ -523,7 +523,7 @@ const Store={
     this.collega();
   },
   async collega(){
-    if(!window.claude||typeof window.claude.use!=='function'){aggiornaSync();return}
+    if(!window.claude||typeof window.claude.use!=='function'){if(Cloud.chiave())Cloud.avvia(this);else aggiornaSync();return}
     let db=null;try{db=await window.claude.use('db')}catch(e){}
     if(!db){aggiornaSync();return}
     this.db=db;
@@ -553,7 +553,7 @@ const Store={
   salvaStato(st){
     const js=JSON.stringify(st);if(js===this.ultimo)return;
     this.ultimo=js;this.stato=JSON.parse(js);
-    if(this.mode==='live')this.scrivi(js);else LS.set('dc.stato',this.stato);
+    if(this.mode==='live')this.scrivi(js);else if(this.mode==='cloud'){LS.set('dc.stato',this.stato);Cloud.salvaStato(this.stato)}else LS.set('dc.stato',this.stato);
   },
   scrivi(js){this.prossima=js;if(!this.inScrittura)this.svuota()},
   async svuota(){
@@ -565,6 +565,7 @@ const Store={
   async salvaOrdine(id,o){
     this.ordini[id]=clone(o);
     if(this.mode==='live'){try{await this.db.doc('ordini/'+id).set(o)}catch(e){this.errore(e)}}
+    else if(this.mode==='cloud'){LS.set('dc.ordini',this.ordini);this.onOrdini&&this.onOrdini(clone(this.ordini));Cloud.scrivi('ordini/'+id,o)}
     else{LS.set('dc.ordini',this.ordini);this.onOrdini&&this.onOrdini(clone(this.ordini))}
   },
   async ripristina(){
@@ -574,6 +575,9 @@ const Store={
       try{for(const id of vecchi)if(!ord[id])await this.db.doc('ordini/'+id).delete();
         await this.db.doc('negozio/stato').set(st);
         for(const id of Object.keys(ord))await this.db.doc('ordini/'+id).set(ord[id]);}catch(e){this.errore(e)}
+    }else if(this.mode==='cloud'){LS.set('dc.stato',st);LS.set('dc.ordini',ord);
+      for(const id of vecchi)if(!ord[id])await Cloud.cancella('ordini/'+id);
+      await Cloud.scrivi('stato',st);for(const id of Object.keys(ord))await Cloud.scrivi('ordini/'+id,ord[id]);
     }else{LS.set('dc.stato',st);LS.set('dc.ordini',ord)}
     this.onStato&&this.onStato(clone(st));this.onOrdini&&this.onOrdini(clone(ord));
   },
@@ -582,10 +586,54 @@ const Store={
     avvisa(e&&e.code==='quota_exceeded'?'Spazio dati esaurito: le modifiche restano su questo dispositivo':'Non è stato possibile salvare online: le modifiche restano su questo dispositivo');
   }
 };
+/* Sincronizzazione tra telefono e tablet: database Supabase, accesso con il codice del negozio */
+const Cloud={
+  url:'https://wuanqhmvsymtmbqdntpl.supabase.co/rest/v1/rpc/',key:'sb_publishable_1sVjRYDOji0WTY70B8mVfQ_3pZ7bdiX',
+  v:0,store:null,timer:null,coda:{},inVolo:false,errori:0,
+  chiave(){return LS.get('dc.chiave')||''},
+  async rpc(fn,body){const r=await fetch(this.url+fn,{method:'POST',headers:{'Content-Type':'application/json',apikey:this.key,Authorization:'Bearer '+this.key},body:JSON.stringify(body)});
+    if(!r.ok)throw new Error(r.status+' '+(await r.text()).slice(0,120));const t=await r.text();return t?JSON.parse(t):null},
+  async prova(ch){try{await this.rpc('dc_scrivi',{p_chiave:ch,p_k:'ping',p_data:{t:Date.now()}});return true}catch(e){return false}},
+  async avvia(store){
+    this.store=store;
+    try{
+      const righe=await this.rpc('dc_leggi',{p_chiave:this.chiave(),p_dopo:0});
+      store.mode='cloud';aggiornaSync();
+      const st=righe.find(r=>r.k==='stato');
+      if(!st||!st.data||st.data.versione!==2){
+        // primo avvio con questo codice: si caricano i dati attuali del dispositivo
+        await this.scrivi('stato',store.stato,true);
+        for(const id of Object.keys(store.ordini))await this.scrivi('ordini/'+id,store.ordini[id],true);
+        this.v=Math.max(this.v,...righe.map(r=>r.v));
+      }else this.applica(righe);
+      this.timer=setInterval(()=>this.aggiorna(),4000);
+      addEventListener('visibilitychange',()=>{if(!document.hidden)this.aggiorna()});
+    }catch(e){store.mode='local';aggiornaSync();avvisa('Collegamento al database non riuscito: lavoro su questo dispositivo')}
+  },
+  applica(righe){
+    const s=this.store;let cs=false,co=false;
+    for(const r of righe){this.v=Math.max(this.v,r.v);
+      if(r.k==='stato'&&r.data){const js=JSON.stringify(r.data);if(js!==s.ultimo&&!this.coda.stato){s.ultimo=js;s.stato=r.data;LS.set('dc.stato',r.data);cs=true}}
+      else if(r.k.startsWith('ordini/')){const id=r.k.slice(7);if(this.coda[r.k])continue;if(r.data)s.ordini[id]=r.data;else delete s.ordini[id];co=true}}
+    if(co)LS.set('dc.ordini',s.ordini);
+    if(cs&&s.onStato)s.onStato(clone(s.stato));
+    if(co&&s.onOrdini)s.onOrdini(clone(s.ordini));
+  },
+  async aggiorna(){if(this.inVolo||document.hidden&&Math.random()<.7)return;this.inVolo=true;
+    try{const righe=await this.rpc('dc_leggi',{p_chiave:this.chiave(),p_dopo:this.v});if(righe&&righe.length)this.applica(righe);this.errori=0;if(this.store.mode!=='cloud'){this.store.mode='cloud';aggiornaSync()}}
+    catch(e){if(++this.errori===3){avvisa('Connessione assente: le modifiche si inviano appena torna la rete')}}
+    this.inVolo=false},
+  salvaStato(st){clearTimeout(this.tStato);this.coda.stato=st;this.tStato=setTimeout(()=>this.scrivi('stato',this.coda.stato),500)},
+  async scrivi(k,data,subito){this.coda[k]=data;
+    for(let t=0;t<4;t++){try{const v=await this.rpc('dc_scrivi',{p_chiave:this.chiave(),p_k:k,p_data:data});if(this.coda[k]===data)delete this.coda[k];this.v=Math.max(this.v,0);return v}
+      catch(e){await new Promise(r=>setTimeout(r,1500*(t+1)))}}
+    setTimeout(()=>{if(this.coda[k]===data)this.scrivi(k,data)},15000)},
+  async cancella(k){try{await this.rpc('dc_cancella',{p_chiave:this.chiave(),p_k:k})}catch(e){}}
+};
 function aggiornaSync(){
   document.querySelectorAll('[data-sync]').forEach(el=>{
-    el.innerHTML=Store.mode==='live'?'<i></i>Dati sincronizzati':'<i style="background:var(--warn)"></i>Dati su questo dispositivo';
-    el.title=Store.mode==='live'?'Telefono e tablet vedono gli stessi dati':'Le modifiche restano salvate su questo dispositivo';
+    el.innerHTML=Store.mode==='live'||Store.mode==='cloud'?'<i></i>Dati sincronizzati':'<i style="background:var(--warn)"></i>Dati su questo dispositivo';
+    el.title=Store.mode==='live'||Store.mode==='cloud'?'Telefono e tablet vedono gli stessi dati':'Le modifiche restano salvate su questo dispositivo';
   });
 }
 function avvisa(t){const d=document.createElement('div');d.className='toast';d.textContent=t;document.body.appendChild(d);setTimeout(()=>d.remove(),3200)}
@@ -1347,8 +1395,16 @@ function mostraScelta(){
     <h1>Dolce Caffè</h1><p>Su questo dispositivo apri:</p>
     <button data-m="G"><b>Gestionale di Daniel</b><span>Cassa, magazzino, crediti, offerte e ordini · per il telefono</span></button>
     <button data-m="T"><b>Tablet rappresentanti</b><span>Catalogo e ordini dei clienti · per il tablet in orizzontale</span></button>
-    <small>La scelta resta salvata. Puoi cambiarla in qualsiasi momento.</small></div></div>`;
+    <small>La scelta resta salvata. Puoi cambiarla in qualsiasi momento.</small>
+    ${window.claude?'':`<div style="margin-top:14px;border-top:1px solid #ebe8e4;padding-top:14px">
+      <b style="font-size:14px">Codice negozio</b>
+      <p style="font-size:13px;margin:2px 0 8px">${Cloud.chiave()?'Collegato: telefono e tablet vedono gli stessi dati.':'Inseriscilo una volta su ogni dispositivo per sincronizzare telefono e tablet.'}</p>
+      <div style="display:flex;gap:8px"><input id="codNeg" placeholder="DC-XXXX-XXXX-XXXX" value="${Cloud.chiave()}" autocomplete="off" autocapitalize="characters" style="flex:1;font:inherit;padding:11px 12px;border:1px solid #ebe8e4;border-radius:12px;text-transform:uppercase"><button id="codOk" style="width:auto;align-items:center;padding:11px 16px;background:#3b2418;color:#fff;border-color:#3b2418"><b style="font-size:14px">Collega</b></button></div></div>`}
+    </div></div>`;
   root.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>cambiaModalita(b.dataset.m));
+  const ok=root.querySelector('#codOk');if(ok)ok.onclick=async()=>{const c=root.querySelector('#codNeg').value.trim().toUpperCase();
+    if(!c){LS.del('dc.chiave');location.reload();return}
+    ok.disabled=true;if(await Cloud.prova(c)){LS.set('dc.chiave',c);location.reload()}else{ok.disabled=false;avvisa('Codice non valido')}};
 }
 function cambiaModalita(m){
   try{localStorage.setItem('dc.modalita',m)}catch(e){}
@@ -1364,6 +1420,7 @@ function cambiaModalita(m){
   root.innerHTML='<div class="scelta"><div class="scelta-box"><p>Carico il catalogo…</p></div></div>';
   try{const r=await fetch('catalogo.json');caricaCatalogo(await r.json())}
   catch(e){root.innerHTML='<div class="scelta"><div class="scelta-box"><h1>Catalogo non disponibile</h1><p>Ricarica la pagina.</p></div></div>';return}
+  try{const u=new URL(location.href),c=u.searchParams.get('c');if(c){LS.set('dc.chiave',c.trim().toUpperCase());u.searchParams.delete('c');history.replaceState(null,'',u.pathname+u.search)}}catch(e){}
   Store.start();
   let m=null;try{m=localStorage.getItem('dc.modalita')}catch(e){}
   if(m==='G'||m==='T')cambiaModalita(m);else mostraScelta();
