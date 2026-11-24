@@ -461,8 +461,9 @@ const hashN=s=>{let h=2166136261;for(const c of String(s))h=Math.imul(h^c.charCo
 const qtaBase=p=>{const h=hashN(p.cod)%100;return h<6?0:h<16?1+h%3:4+(h*7)%38};
 const MIN_BASE=4;
 /* prodotti con giacenza: catalogo + magazzino salvato */
-function conMagazzino(mag){return CAT.map(c=>{const m=mag&&mag[c.id];return {...c,qta:m&&m.q!=null?m.q:qtaBase(c),min:m&&m.min!=null?m.min:MIN_BASE,fotoId:m&&m.fotoId||undefined}})}
-function magDa(prodotti){const m={};prodotti.forEach(p=>{const d={};if(p.qta!==qtaBase(p))d.q=p.qta;if(p.min!==MIN_BASE)d.min=p.min;if(p.fotoId)d.fotoId=p.fotoId;if(Object.keys(d).length)m[p.id]=d});return m}
+const base=(p,r)=>r?0:qtaBase(p);
+function conMagazzino(mag,r){return CAT.map(c=>{const m=mag&&mag[c.id];return {...c,qta:m&&m.q!=null?m.q:base(c,r),min:m&&m.min!=null?m.min:MIN_BASE,fotoId:m&&m.fotoId||undefined}})}
+function magDa(prodotti,r){const m={};prodotti.forEach(p=>{const d={};if(p.qta!==base(p,r))d.q=p.qta;if(p.min!==MIN_BASE)d.min=p.min;if(p.fotoId)d.fotoId=p.fotoId;if(Object.keys(d).length)m[p.id]=d});return m}
 const cerca=(lista,t)=>{t=(t||'').trim().toLowerCase();if(!t)return lista;const w=t.split(/\s+/);return lista.filter(p=>p.cod===t||w.every(x=>p.nomeU.toLowerCase().includes(x)||p.cod.includes(x)))};
 /* immagini prodotto: foto reale ritoccata (sfondo bianco, centrata) oppure scheda grafica per reparto */
 const IC={
@@ -568,8 +569,9 @@ const Store={
     else if(this.mode==='cloud'){LS.set('dc.ordini',this.ordini);this.onOrdini&&this.onOrdini(clone(this.ordini));Cloud.scrivi('ordini/'+id,o)}
     else{LS.set('dc.ordini',this.ordini);this.onOrdini&&this.onOrdini(clone(this.ordini))}
   },
-  async ripristina(){
-    const st=nuovoStato(),ord=ordiniDemo(),vecchi=Object.keys(this.ordini);
+  async ripristina(reale){
+    const st=nuovoStato(),ord=reale?{}:ordiniDemo(),vecchi=Object.keys(this.ordini);
+    if(reale)Object.assign(st,{reale:true,incassoOggi:0,scontrini:0,crediti:[],clienti:[]});
     this.ultimo=JSON.stringify(st);this.stato=clone(st);this.ordini=clone(ord);
     if(this.mode==='live'){
       try{for(const id of vecchi)if(!ord[id])await this.db.doc('ordini/'+id).delete();
@@ -647,7 +649,7 @@ const OGGI=new Date();
 const GIORNI=['Lun','Mar','Mer','Gio','Ven','Sab','Dom'];
 const S={view:'cassa',cat:'Tutti',carrello:[],aiRighe:null,waLinks:null,modal:null,credSel:null,ordini:[],visti:null};
 function applicaStato(st){
-  S.prodotti=conMagazzino(st.mag||{});S.crediti=st.crediti;S.clienti=st.clienti;S.incassoOggi=st.incassoOggi;S.scontrini=st.scontrini;S.contanti=st.contanti||0;S.carte=st.carte||0;S.giorno=st.giorno;S.versione=st.versione||1;
+  S.reale=!!st.reale;S.prodotti=conMagazzino(st.mag||{},S.reale);S.crediti=st.crediti;S.clienti=st.clienti;S.incassoOggi=st.incassoOggi;S.scontrini=st.scontrini;S.contanti=st.contanti||0;S.carte=st.carte||0;S.giorno=st.giorno;S.versione=st.versione||1;
   if(S.giorno!==isoGiorno(new Date())){S.giorno=isoGiorno(new Date());S.incassoOggi=0;S.scontrini=0;S.contanti=0;S.carte=0}
   S.carrello=S.carrello.filter(r=>S.prodotti.some(p=>p.id===r.id));
 }
@@ -655,7 +657,7 @@ function applicaOrdini(o){
   S.ordini=Object.keys(o).map(id=>({...o[id],id,righe:(o[id].righe||[]).map(r=>[r.id,r.q])})).sort((a,b)=>b.ts-a.ts);
 }
 const statoDaSalvare=()=>({versione:3,giorno:S.giorno,incassoOggi:Math.round(S.incassoOggi*100)/100,scontrini:S.scontrini,contanti:Math.round((S.contanti||0)*100)/100,carte:Math.round((S.carte||0)*100)/100,
-  mag:magDa(S.prodotti),crediti:S.crediti,clienti:S.clienti});
+  reale:!!S.reale,mag:magDa(S.prodotti,S.reale),crediti:S.crediti,clienti:S.clienti});
 applicaStato(clone(Store.stato));applicaOrdini(clone(Store.ordini));S.visti=new Set(S.ordini.map(o=>o.id));
 let PID=new Map(),PARR=null;const P=id=>{if(PARR!==S.prodotti||PID.size!==S.prodotti.length){PARR=S.prodotti;PID=new Map(S.prodotti.map(p=>[p.id,p]))}return PID.get(id)};
 const saldo=c=>c.mov.reduce((s,m)=>s+m.v,0);
@@ -1081,6 +1083,7 @@ function vModal(){
     <button class="sm ghost" id="addRiga" style="align-self:flex-start">+ Aggiungi riga</button>
     ${d.tipo!=='DDT'?`<div class="card stack" style="gap:4px;background:var(--soft);border-color:var(--soft)"><div class="row"><span class="muted">Imponibile</span><span class="num">${euro(imp)}</span></div><div class="row"><span class="muted">IVA</span><span class="num">${euro(iva)}</span></div><div class="row"><b>Totale</b><span class="big num" style="font-size:22px">${euro((imp+iva)*(d.tipo==='Note di credito'?-1:1))}</span></div></div>`:`<input value="Vendita" placeholder="Causale del trasporto">`}
     <button class="go" id="salvaDoc">Emetti</button></div>`}
+  if(m==='reale')return `<h2>Iniziare a usarlo davvero?</h2><p class="sub">Si cancellano tutti i dati di prova: incassi, crediti, clienti delle offerte e ordini. Le giacenze partono da zero e si caricano con le fatture o con + e −. Il catalogo e le foto restano. Vale per telefono e tablet collegati.</p><div class="row" style="gap:8px"><button class="ghost" data-close style="flex:1">Annulla</button><button class="primary" id="realeOk" style="flex:1.4">Sì, parti da zero</button></div>`;
   if(m==='ripristino')return `<h2>Ripristinare i dati demo?</h2><p class="sub">Tornano magazzino, crediti, clienti e ordini di esempio. Le prove fatte finora vengono cancellate.</p><div class="row" style="gap:8px"><button class="ghost" data-close style="flex:1">Annulla</button><button class="primary" id="ripOk" style="flex:1.4">Ripristina</button></div>`;
   return '';
 }
@@ -1107,6 +1110,7 @@ function bindModal(){
   if(m==='scegliCredito')document.querySelectorAll('[data-pc]').forEach(b=>b.onclick=()=>{const c=S.crediti.find(c=>c.id===+b.dataset.pc);const tot=chiudi();c.mov.push({d:oggiStr(),t:'Merce a credito',v:Math.round(tot*100)/100});S.modal=null;render();toast(euro(tot)+' a credito di '+c.nome)});
   if(m==='nuovoCred')$('#ncSalva').onclick=()=>{const n=$('#ncNome').value.trim(),v=+$('#ncImp').value;if(!n||!(v>0)){toast('Inserisci nome e importo');return}
     S.crediti.push({id:Date.now(),nome:n,tel:$('#ncTel').value,dal:isoGiorno(new Date()),mov:[{d:oggiStr(),t:'Spesa a credito',v}],prom:{on:true,freq:'Ogni settimana',giorno:0,ora:'09:00',wa:false}});S.modal=null;render();toast(n+' aggiunto ai crediti')};
+  if(m==='reale')$('#realeOk').onclick=async()=>{$('#realeOk').disabled=true;S.modal=null;S.carrello=[];S.credSel=null;S.aiRighe=null;S.waLinks=null;await Store.ripristina(true);S.visti=new Set();S.view='cassa';render();scrollTo(0,0);toast('Pronto: dati di prova cancellati')};
   if(m==='ripristino')$('#ripOk').onclick=async()=>{$('#ripOk').disabled=true;S.modal=null;S.carrello=[];S.credSel=null;S.aiRighe=null;S.waLinks=null;await Store.ripristina();S.visti=new Set(S.ordini.map(o=>o.id));S.view='cassa';render();scrollTo(0,0);toast('Dati demo ripristinati')};
   if(m&&m.stampa!==undefined)$('#stampaOk').onclick=()=>{const o=S.ordini[m.stampa];stampaFile('ordine-'+o.n+'.html','<style>body{font:13px Arial,sans-serif;padding:16mm;color:#000}table{width:100%;border-collapse:collapse;margin-top:12px}td,th{padding:6px 4px;border-bottom:1px solid #ddd;text-align:left}th{font-size:10px;text-transform:uppercase;color:#666}.r{text-align:right}.row{display:flex;justify-content:space-between}.muted{color:#666}</style>'+document.querySelector('.sheet').outerHTML)};
   if(m&&m.doc){const d=m.doc;
@@ -1220,13 +1224,15 @@ function vAndamento(){
   <div class="sec" style="background:var(--soft);border-color:var(--soft)"><h3>Demo</h3><p class="why">Strumenti per mostrare l'app. <span data-sync class="live" style="display:inline-flex;margin-left:4px"></span></p>
     <div class="stack"><button class="primary" id="vaiTablet">Apri la modalità tablet rappresentanti</button>
     <button class="ghost" id="ripristina">Ripristina i dati demo</button>
-    <p class="note">Il ripristino rimette magazzino, crediti, clienti e ordini di esempio. Usalo prima di presentare l'app.</p></div></div>`;
+    <button class="go" id="inizia">Inizia a usarlo davvero (cancella i dati di prova)</button>
+    <p class="note">Il ripristino rimette i dati di esempio per presentare l'app. "Inizia a usarlo davvero" svuota incassi, crediti, clienti e ordini e mette le giacenze a zero. I grafici di Andamento restano di esempio finché non si accumulano vendite vere.</p></div></div>`;
 }
 function bindAndamento(){
   document.querySelectorAll('[data-per]').forEach(b=>b.onclick=()=>{S.periodo=b.dataset.per;render()});
   document.querySelectorAll('[data-fs]').forEach(b=>b.onclick=()=>{S.fornSel=+b.dataset.fs;const y=scrollY;render();scrollTo(0,y)});
   $('#vaiTablet').onclick=()=>cambiaModalita('T');
   $('#ripristina').onclick=()=>{S.modal='ripristino';render()};
+  $('#inizia').onclick=()=>{S.modal='reale';render()};
   aggiornaSync();
 }
 
@@ -1279,7 +1285,7 @@ const A=id=>AID.get(id);
 const RAPP=[{nome:'Luca M.',zona:'Crotone e provincia',pin:'1234'},{nome:'Antonio C.',zona:'Catanzaro e Sila',pin:'2580'},{nome:'Marco R.',zona:'Costa ionica',pin:'0000'}];
 const S={rapp:null,scelto:0,pin:'',cliente:0,cat:'Tutti',q:{},modal:null,n:48};
 function aggiornaDaStato(st){
-  ART=conMagazzino(st.mag||{}).map(p=>({...p,disp:p.qta,sub:'',um:'pz'}));AID=new Map(ART.map(a=>[a.id,a]));
+  ART=conMagazzino(st.mag||{},!!st.reale).map(p=>({...p,disp:p.qta,sub:'',um:'pz'}));AID=new Map(ART.map(a=>[a.id,a]));
   CLIENTI.forEach(c=>{const cr=(st.crediti||[]).find(x=>x.nome===c.nome);c.debito=cr?Math.max(0,Math.round(saldoDi(cr)*100)/100):0});
   Object.keys(S.q).forEach(id=>{const a=A(+id);if(a&&S.q[id]>a.disp)S.q[id]=Math.max(0,a.disp)});
 }
