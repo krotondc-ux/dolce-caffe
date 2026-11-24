@@ -1,0 +1,43 @@
+name: Foto candidati
+on:
+  workflow_dispatch:
+  push:
+    paths: ['tools/AVVIA5']
+permissions:
+  contents: write
+concurrency: { group: candidati, cancel-in-progress: false }
+jobs:
+  cerca:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix: { shard: [0,1,2,3] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install "rembg[cpu]" ddgs pillow requests
+      - run: python -c "from rembg import new_session; new_session('isnet-general-use')"
+      - run: python tools/candidati.py ${{ matrix.shard }} 4
+      - uses: actions/upload-artifact@v4
+        with: { name: 'cand-${{ matrix.shard }}', path: out, retention-days: 5 }
+  salva:
+    needs: cerca
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: dl }
+      - run: |
+          mkdir -p candidati
+          find dl -name '*.webp' -exec cp {} candidati/ \;
+          find dl -name 'cand_*.json' -exec cp {} candidati/ \;
+          ls candidati | wc -l
+          git config user.name "foto-bot"
+          git config user.email "foto-bot@users.noreply.github.com"
+          git checkout -b candidati
+          git add candidati
+          git commit -m "Candidati foto (run ${{ github.run_number }})"
+          git push -f origin candidati
