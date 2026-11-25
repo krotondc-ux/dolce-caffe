@@ -1,0 +1,55 @@
+name: Foto con mani
+on:
+  workflow_dispatch:
+  push:
+    paths: ['tools/AVVIA6']
+permissions:
+  contents: write
+jobs:
+  trova:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install mediapipe pillow numpy
+      - run: python tools/mani.py
+      - uses: actions/upload-artifact@v4
+        with: { name: mani, path: tools/mani.json }
+  cerca:
+    needs: trova
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: { shard: [0,1,2,3] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: mani, path: tools }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install "rembg[cpu]" ddgs pillow requests
+      - run: python -c "from rembg import new_session; new_session('isnet-general-use')"
+      - run: python tools/candidati.py ${{ matrix.shard }} 4
+        env: { LISTA: tools/mani.json }
+      - uses: actions/upload-artifact@v4
+        with: { name: 'cand-${{ matrix.shard }}', path: out, retention-days: 5 }
+  salva:
+    needs: [trova, cerca]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: dl }
+      - run: |
+          mkdir -p candidati
+          find dl -name '*.webp' -exec cp {} candidati/ \;
+          find dl -name 'cand_*.json' -exec cp {} candidati/ \;
+          cp dl/mani/mani.json candidati/
+          git config user.name "foto-bot"
+          git config user.email "foto-bot@users.noreply.github.com"
+          git checkout -b mani
+          git add candidati
+          git commit -m "Foto con mani e alternative (run ${{ github.run_number }})"
+          git push -f origin mani

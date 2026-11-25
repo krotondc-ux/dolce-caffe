@@ -17,7 +17,8 @@ H = requests.Session()
 H.headers.update({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
                   'Accept-Language': 'it-IT,it;q=0.9'})
 
-manc = json.load(open('tools/mancanti.json'))
+manc = json.load(open(os.environ.get('LISTA', 'tools/mancanti.json')))
+manc = [x[:2] for x in manc]
 mio = [r for i, r in enumerate(manc) if i % TOT == SHARD]
 print(f'shard {SHARD}: {len(mio)} articoli', flush=True)
 
