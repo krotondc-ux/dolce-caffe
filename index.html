@@ -1211,20 +1211,29 @@ function bindCrediti(){
 
 /* ---------- OFFERTE ---------- */
 function vClienti(){
-  return `<h2>Offerte ai clienti</h2><p class="sub">I contatti arrivano dalla statuetta NFC in negozio.</p>
+  return `<h2>Offerte ai clienti</h2><p class="sub">Invia le offerte su WhatsApp ai clienti che ti hanno lasciato il numero.</p>
   <div class="stack">
-    <div class="card" style="display:flex;gap:12px;align-items:center;background:var(--soft);border-color:var(--soft)">
-      <div class="img" style="width:52px;height:52px;background:#fff"><svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" style="width:30px;height:30px"><path d="M12 3c3 2 4 5 4 8a4 4 0 01-8 0c0-3 1-6 4-8z"/><path d="M8 15l-2 6h12l-2-6"/><path d="M16.5 5.5a6 6 0 012 4M19 3a9 9 0 013 6.5"/></svg></div>
-      <div><b>Statuetta NFC attiva</b><div class="muted">${S.clienti.length} contatti raccolti · 2 questa settimana</div></div></div>
+    <div class="card stack" style="background:var(--soft);border-color:var(--soft);gap:8px">
+      <b>Aggiungi un cliente</b>
+      <input id="ncN" placeholder="Nome e cognome o attività" autocomplete="off">
+      <input id="ncT" placeholder="Telefono (es. 3331234567)" inputmode="tel" autocomplete="off">
+      <label style="display:flex;gap:8px;align-items:center;font-size:13.5px"><input type="checkbox" id="ncC" style="width:20px;height:20px;accent-color:var(--accent)"> Il cliente accetta di ricevere le offerte su WhatsApp</label>
+      <button class="primary" id="ncAdd">Aggiungi</button>
+    </div>
     <div class="label" style="margin-top:6px">Messaggio</div>
     <textarea id="testoOff" rows="4">Ciao! Questa settimana da Dolce Caffè trovi offerte su caffè, bibite e dolci. Passa a trovarci in Via Nazionale a Catanzaro! ☕</textarea>
     <div class="row"><div class="label" style="margin:6px 0 0">Destinatari</div><button class="sm ghost" id="tutti">Seleziona tutti</button></div>
-    <div class="list">${S.clienti.map((c,i)=>`<label class="it" style="cursor:pointer"><span class="avatar">${iniziali(c.nome)}</span><span class="grow"><b>${c.nome}</b><span class="muted">${c.tipo} · NFC ${c.ultimo}</span></span>${c.ok?`<input type="checkbox" id="cl${i}" style="width:22px;height:22px;accent-color:var(--accent)">`:'<span class="pill out">Senza consenso</span>'}</label>`).join('')}</div>
+    <div class="list">${S.clienti.map((c,i)=>`<label class="it" style="cursor:pointer"><span class="avatar">${iniziali(c.nome)}</span><span class="grow"><b>${c.nome}</b><span class="muted num">${c.tel||''}</span></span>${c.ok?`<input type="checkbox" id="cl${i}" style="width:22px;height:22px;accent-color:var(--accent)">`:'<span class="pill out">Senza consenso</span>'}<button class="sm ghost" data-delcl="${i}" aria-label="Togli ${c.nome}" style="padding:6px 10px">×</button></label>`).join('')||'<p class="note">Nessun cliente. Aggiungilo qui sopra.</p>'}</div>
     <button class="go" id="inviaWa">Prepara invio su WhatsApp</button>
     ${S.waLinks?`<div class="card stack"><b>Tocca un cliente per aprire WhatsApp col messaggio già scritto</b>${S.waLinks.map(l=>`<a href="${l.url}" target="_blank" rel="noopener" style="display:flex;justify-content:space-between;padding:11px 12px;border-radius:12px;background:var(--accent-soft);color:var(--ink);text-decoration:none;font-weight:700"><span>${l.nome}</span><span class="num">${l.tel}</span></a>`).join('')}<p class="note">Nella versione finale l'invio a tutti parte con un tocco tramite WhatsApp Business.</p></div>`:''}
   </div>`;
 }
 function bindClienti(){
+  $('#ncAdd').onclick=()=>{const n=$('#ncN').value.trim(),t=$('#ncT').value.replace(/\D/g,'').replace(/^39(?=3\d{8,9}$)/,'');
+    if(!n){toast('Scrivi il nome del cliente');return}if(!/^3\d{8,9}$/.test(t)){toast('Scrivi un numero di cellulare valido');return}
+    if(S.clienti.some(c=>c.tel===t)){toast('Numero già presente');return}
+    S.clienti.unshift({nome:n,tel:t,tipo:'Cliente',ultimo:'oggi',ok:$('#ncC').checked});S.waLinks=null;render();toast(n+' aggiunto')};
+  document.querySelectorAll('[data-delcl]').forEach(b=>b.onclick=e=>{e.preventDefault();const c=S.clienti[+b.dataset.delcl];if(!confirm('Togliere '+c.nome+' dalla lista?'))return;S.clienti.splice(+b.dataset.delcl,1);S.waLinks=null;render()});
   $('#tutti').onclick=()=>S.clienti.forEach((c,i)=>{if(c.ok)$('#cl'+i).checked=true});
   $('#inviaWa').onclick=()=>{const t=$('#testoOff').value;const sel=S.clienti.filter((c,i)=>c.ok&&$('#cl'+i).checked);if(!sel.length){toast('Seleziona almeno un cliente');return}
     S.waLinks=sel.map(c=>({nome:c.nome,tel:c.tel,url:'https://wa.me/39'+c.tel+'?text='+encodeURIComponent(t)}));render()};
@@ -1850,7 +1859,7 @@ function modal(){
   if(m==='ricart'||m.ric!==undefined)h=`<h3>Ricerca articolo</h3><p class="sub">Scrivi parte del nome o del codice, poi tocca l'articolo.</p><input id="rq" value="${(m.ric||'').replace(/"/g,'&quot;')}" placeholder="Es. caffè"><div class="list" id="rlist" style="margin-top:8px"></div><div class="mrow"><button data-x>Chiudi</button></div>`;
   if(m==='annulla')h=`<h3>Annullare lo scontrino in corso?</h3><p class="sub">Tutte le righe vengono cancellate.</p><div class="mrow"><button data-x>No, torna</button><button class="danger" id="ok">Sì, annulla</button></div>`;
   if(m==='park')h=`<h3>Scontrini parcheggiati</h3><p class="sub">Tocca per riprenderlo.</p><div class="list">${S.park.map((p,i)=>`<button class="it" style="width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);border-radius:0" data-pk="${i}"><span><b>${p.righe.length} righe</b> · ${p.ora}</span><span class="num">${euro(p.righe.reduce((s,r)=>s+r.prezzo*r.q,0))}</span><span>›</span></button>`).join('')}</div><div class="mrow"><button data-x>Chiudi</button></div>`;
-  if(m==='fid'){const cl=ST.clienti||[];h=`<h3>Fidelity</h3><p class="sub">Scegli il cliente. I clienti sono quelli registrati con la statuina NFC nelle Offerte.</p><input id="fQ" placeholder="Cerca cliente" style="margin-bottom:8px"><div class="list" id="fList">${cl.map((f,i)=>`<button class="it" style="width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);border-radius:0" data-fd="${i}" data-n="${f.nome.toLowerCase()}"><span><b>${f.nome}</b> <span style="color:var(--muted)" class="num">${f.tel||''}</span></span><span class="pill ok num">${c.punti[f.nome]||0} punti</span><span>›</span></button>`).join('')||'<p class="sub">Nessun cliente registrato.</p>'}</div><div class="mrow"><button data-x>Chiudi</button></div>`}
+  if(m==='fid'){const cl=ST.clienti||[];h=`<h3>Fidelity</h3><p class="sub">Scegli il cliente. I clienti sono quelli della lista Offerte del gestionale.</p><input id="fQ" placeholder="Cerca cliente" style="margin-bottom:8px"><div class="list" id="fList">${cl.map((f,i)=>`<button class="it" style="width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);border-radius:0" data-fd="${i}" data-n="${f.nome.toLowerCase()}"><span><b>${f.nome}</b> <span style="color:var(--muted)" class="num">${f.tel||''}</span></span><span class="pill ok num">${c.punti[f.nome]||0} punti</span><span>›</span></button>`).join('')||'<p class="sub">Nessun cliente registrato.</p>'}</div><div class="mrow"><button data-x>Chiudi</button></div>`}
   if(m==='lotteria')h=`<h3>Lotteria degli scontrini</h3><p class="sub">Leggi o scrivi il codice lotteria del cliente (8 caratteri).</p><input id="lot" placeholder="Es. A1B2C3D4" maxlength="8" style="text-transform:uppercase;font-family:var(--mono);font-size:20px;letter-spacing:.1em;text-align:center"><div class="mrow"><button data-x>Annulla</button><button class="go" id="ok">Associa allo scontrino</button></div>`;
   if(m==='nota')h=`<h3>Descrizione aggiuntiva</h3><p class="sub">Una riga di testo sullo scontrino.</p><input id="nota" placeholder="Es. Ritiro venerdì" maxlength="38"><div class="mrow"><button data-x>Annulla</button><button class="go" id="ok">Aggiungi</button></div>`;
   if(m==='cerca'||m==='reso'){const r=m==='reso';h=`<h3>${r?'Reso o annullo':'Scontrini di oggi'}</h3><p class="sub">${r?'Scegli lo scontrino da cui fare il reso. L\'importo esce dai contanti.':'Tocca uno scontrino per rivederlo.'}</p><div class="list">${c.storico.map((s,i)=>`<div class="it"><span><b class="num">N. ${s.n}</b> · ${s.ora} · ${s.pag}<br><span style="color:var(--muted);font-size:12.5px">${s.doc.righe.filter(x=>!x.nota).map(x=>x.q+' × '+x.d).join(', ')}</span></span><span class="num" style="font-weight:700">${euro(s.tot)}</span><button class="${r?'danger':''}" data-${r?'rs':'rp'}="${i}">${r?'Fai il reso':'Apri'}</button></div>`).join('')||'<p class="sub">Nessuno scontrino oggi.</p>'}</div><div class="mrow"><button data-x>Chiudi</button></div>`}
