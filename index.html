@@ -904,9 +904,16 @@ function stampaEtichette(){
 /* stampa: il riquadro dell'app non può aprire la stampante, quindi si scarica un file pronto che si apre e si stampa */
 async function stampaFile(nome,corpo){
   const html='<!doctype html><html><head><meta charset="utf-8"><title>'+nome+'</title></head><body>'+corpo+'<script>window.onload=function(){setTimeout(function(){window.print()},300)}<\/script></body></html>';
-  let dl=null;try{dl=window.claude&&window.claude.use?await window.claude.use('downloads'):null}catch(e){}
-  if(dl){try{await dl.save({filename:nome,data:new Blob([html],{type:'text/html'})});toast('File salvato: aprilo e si avvia la stampa');return}catch(e){if(e&&e.code&&/declin|cancel|denied/i.test(e.code)){toast('Salvataggio annullato');return}}}
-  try{const w=window.open(URL.createObjectURL(new Blob([html],{type:'text/html'})),'_blank');if(!w)window.print()}catch(e){toast('Stampa non disponibile qui')}
+  const blob=new Blob([html],{type:'text/html'});
+  if(!window.claude){
+    // sito normale: apre una scheda pronta da stampare; se il browser la blocca, scarica il file
+    const u=URL.createObjectURL(blob);const w=window.open(u,'_blank');
+    if(!w){const a=document.createElement('a');a.href=u;a.download=nome;document.body.appendChild(a);a.click();a.remove();toast('File scaricato: aprilo per stampare')}
+    return;
+  }
+  let dl=null;try{dl=await window.claude.use('downloads')}catch(e){}
+  if(dl){try{await dl.save({filename:nome,data:blob});toast('File salvato: aprilo e si avvia la stampa');return}catch(e){if(e&&e.code&&/declin|cancel|denied/i.test(e.code)){toast('Salvataggio annullato');return}}}
+  try{window.print()}catch(e){toast('Stampa non disponibile qui')}
 }
 function vModalNuovi(){
   const m=S.modal;
@@ -1426,9 +1433,13 @@ function cambiaModalita(m){
   root.innerHTML='<div class="scelta"><div class="scelta-box"><p>Carico il catalogo…</p></div></div>';
   try{const r=await fetch('catalogo.json');caricaCatalogo(await r.json())}
   catch(e){root.innerHTML='<div class="scelta"><div class="scelta-box"><h1>Catalogo non disponibile</h1><p>Ricarica la pagina.</p></div></div>';return}
-  try{const u=new URL(location.href),c=u.searchParams.get('c');if(c){LS.set('dc.chiave',c.trim().toUpperCase());u.searchParams.delete('c');history.replaceState(null,'',u.pathname+u.search)}}catch(e){}
+  let mLink=null;
+  try{const u=new URL(location.href),c=u.searchParams.get('c'),a=u.searchParams.get('app');
+    if(c)LS.set('dc.chiave',c.trim().toUpperCase());
+    if(a==='gestionale')mLink='G';else if(a==='tablet')mLink='T';
+    if(c||a){u.searchParams.delete('c');u.searchParams.delete('app');history.replaceState(null,'',u.pathname+u.search)}}catch(e){}
   Store.start();
-  let m=null;try{m=localStorage.getItem('dc.modalita')}catch(e){}
+  let m=mLink;if(!m)try{m=localStorage.getItem('dc.modalita')}catch(e){}
   if(m==='G'||m==='T')cambiaModalita(m);else mostraScelta();
 })();
 
