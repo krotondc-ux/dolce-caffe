@@ -50,7 +50,10 @@ jobs:
           cp dl/mani/mani.json candidati/
           git config user.name "foto-bot"
           git config user.email "foto-bot@users.noreply.github.com"
-          git checkout -b mani
+          mv candidati /tmp/candidati
+          git checkout --orphan mani
+          git rm -rq --cached . && git clean -fdq -e dl
+          mv /tmp/candidati candidati
           git add candidati
           git commit -m "Foto con mani e alternative (run ${{ github.run_number }})"
           git push -f origin mani
