@@ -575,7 +575,7 @@ input:focus,select:focus,textarea:focus,button:focus-visible{outline:2px solid v
       <span class="lbl" id="padLbl">PIN di 4 cifre</span>
       <div class="dots" id="dots"><i></i><i></i><i></i><i></i></div>
       <div class="keys" id="keys"></div>
-      <span class="pinmsg" id="pinmsg">Demo: Luca 1234 · Antonio 2580 · Marco 0000</span>
+      <span class="pinmsg" id="pinmsg">PIN di prova: 1234</span>
       <button id="vaiGest" style="background:none;border:0;color:var(--muted);font-weight:600;font-size:13px;padding:4px">Passa al gestionale di Daniel</button>
     </div>
   </div>
@@ -635,9 +635,9 @@ function nuovoStato(){
 function ordiniDemo(){
   const t=(g,h,m)=>{const d=fraGiorni(g);d.setHours(h,m,0,0);return d.getTime()};
   return {
-    o142:{n:'ORD-0142',rapp:'Luca M.',cliente:'Bar Centrale',ts:t(0,8,41),stato:'Nuovo',righe:[{id:trova(/^LAVAZZA|^KIMBO|^BORBONE/),q:6},{id:trova(/^COCA COLA/),q:12},{id:trova(/^ACQUA /),q:24}],note:'Consegna entro venerdì',pag:'RiBa 30 gg',consegna:''},
-    o141:{n:'ORD-0141',rapp:'Antonio C.',cliente:'Pasticceria Rosa',ts:t(0,8,5),stato:'Nuovo',righe:[{id:trova(/^NUTELLA/),q:2},{id:trova(/MULINO BIANCO|^BISC\./),q:4},{id:trova(/^LATTE /),q:5}],note:'',pag:'Bonifico',consegna:''},
-    o139:{n:'ORD-0139',rapp:'Luca M.',cliente:'Caffetteria Il Corso',ts:t(1,17,20),stato:'Evaso',righe:[{id:trova(/^BORBONE|^LAVAZZA/),q:3},{id:trova(/^BICCHIER/),q:5}],note:'',pag:'Contanti',consegna:''}
+    o142:{n:'ORD-0142',rapp:'Gino',cliente:'Bar Centrale',ts:t(0,8,41),stato:'Nuovo',righe:[{id:trova(/^LAVAZZA|^KIMBO|^BORBONE/),q:6},{id:trova(/^COCA COLA/),q:12},{id:trova(/^ACQUA /),q:24}],note:'Consegna entro venerdì',pag:'RiBa 30 gg',consegna:''},
+    o141:{n:'ORD-0141',rapp:'Gino',cliente:'Pasticceria Rosa',ts:t(0,8,5),stato:'Nuovo',righe:[{id:trova(/^NUTELLA/),q:2},{id:trova(/MULINO BIANCO|^BISC\./),q:4},{id:trova(/^LATTE /),q:5}],note:'',pag:'Bonifico',consegna:''},
+    o139:{n:'ORD-0139',rapp:'Gino',cliente:'Caffetteria Il Corso',ts:t(1,17,20),stato:'Evaso',righe:[{id:trova(/^BORBONE|^LAVAZZA/),q:3},{id:trova(/^BICCHIER/),q:5}],note:'',pag:'Contanti',consegna:''}
   };
 }
 
@@ -1448,7 +1448,7 @@ function vAndamento(){
   const margTot=marg.reduce((s,v)=>s+v.eur,0),margPct=margTot/vend.reduce((s,v)=>s+v.prezzo*v.q,0);
   const top=[...vend].sort((a,b)=>b.q-a.q).slice(0,5),flop=[...vend].sort((a,b)=>a.q-b.q).slice(0,3);
   const cop=vend.map(v=>({...v,gg:v.q?Math.round(v.qta/(v.q/(k*7))):999})).sort((a,b)=>b.gg-a.gg);
-  const reps=[{n:'Luca M.',v:4820*k/4.3,o:Math.round(31*k/4.3)},{n:'Antonio C.',v:3610*k/4.3,o:Math.round(24*k/4.3)},{n:'Marco R.',v:1940*k/4.3,o:Math.round(12*k/4.3)}];
+  const reps=[{n:'Gino',v:10370*k/4.3,o:Math.round(67*k/4.3)}];
   const sel=FORN[S.fornSel]?S.fornSel:+Object.keys(FORN)[0],A=analisiForn(sel);
   const rispTot=Object.keys(FORN).reduce((s,id)=>s+analisiForn(+id).risp,0);
   return `<h2>Andamento</h2><p class="sub">Confronto con il periodo prima. Dati di esempio finché non si accumulano vendite vere.</p>
@@ -1534,7 +1534,7 @@ const CLIENTI=[
 ];
 let ART=[],AID=new Map();
 const A=id=>AID.get(id);
-const RAPP=[{nome:'Luca M.',zona:'Crotone e provincia',pin:'1234'},{nome:'Antonio C.',zona:'Catanzaro e Sila',pin:'2580'},{nome:'Marco R.',zona:'Costa ionica',pin:'0000'}];
+const RAPP=[{nome:'Gino',zona:'Rappresentante Dolce Caffè',pin:'1234'}];
 const S={rapp:null,scelto:0,pin:'',cliente:0,cat:'Tutti',q:{},modal:null,n:48};
 function aggiornaDaStato(st){
   ART=conMagazzino(st.mag||{},!!st.reale).map(p=>({...p,disp:st.magOn?p.qta:Infinity,sub:'',um:'pz'}));AID=new Map(ART.map(a=>[a.id,a]));
